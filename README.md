@@ -4,6 +4,14 @@ An enterprise-grade, quota-conscious educational streaming platform specialized 
 
 ---
 
+## Documentation Index
+
+- **[PRD.md](file:///d:/Github%20projects/aktu-stream-ai/PRD.md):** Complete Product Requirements Document detailing personas, core problems, and requirements.
+- **[ARCHITECTURE.md](file:///d:/Github%20projects/aktu-stream-ai/ARCHITECTURE.md):** High-Level Architecture Flow Diagrams, ERD models, directory map, and runtime specifications.
+- **[DECISIONS.md](file:///d:/Github%20projects/aktu-stream-ai/DECISIONS.md):** Detailed Technical Decisions, Library Justifications & Alternatives Evaluated.
+
+---
+
 ## Key Platform Capabilities
 
 1. **Strict Quota Budgeting (Zero `search.list`)**:

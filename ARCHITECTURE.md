@@ -329,3 +329,24 @@ aktu-stream-ai/
 - Backend Pytest Suite: **18/18 tests passing** (`test_youtube_quota.py`, `test_classifier.py`, `test_schema_constraints.py`, `test_storage_hls.py`, `test_api.py`).
 - Frontend Build: **100% clean production build** with Next.js 14.2.15 (9 static/dynamic routes compiled).
 - Zero hallucination validation: All seeded subjects strictly conform to official AKTU codes (`BCS301`, `BCS501`, `BAS101`, `BEE301`) and the reserved tag `AI_GENERAL`.
+
+---
+
+## 7. Technical Decisions, Library Justifications & Alternatives
+
+For full trade-off evaluations and architecture justification matrices, refer to [DECISIONS.md](file:///d:/Github%20projects/aktu-stream-ai/DECISIONS.md).
+
+### 7.1. Key Selections & Evaluated Alternatives
+1. **Backend Framework: FastAPI (Python 3.12+)**
+   - *Chosen over Django/DRF & Node.js/Express:* Native `asyncio` runtime, Pydantic v2 structured output validation for Gemini 3.8 Flash, and first-class Python ML ecosystem support.
+2. **Primary Database: PostgreSQL 16 + `pgvector`**
+   - *Chosen over Pinecone/Milvus & MongoDB:* Unified ACID data plane managing both strict relational syllabus hierarchies ($1 \le \text{unit\_number} \le 5$) and 768-d semantic transcript vector search without cross-service data sync lag.
+3. **Frontend Framework: Next.js 14+ (App Router)**
+   - *Chosen over Vite SPA & Remix:* Server-Side Rendering (SSR) ensures full SEO indexability for AKTU subject codes (`BCS501`, `BAS101`) and instant first contentful paint on student mobile devices.
+4. **Video Playback: Unified Player (Vidstack / Hls.js)**
+   - *Chosen over Video.js & disparate HTML5/Iframe controls:* Single player abstraction handling both YouTube embeds and adaptive multi-bitrate HLS streams with synchronized transcript seeking.
+5. **Background Task Queue: Celery / ARQ + Redis 7**
+   - *Chosen over FastAPI BackgroundTasks & Temporal:* Process isolation prevents CPU-bound FFmpeg transcoding and speech-to-text jobs from blocking web server latency.
+6. **Transcript Extraction: `youtube-transcript-api`**
+   - *Chosen over YouTube Data API `captions.list` & full Whisper:* Consumes zero YouTube API quota units; reserves Whisper compute exclusively for native student MP4 uploads.
+
