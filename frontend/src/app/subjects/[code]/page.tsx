@@ -3,30 +3,49 @@
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import Link from "next/link";
-import { BookOpen, CheckCircle2, ChevronRight, Layers, Sparkles, Video as VideoIcon } from "lucide-react";
-import { VideoCard } from "@/components/video/VideoCard";
-import { api } from "@/lib/api";
-import { Subject, Unit, Video } from "@/lib/types";
+import { ArrowLeft, BookOpen, ChevronRight, Layers, Sparkles } from "lucide-react";
+import { apiClient } from "@/lib/api-client";
+import { Subject, Video } from "@/types";
+import { UnitTabs } from "@/components/syllabus/UnitTabs";
+import { SidebarNav } from "@/components/layout/SidebarNav";
 
 export default function SubjectDetailPage() {
   const params = useParams();
   const code = (params.code as string)?.toUpperCase();
 
   const [subject, setSubject] = useState<Subject | null>(null);
-  const [selectedUnitNumber, setSelectedUnitNumber] = useState<number>(1);
-  const [unitVideos, setUnitVideos] = useState<Video[]>([]);
+  const [videosByUnit, setVideosByUnit] = useState<Record<number, Video[]>>({
+    1: [],
+    2: [],
+    3: [],
+    4: [],
+    5: [],
+  });
   const [loading, setLoading] = useState<boolean>(true);
-  const [loadingVideos, setLoadingVideos] = useState<boolean>(false);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     async function loadSubject() {
       if (!code) return;
       try {
         setLoading(true);
-        const data = await api.getSubjectDetail(code);
+        setError(null);
+        const data = await apiClient.getSubjectDetail(code);
         setSubject(data);
-      } catch (err) {
-        console.error("Failed to load subject detail:", err);
+
+        // Fetch videos for Unit 1 to 5 concurrently
+        const unitPromises = [1, 2, 3, 4, 5].map((u) =>
+          apiClient.getUnitVideos(code, u).catch(() => [] as Video[])
+        );
+        const results = await Promise.all(unitPromises);
+
+        const vMap: Record<number, Video[]> = {};
+        results.forEach((vids, idx) => {
+          vMap[idx + 1] = vids;
+        });
+        setVideosByUnit(vMap);
+      } catch (err: any) {
+        setError(err.message || "Failed to load subject details");
       } finally {
         setLoading(false);
       }
@@ -34,183 +53,88 @@ export default function SubjectDetailPage() {
     loadSubject();
   }, [code]);
 
-  useEffect(() => {
-    async function loadVideos() {
-      if (!code || !selectedUnitNumber) return;
-      try {
-        setLoadingVideos(true);
-        const vids = await api.getUnitVideos(code, selectedUnitNumber);
-        setUnitVideos(vids);
-      } catch (err) {
-        console.error("Failed to load unit videos:", err);
-        setUnitVideos([]);
-      } finally {
-        setLoadingVideos(false);
-      }
-    }
-    loadVideos();
-  }, [code, selectedUnitNumber]);
-
   if (loading) {
     return (
-      <div className="flex h-64 items-center justify-center text-sm text-gray-400">
-        Loading syllabus and unit specifications...
+      <div className="flex flex-col items-center justify-center py-24 space-y-3">
+        <div className="h-8 w-8 animate-spin rounded-full border-2 border-brand-primary border-t-transparent" />
+        <p className="text-xs font-mono text-text-secondary">Loading syllabus and unit specifications...</p>
       </div>
     );
   }
 
-  if (!subject) {
+  if (error || !subject) {
     return (
-      <div className="rounded-2xl border border-gray-800 p-12 text-center text-gray-400">
-        <h2 className="text-xl font-bold text-white">Subject Not Found</h2>
-        <p className="mt-2 text-sm">Subject with code &apos;{code}&apos; is not registered in the AKTU syllabus database.</p>
-        <Link href="/subjects" className="mt-4 inline-block text-indigo-400 hover:underline text-sm font-semibold">
-          &larr; Back to Curriculum Directory
+      <div className="rounded-2xl border border-danger/30 bg-surface-dark p-8 text-center space-y-4">
+        <h3 className="text-base font-bold text-danger font-heading">Subject Not Found</h3>
+        <p className="text-xs text-text-secondary">
+          {error || `Subject with code '${code}' is not registered in the AKTU syllabus database.`}
+        </p>
+        <Link
+          href="/subjects"
+          className="inline-flex items-center gap-2 rounded-xl bg-brand-primary px-4 py-2 text-xs font-semibold text-text-primary hover:bg-brand-primary/90"
+        >
+          <ArrowLeft className="h-4 w-4" />
+          Back to Curriculum Directory
         </Link>
       </div>
     );
   }
 
-  const currentUnit = subject.units?.find((u) => u.unit_number === selectedUnitNumber);
+  const totalVideos = Object.values(videosByUnit).reduce((acc, curr) => acc + curr.length, 0);
 
   return (
-    <div className="space-y-8">
-      {/* Breadcrumb & Header */}
-      <div>
-        <div className="flex items-center gap-2 text-xs text-gray-400 mb-2">
-          <Link href="/subjects" className="hover:text-indigo-400">Curriculum</Link>
-          <ChevronRight className="h-3 w-3" />
-          <span>{subject.branch_code}</span>
-          <ChevronRight className="h-3 w-3" />
-          <span className="text-indigo-400 font-bold">{subject.code}</span>
-        </div>
+    <div className="flex flex-col lg:flex-row gap-8 items-start">
+      {/* Left Sidebar (Fixed 280px): Branch -> Semester Hierarchy */}
+      <SidebarNav currentBranch={subject.branch_code} currentSemester={subject.semester} />
 
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-          <div>
-            <div className="flex items-center gap-2.5">
-              <span className="rounded-md bg-indigo-600/20 px-3 py-1 text-sm font-extrabold text-indigo-300 border border-indigo-500/30">
+      {/* Main Central Canvas (Flexible) */}
+      <div className="flex-1 w-full space-y-6">
+        {/* Breadcrumb & Header */}
+        <nav className="flex items-center gap-2 text-xs text-text-secondary font-mono">
+          <Link href="/subjects" className="hover:text-text-primary transition-colors">
+            Curriculum
+          </Link>
+          <ChevronRight className="h-3 w-3 text-surface-border" />
+          <span>{subject.branch_code}</span>
+          <ChevronRight className="h-3 w-3 text-surface-border" />
+          <span className="font-bold text-brand-primary">{subject.code}</span>
+        </nav>
+
+        {/* Hero Card */}
+        <div className="relative overflow-hidden rounded-3xl border border-surface-border bg-surface-dark p-6 sm:p-8 shadow-sm">
+          <div className="max-w-3xl space-y-3">
+            <div className="flex flex-wrap items-center gap-2">
+              <span className="rounded-md bg-brand-primary/10 border border-brand-primary/20 px-3 py-1 text-xs font-mono font-bold text-brand-primary">
                 {subject.code}
               </span>
-              <span className="text-xs font-semibold text-gray-400">
-                Semester {subject.semester} • {subject.branch_code} Branch
+              <span className="rounded-md bg-background-dark border border-surface-border px-3 py-1 text-xs font-mono font-semibold text-text-secondary">
+                Semester {subject.semester}
+              </span>
+              <span className="rounded-md bg-brand-secondary/10 border border-brand-secondary/20 px-3 py-1 text-xs font-mono font-semibold text-brand-secondary">
+                {subject.branch_code} Branch
+              </span>
+              <span className="text-xs font-mono text-success font-medium ml-auto flex items-center gap-1">
+                <Sparkles className="h-3.5 w-3.5" />
+                {totalVideos} Verified Lectures
               </span>
             </div>
-            <h1 className="mt-2 text-2xl sm:text-4xl font-extrabold text-white tracking-tight">
+
+            <h1 className="text-2xl sm:text-3xl font-bold text-text-primary tracking-tight font-heading">
               {subject.name}
             </h1>
-          </div>
-        </div>
-      </div>
 
-      {/* 5 Units Tabs Switcher */}
-      <div className="rounded-2xl border border-gray-800 bg-gray-900/60 p-2">
-        <div className="grid grid-cols-5 gap-2">
-          {[1, 2, 3, 4, 5].map((uNum) => {
-            const uObj = subject.units?.find((u) => u.unit_number === uNum);
-            const isSelected = selectedUnitNumber === uNum;
-            return (
-              <button
-                key={uNum}
-                onClick={() => setSelectedUnitNumber(uNum)}
-                className={`flex flex-col items-center justify-center rounded-xl p-3 text-center transition-all ${
-                  isSelected
-                    ? "bg-indigo-600 text-white shadow-lg shadow-indigo-600/30 border border-indigo-400/40"
-                    : "bg-gray-900/80 text-gray-400 hover:text-white hover:bg-gray-800/80"
-                }`}
-              >
-                <span className="text-xs font-bold uppercase tracking-wider">Unit {uNum}</span>
-                <span className="hidden sm:inline-block mt-0.5 text-[11px] truncate max-w-[120px] font-medium opacity-85">
-                  {uObj?.title || `Unit ${uNum}`}
-                </span>
-              </button>
-            );
-          })}
-        </div>
-      </div>
-
-      {/* Current Unit Syllabus Overview Card */}
-      {currentUnit && (
-        <div className="rounded-2xl border border-gray-800 bg-gradient-to-r from-gray-900/90 via-gray-900/60 to-gray-950 p-6 space-y-4">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-2">
-              <Layers className="h-5 w-5 text-indigo-400" />
-              <h2 className="text-lg font-bold text-white">
-                Unit {currentUnit.unit_number}: {currentUnit.title}
-              </h2>
-            </div>
-            <span className="rounded bg-indigo-500/10 px-2 py-0.5 text-[11px] font-semibold text-indigo-300 border border-indigo-500/20">
-              Syllabus Unit Interval: 1-5
-            </span>
-          </div>
-
-          {currentUnit.summary && (
-            <p className="text-xs text-gray-300">{currentUnit.summary}</p>
-          )}
-
-          {/* Topics Covered Tag Cloud */}
-          {currentUnit.topics && currentUnit.topics.length > 0 && (
-            <div className="space-y-2">
-              <span className="text-[11px] font-bold text-gray-400 uppercase tracking-wider">
-                Official AKTU Topics:
-              </span>
-              <div className="flex flex-wrap gap-2">
-                {currentUnit.topics.map((topic, idx) => (
-                  <span
-                    key={idx}
-                    className="rounded-lg bg-gray-800/90 border border-gray-700/60 px-2.5 py-1 text-xs text-gray-200"
-                  >
-                    {topic}
-                  </span>
-                ))}
-              </div>
-            </div>
-          )}
-        </div>
-      )}
-
-      {/* Verified Unit Lectures Feed */}
-      <div className="space-y-4">
-        <div className="flex items-center justify-between">
-          <h2 className="text-lg font-bold text-white flex items-center gap-2">
-            <VideoIcon className="h-5 w-5 text-cyan-400" />
-            Verified Lecture Streams for Unit {selectedUnitNumber}
-          </h2>
-          <span className="text-xs text-gray-400">
-            {unitVideos.length} {unitVideos.length === 1 ? "lecture" : "lectures"} available
-          </span>
-        </div>
-
-        {loadingVideos ? (
-          <div className="py-12 text-center text-sm text-gray-400">
-            Fetching verified video streams...
-          </div>
-        ) : unitVideos.length > 0 ? (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-            {unitVideos.map((vid) => (
-              <VideoCard key={vid.id} video={vid} />
-            ))}
-          </div>
-        ) : (
-          <div className="rounded-2xl border border-dashed border-gray-800 p-10 text-center space-y-3">
-            <p className="text-sm text-gray-400">
-              No videos ingested for Unit {selectedUnitNumber} yet.
+            <p className="text-xs sm:text-sm text-text-secondary leading-relaxed">
+              Official Dr. A.P.J. Abdul Kalam Technical University curriculum covering 5 core syllabus units. Filter and stream unit-wise lectures verified with Two-Stage AI Gatekeeping.
             </p>
-            <div className="flex justify-center gap-3">
-              <Link
-                href="/upload"
-                className="rounded-lg bg-indigo-600 px-4 py-2 text-xs font-semibold text-white hover:bg-indigo-500"
-              >
-                Upload Student MP4
-              </Link>
-              <Link
-                href="/admin/ingestion"
-                className="rounded-lg border border-gray-700 px-4 py-2 text-xs font-semibold text-gray-300 hover:bg-gray-800"
-              >
-                Trigger Channel Ingest
-              </Link>
-            </div>
           </div>
-        )}
+        </div>
+
+        {/* 5-Unit Tabs and Video Stream Grid */}
+        <UnitTabs
+          subjectCode={subject.code}
+          units={subject.units}
+          videosByUnit={videosByUnit}
+        />
       </div>
     </div>
   );

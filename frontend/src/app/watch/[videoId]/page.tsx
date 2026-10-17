@@ -81,22 +81,22 @@ export default function WatchPage({ params }: WatchPageProps) {
   if (loading) {
     return (
       <div className="flex flex-col items-center justify-center py-24 space-y-3">
-        <div className="h-8 w-8 animate-spin rounded-full border-2 border-indigo-500 border-t-transparent" />
-        <p className="text-xs text-gray-400">Loading studio player & bilingual transcript...</p>
+        <div className="h-8 w-8 animate-spin rounded-full border-2 border-brand-primary border-t-transparent" />
+        <p className="text-xs font-mono text-text-secondary">Loading workstation player & synchronized transcript...</p>
       </div>
     );
   }
 
   if (!video) {
     return (
-      <div className="rounded-2xl border border-red-500/30 bg-red-950/20 p-8 text-center space-y-4">
-        <h3 className="text-base font-bold text-red-400">Lecture Not Found</h3>
-        <p className="text-xs text-gray-300">
+      <div className="rounded-2xl border border-danger/30 bg-surface-dark p-8 text-center space-y-4">
+        <h3 className="text-base font-bold text-danger font-heading">Lecture Not Found</h3>
+        <p className="text-xs text-text-secondary">
           This lecture video does not exist or was rejected by the Gatekeeper AI filter.
         </p>
         <Link
           href="/subjects"
-          className="inline-flex items-center gap-2 rounded-lg bg-indigo-600 px-4 py-2 text-xs font-semibold text-white hover:bg-indigo-500"
+          className="inline-flex items-center gap-2 rounded-xl bg-brand-primary px-4 py-2 text-xs font-semibold text-text-primary hover:bg-brand-primary/90"
         >
           <ArrowLeft className="h-4 w-4" />
           Back to Curriculum
@@ -112,88 +112,94 @@ export default function WatchPage({ params }: WatchPageProps) {
   return (
     <div className="space-y-6">
       {/* Breadcrumb Navigation */}
-      <nav className="flex items-center gap-2 text-xs text-gray-400">
-        <Link href="/" className="hover:text-white transition-colors">
+      <nav className="flex items-center gap-2 text-xs text-text-secondary font-mono">
+        <Link href="/" className="hover:text-text-primary transition-colors">
           Home
         </Link>
-        <ChevronRight className="h-3.5 w-3.5 text-gray-600" />
+        <ChevronRight className="h-3 w-3 text-surface-border" />
         {video.classification?.subject_code ? (
           <>
             <Link
               href={`/subjects/${video.classification.subject_code}`}
-              className="hover:text-white transition-colors font-medium text-indigo-400"
+              className="hover:text-text-primary transition-colors font-semibold text-brand-primary"
             >
               {video.classification.subject_code}
             </Link>
-            <ChevronRight className="h-3.5 w-3.5 text-gray-600" />
-            <span>Unit {video.classification.unit_number || 1}</span>
+            <ChevronRight className="h-3 w-3 text-surface-border" />
+            <span className="text-text-primary font-bold">Unit {video.classification.unit_number || 1}</span>
           </>
         ) : (
-          <span>Stream</span>
+          <span className="text-text-primary">Stream Studio</span>
         )}
       </nav>
 
-      {/* Main Studio Grid: Player (8 cols) & Transcript/Syllabus (4 cols) */}
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
-        {/* Left Column: Player & Overview */}
-        <div className="lg:col-span-8 space-y-4">
-          <UnifiedPlayer
-            video={video}
-            seekTime={seekTime}
-            initialStartTime={initialPosition}
-            onTimeUpdate={handleTimeUpdate}
-            onEnded={markCompleted}
-          />
+      {/* Desktop & Mobile Grid:
+          - Desktop: Main Central Canvas (Flexible) + Right Collapsible Panel (360px)
+          - Mobile: Sticky top player with tabbed sheet underneath
+      */}
+      <div className="flex flex-col lg:flex-row gap-6 items-start">
+        {/* Main Central Canvas (Flexible) */}
+        <div className="flex-1 w-full space-y-5">
+          {/* Sticky Player on Mobile, Standard on Desktop */}
+          <div className="sticky top-16 z-20 lg:static bg-background-dark pb-2 lg:pb-0">
+            <UnifiedPlayer
+              video={video}
+              seekTime={seekTime}
+              initialStartTime={initialPosition}
+              onTimeUpdate={handleTimeUpdate}
+              onEnded={markCompleted}
+            />
+          </div>
 
-          {/* Title and Gatekeeper Verification Badge */}
-          <div className="rounded-2xl border border-gray-800 bg-gray-900/60 p-5 space-y-4">
+          {/* Video Metadata Card */}
+          <div className="rounded-2xl border border-surface-border bg-surface-dark p-6 space-y-5 shadow-sm">
             <div className="flex flex-wrap items-start justify-between gap-4">
-              <div className="space-y-1.5 flex-1">
+              <div className="space-y-2 flex-1">
                 <div className="flex flex-wrap items-center gap-2">
                   {video.classification?.subject_code && (
-                    <span className="rounded bg-indigo-500/20 px-2.5 py-0.5 text-xs font-bold text-indigo-300 border border-indigo-500/30">
+                    <span className="rounded-md bg-brand-primary/10 px-2.5 py-0.5 text-xs font-mono font-bold text-brand-primary border border-brand-primary/20">
                       {video.classification.subject_code}
                     </span>
                   )}
                   {video.classification?.unit_number && (
-                    <span className="rounded bg-cyan-500/10 px-2 py-0.5 text-xs font-bold text-cyan-300 border border-cyan-500/20">
+                    <span className="rounded-md bg-brand-secondary/10 px-2.5 py-0.5 text-xs font-mono font-bold text-brand-secondary border border-brand-secondary/20">
                       Unit {video.classification.unit_number}
                     </span>
                   )}
                   {isCompleted && (
-                    <span className="rounded bg-emerald-500/20 px-2 py-0.5 text-xs font-bold text-emerald-300 border border-emerald-500/30 flex items-center gap-1">
-                      <CheckCircle2 className="h-3.5 w-3.5" />
+                    <span className="rounded-md bg-success/10 px-2.5 py-0.5 text-xs font-mono font-bold text-success border border-success/30 flex items-center gap-1">
+                      <CheckCircle2 className="h-3 w-3" />
                       Completed
                     </span>
                   )}
-                  <span className="text-xs text-gray-400">
-                    {video.source_type === "NATIVE" ? "Multi-Bitrate HLS" : "YouTube Stream"}
+                  <span className="text-xs font-mono text-text-secondary">
+                    {video.source_type === "NATIVE" ? "Multi-Bitrate HLS" : "YouTube Ingestion"}
                   </span>
                 </div>
 
-                <h1 className="text-xl sm:text-2xl font-bold text-white tracking-tight">
+                <h1 className="text-xl sm:text-2xl font-bold text-text-primary tracking-tight font-heading">
                   {video.title}
                 </h1>
               </div>
 
               {/* Gatekeeper Confidence Pill */}
-              <div className="flex items-center gap-2.5 rounded-xl border border-cyan-500/30 bg-cyan-950/40 px-3.5 py-2">
-                <Sparkles className="h-4 w-4 text-cyan-400" />
+              <div className="flex items-center gap-2.5 rounded-xl border border-brand-secondary/30 bg-background-dark px-3.5 py-2">
+                <Sparkles className="h-4 w-4 text-brand-secondary" />
                 <div>
-                  <div className="text-xs font-bold text-cyan-300">{confidencePct}% Match</div>
-                  <div className="text-[10px] text-gray-400">Gatekeeper Verified</div>
+                  <div className="text-xs font-mono font-bold text-brand-secondary">{confidencePct}% Match</div>
+                  <div className="text-[10px] text-text-secondary">Gatekeeper AI Passed</div>
                 </div>
               </div>
             </div>
 
             {/* Video Stats */}
-            <div className="flex items-center justify-between text-xs text-gray-400 border-t border-gray-800/80 pt-3">
+            <div className="flex items-center justify-between text-xs font-mono text-text-secondary border-t border-surface-border pt-3.5">
               <div className="flex items-center gap-4">
                 <span className="flex items-center gap-1.5">
-                  <Eye className="h-3.5 w-3.5 text-gray-400" />
+                  <Eye className="h-3.5 w-3.5 text-text-secondary" />
                   {video.view_count.toLocaleString()} views
                 </span>
-                <span className="text-emerald-400 flex items-center gap-1">
+                <span className="text-success flex items-center gap-1">
                   <CheckCircle2 className="h-3.5 w-3.5" />
                   AKTU Syllabus Matched
                 </span>
@@ -203,11 +209,11 @@ export default function WatchPage({ params }: WatchPageProps) {
 
             {/* AI Summary */}
             {video.classification?.summary && (
-              <div className="rounded-xl border border-indigo-500/20 bg-indigo-950/20 p-3.5 space-y-1">
-                <span className="text-[11px] font-bold text-indigo-300 uppercase tracking-wider block">
+              <div className="rounded-xl border border-surface-border bg-background-dark/70 p-4 space-y-1.5">
+                <span className="text-[11px] font-mono font-bold text-brand-primary uppercase tracking-wider block">
                   AI Syllabus Summary
                 </span>
-                <p className="text-xs text-gray-300 leading-relaxed">
+                <p className="text-xs text-text-secondary leading-relaxed">
                   {video.classification.summary}
                 </p>
               </div>
@@ -215,13 +221,15 @@ export default function WatchPage({ params }: WatchPageProps) {
 
             {/* Topics Chips */}
             {video.classification?.topics_covered && video.classification.topics_covered.length > 0 && (
-              <div className="space-y-1.5">
-                <span className="text-[11px] font-medium text-gray-400">Exam Topics Covered:</span>
-                <div className="flex flex-wrap gap-1.5">
+              <div className="space-y-2">
+                <span className="text-[11px] font-mono text-text-secondary uppercase tracking-wider block">
+                  Exam Topics Covered:
+                </span>
+                <div className="flex flex-wrap gap-2">
                   {video.classification.topics_covered.map((t, idx) => (
                     <span
                       key={idx}
-                      className="rounded bg-gray-800 border border-gray-700/60 px-2 py-0.5 text-[11px] text-gray-200"
+                      className="rounded-lg bg-background-dark border border-surface-border px-2.5 py-1 text-[11px] text-text-secondary font-medium"
                     >
                       {t}
                     </span>
@@ -232,26 +240,26 @@ export default function WatchPage({ params }: WatchPageProps) {
           </div>
         </div>
 
-        {/* Right Column: Synchronized Transcript & Syllabus Units */}
-        <div className="lg:col-span-4 space-y-4">
-          <div className="flex border-b border-gray-800 bg-gray-900/60 rounded-t-2xl overflow-hidden">
+        {/* Right Collapsible Panel (Fixed 360px on Desktop, Underneath on Mobile) */}
+        <div className="w-full lg:w-[360px] shrink-0 space-y-4">
+          <div className="flex border-b border-surface-border bg-surface-dark rounded-t-2xl overflow-hidden">
             <button
               onClick={() => setActiveTab("transcript")}
-              className={`flex-1 flex items-center justify-center gap-2 py-3 text-xs font-bold border-b-2 transition-all ${
+              className={`flex-1 flex items-center justify-center gap-2 py-3 text-xs font-semibold border-b-2 transition-all font-mono ${
                 activeTab === "transcript"
-                  ? "border-indigo-500 text-indigo-400 bg-indigo-500/10"
-                  : "border-transparent text-gray-400 hover:text-white"
+                  ? "border-brand-primary text-brand-primary bg-brand-primary/10"
+                  : "border-transparent text-text-secondary hover:text-text-primary"
               }`}
             >
               <FileText className="h-3.5 w-3.5" />
-              <span>Interactive Transcript</span>
+              <span>Transcript</span>
             </button>
             <button
               onClick={() => setActiveTab("syllabus")}
-              className={`flex-1 flex items-center justify-center gap-2 py-3 text-xs font-bold border-b-2 transition-all ${
+              className={`flex-1 flex items-center justify-center gap-2 py-3 text-xs font-semibold border-b-2 transition-all font-mono ${
                 activeTab === "syllabus"
-                  ? "border-cyan-500 text-cyan-400 bg-cyan-500/10"
-                  : "border-transparent text-gray-400 hover:text-white"
+                  ? "border-brand-secondary text-brand-secondary bg-brand-secondary/10"
+                  : "border-transparent text-text-secondary hover:text-text-primary"
               }`}
             >
               <BookOpen className="h-3.5 w-3.5" />
@@ -259,30 +267,32 @@ export default function WatchPage({ params }: WatchPageProps) {
             </button>
           </div>
 
-          {activeTab === "transcript" ? (
-            <TranscriptViewer
-              transcript={video.transcript}
-              currentTime={currentPlaybackTime}
-              onSeek={handleSeekFromTranscript}
-            />
-          ) : (
-            <div className="rounded-b-2xl border border-gray-800 bg-gray-900/60 p-4 space-y-3 max-h-[520px] overflow-y-auto">
-              <h3 className="text-xs font-bold text-gray-300 uppercase tracking-wider">
-                Next in Unit {video.classification?.unit_number || 1}
-              </h3>
-              {nextVideos.length > 0 ? (
-                <div className="space-y-3">
-                  {nextVideos.map((nextVid) => (
-                    <VideoCard key={nextVid.id} video={nextVid} />
-                  ))}
-                </div>
-              ) : (
-                <div className="rounded-xl border border-dashed border-gray-800 p-6 text-center text-xs text-gray-500">
-                  No other videos in this unit currently.
-                </div>
-              )}
-            </div>
-          )}
+          <div className="h-[560px]">
+            {activeTab === "transcript" ? (
+              <TranscriptViewer
+                transcript={video.transcript}
+                currentTime={currentPlaybackTime}
+                onSeek={handleSeekFromTranscript}
+              />
+            ) : (
+              <div className="rounded-b-2xl border border-surface-border bg-surface-dark p-4 space-y-3 h-full overflow-y-auto">
+                <h3 className="text-xs font-mono font-bold text-text-secondary uppercase tracking-wider">
+                  Next in Unit {video.classification?.unit_number || 1}
+                </h3>
+                {nextVideos.length > 0 ? (
+                  <div className="space-y-3">
+                    {nextVideos.map((nextVid) => (
+                      <VideoCard key={nextVid.id} video={nextVid} />
+                    ))}
+                  </div>
+                ) : (
+                  <div className="rounded-xl border border-dashed border-surface-border p-6 text-center text-xs text-text-secondary font-mono">
+                    No other videos in this unit currently.
+                  </div>
+                )}
+              </div>
+            )}
+          </div>
         </div>
       </div>
     </div>

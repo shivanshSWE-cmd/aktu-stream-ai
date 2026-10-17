@@ -11,7 +11,7 @@ import {
   ShieldCheck,
   UploadCloud,
 } from "lucide-react";
-import { api } from "@/lib/api";
+import { apiClient } from "@/lib/api-client";
 
 export default function NativeUploadPage() {
   const [title, setTitle] = useState("");
@@ -49,7 +49,7 @@ export default function NativeUploadPage() {
       setErrorMessage("");
 
       // 1. Request presigned URL from backend
-      const presignedData = await api.getPresignedUploadUrl({
+      const presignedData = await apiClient.getPresignedUploadUrl({
         filename: selectedFile.name,
         file_size_bytes: selectedFile.size,
         title: title.trim(),
@@ -77,14 +77,12 @@ export default function NativeUploadPage() {
           if (xhr.status >= 200 && xhr.status < 300) {
             resolve();
           } else {
-            // In mock development environments, simulated presigned URL returns 404 or mock ok
             console.log("S3 response:", xhr.status);
             resolve();
           }
         };
 
         xhr.onerror = () => {
-          // If running locally without live S3 bucket, continue to simulation
           console.warn("Direct S3 upload network event (mock mode active). Continuing pipeline.");
           resolve();
         };
@@ -94,7 +92,7 @@ export default function NativeUploadPage() {
 
       // 3. Notify backend that S3 upload is complete to trigger background HLS worker
       setUploadStep("TRANSCODING");
-      await api.notifyUploadComplete(presignedData.video_id, presignedData.raw_s3_key);
+      await apiClient.notifyUploadComplete(presignedData.video_id, presignedData.raw_s3_key);
 
       // 4. Poll transcoding progress
       let isDone = false;
@@ -102,7 +100,7 @@ export default function NativeUploadPage() {
       while (!isDone && attempts < 20) {
         attempts++;
         await new Promise((r) => setTimeout(r, 1500));
-        const statusData = await api.getTranscodeStatus(presignedData.video_id);
+        const statusData = await apiClient.getTranscodeStatus(presignedData.video_id);
         if (statusData.status === "READY" && statusData.hls_master_url) {
           setMasterHlsUrl(statusData.hls_master_url);
           setUploadStep("READY");
@@ -124,42 +122,42 @@ export default function NativeUploadPage() {
     <div className="max-w-2xl mx-auto space-y-8">
       {/* Header */}
       <div>
-        <div className="inline-flex items-center gap-1.5 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3 py-1 text-xs font-semibold text-emerald-300 mb-2">
+        <div className="inline-flex items-center gap-1.5 rounded-full border border-success/30 bg-success/10 px-3 py-1 text-xs font-mono font-semibold text-success mb-2">
           <HardDriveUpload className="h-3.5 w-3.5" />
           <span>Direct Presigned S3/R2 Pipeline</span>
         </div>
-        <h1 className="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">
+        <h1 className="text-2xl sm:text-3xl font-bold text-text-primary tracking-tight font-heading">
           Upload Native Lecture Video
         </h1>
-        <p className="text-sm text-gray-400 mt-1">
-          Upload MP4 video directly to cloud object storage. Our background worker executes multi-bitrate HLS transcoding (1080p, 720p, 360p) with master playlist generation.
+        <p className="text-xs sm:text-sm text-text-secondary mt-1">
+          Upload MP4 video directly to cloud object storage. Dedicated worker executes multi-bitrate HLS transcoding (1080p, 720p, 480p, 360p) with master playlist generation.
         </p>
       </div>
 
       {/* Main Upload Card */}
-      <div className="rounded-3xl border border-gray-800 bg-gray-900/60 p-6 sm:p-8 space-y-6 shadow-xl">
+      <div className="rounded-3xl border border-surface-border bg-surface-dark p-6 sm:p-8 space-y-6 shadow-sm">
         {errorMessage && (
-          <div className="flex items-center gap-2 rounded-xl bg-red-500/10 border border-red-500/20 p-3 text-xs text-red-400">
+          <div className="flex items-center gap-2 rounded-xl bg-danger/10 border border-danger/20 p-3 text-xs text-danger">
             <AlertCircle className="h-4 w-4 shrink-0" />
             <span>{errorMessage}</span>
           </div>
         )}
 
         {uploadStep === "READY" ? (
-          <div className="rounded-2xl border border-emerald-500/30 bg-emerald-950/20 p-8 text-center space-y-4">
-            <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-emerald-500/20 text-emerald-400">
+          <div className="rounded-2xl border border-success/30 bg-surface-dark p-8 text-center space-y-4">
+            <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-success/10 text-success border border-success/20">
               <CheckCircle2 className="h-8 w-8" />
             </div>
             <div>
-              <h2 className="text-lg font-bold text-white">Transcoding Complete & Stream Ready!</h2>
-              <p className="text-xs text-gray-300 mt-1">
-                Multi-bitrate HLS master manifest generated and indexed to AKTU {subjectCode} Unit {unitNumber}.
+              <h2 className="text-lg font-bold text-text-primary font-heading">Transcoding Complete & Stream Ready!</h2>
+              <p className="text-xs text-text-secondary mt-1 font-mono">
+                Multi-bitrate HLS master manifest indexed to AKTU {subjectCode} Unit {unitNumber}.
               </p>
             </div>
             <div className="pt-2">
               <Link
                 href={`/watch/${createdVideoId}`}
-                className="inline-flex items-center gap-2 rounded-xl bg-indigo-600 px-6 py-3 text-sm font-bold text-white hover:bg-indigo-500 transition-colors shadow-lg shadow-indigo-600/30"
+                className="inline-flex items-center gap-2 rounded-xl bg-brand-primary px-6 py-3 text-xs font-bold text-text-primary hover:bg-brand-primary/90 transition-all shadow-sm"
               >
                 Watch Stream in Player &rarr;
               </Link>
@@ -169,26 +167,26 @@ export default function NativeUploadPage() {
           <form onSubmit={handleStartUpload} className="space-y-5">
             {/* Title */}
             <div className="space-y-1.5">
-              <label className="text-xs font-bold text-gray-300">Lecture Title</label>
+              <label className="text-xs font-mono font-bold text-text-secondary">Lecture Title</label>
               <input
                 type="text"
                 placeholder="e.g. Unit 2 Relational Algebra and Joins Deep Dive"
                 value={title}
                 onChange={(e) => setTitle(e.target.value)}
                 disabled={uploadStep !== "IDLE" && uploadStep !== "ERROR"}
-                className="w-full rounded-xl border border-gray-800 bg-gray-950 p-3 text-xs sm:text-sm text-gray-100 placeholder-gray-500 focus:border-indigo-500 focus:outline-none"
+                className="w-full rounded-xl border border-surface-border bg-background-dark p-3 text-xs sm:text-sm text-text-primary placeholder:text-text-secondary focus:border-brand-primary focus:outline-none"
               />
             </div>
 
             {/* Subject Code & Unit Number */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="space-y-1.5">
-                <label className="text-xs font-bold text-gray-300">AKTU Subject Code</label>
+                <label className="text-xs font-mono font-bold text-text-secondary">AKTU Subject Code</label>
                 <select
                   value={subjectCode}
                   onChange={(e) => setSubjectCode(e.target.value)}
                   disabled={uploadStep !== "IDLE" && uploadStep !== "ERROR"}
-                  className="w-full rounded-xl border border-gray-800 bg-gray-950 p-3 text-xs sm:text-sm text-gray-100 focus:border-indigo-500 focus:outline-none"
+                  className="w-full rounded-xl border border-surface-border bg-background-dark p-3 text-xs font-mono text-text-primary focus:border-brand-primary focus:outline-none"
                 >
                   <option value="BCS501">BCS501 - Database Management Systems</option>
                   <option value="BCS301">BCS301 - Data Structures</option>
@@ -202,12 +200,12 @@ export default function NativeUploadPage() {
               </div>
 
               <div className="space-y-1.5">
-                <label className="text-xs font-bold text-gray-300">Curriculum Unit (Strictly 1-5)</label>
+                <label className="text-xs font-mono font-bold text-text-secondary">Curriculum Unit (Strictly 1-5)</label>
                 <select
                   value={unitNumber}
                   onChange={(e) => setUnitNumber(parseInt(e.target.value))}
                   disabled={uploadStep !== "IDLE" && uploadStep !== "ERROR"}
-                  className="w-full rounded-xl border border-gray-800 bg-gray-950 p-3 text-xs sm:text-sm text-gray-100 focus:border-indigo-500 focus:outline-none"
+                  className="w-full rounded-xl border border-surface-border bg-background-dark p-3 text-xs font-mono text-text-primary focus:border-brand-primary focus:outline-none"
                 >
                   {[1, 2, 3, 4, 5].map((u) => (
                     <option key={u} value={u}>
@@ -220,20 +218,20 @@ export default function NativeUploadPage() {
 
             {/* Drag & Drop MP4 Picker */}
             <div className="space-y-1.5">
-              <label className="text-xs font-bold text-gray-300">Select MP4 Video File</label>
-              <label className="flex flex-col items-center justify-center border-2 border-dashed border-gray-800 hover:border-indigo-500/50 rounded-2xl p-8 cursor-pointer bg-gray-950/40 hover:bg-gray-950 transition-all">
-                <FileVideo className="h-10 w-10 text-indigo-400 mb-2" />
+              <label className="text-xs font-mono font-bold text-text-secondary">Select MP4 Video File</label>
+              <label className="flex flex-col items-center justify-center border-2 border-dashed border-surface-border hover:border-brand-primary/50 rounded-2xl p-8 cursor-pointer bg-background-dark/40 hover:bg-background-dark transition-all">
+                <FileVideo className="h-10 w-10 text-brand-primary mb-2" />
                 {selectedFile ? (
-                  <div className="text-center">
-                    <p className="text-xs font-bold text-white">{selectedFile.name}</p>
-                    <p className="text-[11px] text-gray-400 mt-0.5">
+                  <div className="text-center font-mono">
+                    <p className="text-xs font-bold text-text-primary">{selectedFile.name}</p>
+                    <p className="text-[11px] text-text-secondary mt-0.5">
                       {(selectedFile.size / (1024 * 1024)).toFixed(2)} MB
                     </p>
                   </div>
                 ) : (
                   <div className="text-center">
-                    <p className="text-xs font-semibold text-gray-300">Click to browse MP4 file</p>
-                    <p className="text-[11px] text-gray-500 mt-0.5">Direct client-to-S3 presigned upload</p>
+                    <p className="text-xs font-semibold text-text-primary">Click to browse MP4 file</p>
+                    <p className="text-[11px] font-mono text-text-secondary mt-0.5">Direct client-to-S3 presigned upload</p>
                   </div>
                 )}
                 <input
@@ -248,19 +246,19 @@ export default function NativeUploadPage() {
 
             {/* Upload Progress Status */}
             {uploadStep !== "IDLE" && uploadStep !== "ERROR" && (
-              <div className="space-y-2 border-t border-gray-800 pt-4">
-                <div className="flex items-center justify-between text-xs">
-                  <span className="flex items-center gap-1.5 text-gray-300">
-                    <Loader2 className="h-3.5 w-3.5 animate-spin text-indigo-400" />
+              <div className="space-y-2 border-t border-surface-border pt-4">
+                <div className="flex items-center justify-between text-xs font-mono">
+                  <span className="flex items-center gap-1.5 text-text-secondary">
+                    <Loader2 className="h-3.5 w-3.5 animate-spin text-brand-primary" />
                     {uploadStep === "GETTING_URL" && "Requesting S3 Presigned URL..."}
                     {uploadStep === "UPLOADING_S3" && `Direct S3 Upload: ${uploadProgress}%`}
                     {uploadStep === "TRANSCODING" && "Executing FFmpeg Multi-Bitrate HLS Transcoder..."}
                   </span>
-                  <span className="font-mono text-indigo-400">{uploadProgress}%</span>
+                  <span className="text-brand-primary font-bold">{uploadProgress}%</span>
                 </div>
-                <div className="h-2 w-full bg-gray-800 rounded-full overflow-hidden">
+                <div className="h-1.5 w-full bg-surface-border rounded-full overflow-hidden">
                   <div
-                    className="h-full bg-indigo-500 transition-all duration-200"
+                    className="h-full bg-brand-primary transition-all duration-200"
                     style={{ width: `${uploadStep === "TRANSCODING" ? 85 : uploadProgress}%` }}
                   />
                 </div>
@@ -271,7 +269,7 @@ export default function NativeUploadPage() {
             <button
               type="submit"
               disabled={uploadStep !== "IDLE" && uploadStep !== "ERROR"}
-              className="w-full flex items-center justify-center gap-2 rounded-xl bg-indigo-600 p-3.5 text-xs sm:text-sm font-bold text-white hover:bg-indigo-500 transition-colors disabled:opacity-50"
+              className="w-full flex items-center justify-center gap-2 rounded-xl bg-brand-primary p-3.5 text-xs font-semibold text-text-primary hover:bg-brand-primary/90 transition-all disabled:opacity-50"
             >
               <UploadCloud className="h-4 w-4" />
               Start Direct S3 Upload & Transcode

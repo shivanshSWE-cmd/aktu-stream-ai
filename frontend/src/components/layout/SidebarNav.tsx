@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
-  BookOpen,
   Brain,
   Cpu,
   GraduationCap,
@@ -20,10 +19,10 @@ interface SidebarNavProps {
 
 const BRANCHES = [
   { code: "CSE", name: "Computer Science & Engg." },
-  { code: "AIML", name: "Artificial Intelligence & ML" },
+  { code: "AIML", name: "AI & Machine Learning" },
   { code: "IT", name: "Information Technology" },
-  { code: "ECE", name: "Electronics & Communication" },
-  { code: "ME", name: "Mechanical Engineering" },
+  { code: "ECE", name: "Electronics & Comm." },
+  { code: "ME", name: "Mechanical Engg." },
   { code: "CE", name: "Civil Engineering" },
 ];
 
@@ -33,34 +32,36 @@ export function SidebarNav({ currentBranch = "CSE", currentSemester = 5 }: Sideb
   const pathname = usePathname();
 
   return (
-    <aside className="w-full lg:w-64 shrink-0 space-y-6">
-      {/* AI Specialization Highlight Card */}
-      <div className="relative overflow-hidden rounded-2xl border border-indigo-500/30 bg-gradient-to-br from-indigo-950/50 to-purple-950/30 p-4 shadow-lg shadow-indigo-500/5">
-        <div className="flex items-center gap-2 text-indigo-400 mb-2">
+    <aside className="w-full lg:w-[280px] shrink-0 space-y-5">
+      {/* AI Specialization Dedicated Card */}
+      <div className="relative overflow-hidden rounded-2xl border border-surface-border bg-surface-dark p-4 shadow-sm hover:border-brand-secondary/40 transition-all">
+        <div className="flex items-center gap-2 text-brand-secondary mb-1.5">
           <Brain className="h-4 w-4" />
-          <span className="text-xs font-bold tracking-wide uppercase">Dedicated Track</span>
+          <span className="text-[10px] font-bold tracking-wider uppercase font-mono">Specialized Track</span>
         </div>
-        <h4 className="text-sm font-bold text-white">AI & ML Foundations</h4>
-        <p className="text-xs text-gray-300 mt-1">
+        <h4 className="text-sm font-bold text-text-primary font-heading">AI & ML Foundations</h4>
+        <p className="text-xs text-text-secondary mt-1 leading-relaxed">
           Math for ML, Deep Learning, Transformers & LLM Architectures.
         </p>
         <Link
           href="/ai-track"
-          className="mt-3 inline-flex items-center gap-1.5 rounded-lg bg-indigo-600 px-3 py-1.5 text-xs font-semibold text-white hover:bg-indigo-500 transition-colors"
+          className="mt-3.5 inline-flex items-center gap-1.5 rounded-xl bg-brand-primary/10 border border-brand-primary/30 px-3 py-1.5 text-xs font-semibold text-brand-primary hover:bg-brand-primary/20 transition-all w-full justify-center"
         >
           <Sparkles className="h-3 w-3" />
-          Open AI Track
+          <span>Launch AI Track</span>
         </Link>
       </div>
 
-      {/* Engineering Branches */}
-      <div className="rounded-2xl border border-gray-800 bg-gray-900/60 p-4 space-y-3">
-        <div className="flex items-center justify-between border-b border-gray-800/80 pb-2">
-          <span className="text-xs font-bold uppercase tracking-wider text-gray-400 flex items-center gap-1.5">
-            <Layers className="h-3.5 w-3.5 text-indigo-400" />
-            B.Tech Branches
+      {/* Engineering Branches Tree */}
+      <div className="rounded-2xl border border-surface-border bg-surface-dark p-4 space-y-3">
+        <div className="flex items-center justify-between border-b border-surface-border pb-2.5">
+          <span className="text-xs font-bold uppercase tracking-wider text-text-secondary flex items-center gap-1.5">
+            <Layers className="h-3.5 w-3.5 text-brand-primary" />
+            Branch Hierarchy
           </span>
-          <span className="text-[10px] text-gray-500 font-mono">AKTU</span>
+          <span className="text-[10px] text-text-secondary font-mono bg-background-dark px-1.5 py-0.5 rounded border border-surface-border">
+            AKTU
+          </span>
         </div>
 
         <div className="space-y-1">
@@ -70,17 +71,19 @@ export function SidebarNav({ currentBranch = "CSE", currentSemester = 5 }: Sideb
               <Link
                 key={b.code}
                 href={`/subjects?branch=${b.code}&semester=${currentSemester}`}
-                className={`flex items-center justify-between rounded-lg px-2.5 py-1.5 text-xs font-medium transition-colors ${
+                className={`flex items-center justify-between rounded-xl px-3 py-2 text-xs font-medium transition-all ${
                   isActive
-                    ? "bg-indigo-600/20 text-indigo-300 border border-indigo-500/30 font-semibold"
-                    : "text-gray-400 hover:bg-gray-800/60 hover:text-white"
+                    ? "bg-brand-primary/10 text-brand-primary border border-brand-primary/30 font-semibold shadow-sm"
+                    : "text-text-secondary hover:bg-background-dark hover:text-text-primary border border-transparent"
                 }`}
               >
                 <div className="flex items-center gap-2 truncate">
-                  <Cpu className="h-3.5 w-3.5 shrink-0 text-gray-400" />
+                  <Cpu className={`h-3.5 w-3.5 shrink-0 ${isActive ? "text-brand-primary" : "text-text-secondary"}`} />
                   <span className="truncate">{b.name}</span>
                 </div>
-                <span className="text-[10px] font-mono text-gray-500 ml-1">{b.code}</span>
+                <span className="text-[11px] font-mono text-text-secondary font-semibold ml-1">
+                  {b.code}
+                </span>
               </Link>
             );
           })}
@@ -88,11 +91,11 @@ export function SidebarNav({ currentBranch = "CSE", currentSemester = 5 }: Sideb
       </div>
 
       {/* Semester Selector Grid */}
-      <div className="rounded-2xl border border-gray-800 bg-gray-900/60 p-4 space-y-3">
-        <div className="border-b border-gray-800/80 pb-2">
-          <span className="text-xs font-bold uppercase tracking-wider text-gray-400 flex items-center gap-1.5">
-            <GraduationCap className="h-3.5 w-3.5 text-cyan-400" />
-            Select Semester
+      <div className="rounded-2xl border border-surface-border bg-surface-dark p-4 space-y-3">
+        <div className="border-b border-surface-border pb-2.5">
+          <span className="text-xs font-bold uppercase tracking-wider text-text-secondary flex items-center gap-1.5">
+            <GraduationCap className="h-3.5 w-3.5 text-brand-secondary" />
+            Semester Filter
           </span>
         </div>
 
@@ -103,10 +106,10 @@ export function SidebarNav({ currentBranch = "CSE", currentSemester = 5 }: Sideb
               <Link
                 key={sem}
                 href={`/subjects?branch=${currentBranch}&semester=${sem}`}
-                className={`rounded-lg py-1.5 text-center text-xs font-bold transition-all ${
+                className={`rounded-xl py-2 text-center text-xs font-mono font-bold transition-all ${
                   isActive
-                    ? "bg-cyan-500 text-black shadow-md shadow-cyan-500/20"
-                    : "bg-gray-950 border border-gray-800 text-gray-400 hover:text-white hover:border-gray-700"
+                    ? "bg-brand-secondary text-background-dark shadow-md shadow-brand-secondary/20"
+                    : "bg-background-dark border border-surface-border text-text-secondary hover:text-text-primary hover:border-surface-border/80"
                 }`}
               >
                 S{sem}
@@ -117,20 +120,20 @@ export function SidebarNav({ currentBranch = "CSE", currentSemester = 5 }: Sideb
       </div>
 
       {/* Navigation Quick Links */}
-      <div className="rounded-2xl border border-gray-800 bg-gray-900/40 p-4 space-y-2">
+      <div className="rounded-2xl border border-surface-border bg-surface-dark p-4 space-y-2">
         <Link
           href="/upload"
-          className="flex items-center gap-2 text-xs text-gray-400 hover:text-emerald-400 transition-colors py-1"
+          className="flex items-center gap-2 text-xs text-text-secondary hover:text-success transition-colors py-1"
         >
-          <UploadCloud className="h-3.5 w-3.5 text-emerald-400" />
+          <UploadCloud className="h-3.5 w-3.5 text-success" />
           <span>Student Lecture Upload</span>
         </Link>
         <Link
           href="/admin/ingestion"
-          className="flex items-center gap-2 text-xs text-gray-400 hover:text-indigo-400 transition-colors py-1"
+          className="flex items-center gap-2 text-xs text-text-secondary hover:text-brand-primary transition-colors py-1"
         >
-          <ShieldCheck className="h-3.5 w-3.5 text-indigo-400" />
-          <span>Quota & Ingestion Engine</span>
+          <ShieldCheck className="h-3.5 w-3.5 text-brand-primary" />
+          <span>Quota Engine Status</span>
         </Link>
       </div>
     </aside>

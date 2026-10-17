@@ -116,7 +116,6 @@ export function UnifiedPlayer({
         }
       });
     } else if (videoEl.canPlayType("application/vnd.apple.mpegurl")) {
-      // Native Safari HLS
       videoEl.src = video.s3_hls_master_url;
     }
 
@@ -200,7 +199,7 @@ export function UnifiedPlayer({
     return `${mins}:${secs < 10 ? "0" : ""}${secs}`;
   };
 
-  // Branch 1: YouTube Embedded Playback
+  // YouTube IFrame Player
   if (!isNative && video.youtube_video_id) {
     const startSec = Math.floor(seekTime || initialStartTime || 0);
     const embedUrl = `https://www.youtube.com/embed/${video.youtube_video_id}?autoplay=1&enablejsapi=1&rel=0&modestbranding=1${
@@ -208,7 +207,7 @@ export function UnifiedPlayer({
     }`;
 
     return (
-      <div className="relative aspect-video w-full overflow-hidden rounded-2xl border border-gray-800 bg-black shadow-2xl">
+      <div className="relative aspect-video w-full overflow-hidden rounded-2xl border border-surface-border bg-black shadow-ambient-glow transition-all">
         <iframe
           src={embedUrl}
           title={video.title}
@@ -220,11 +219,11 @@ export function UnifiedPlayer({
     );
   }
 
-  // Branch 2: Native Adaptive HLS Stream
+  // Native Adaptive HLS Player with 16:9 aspect ratio and ambient glow
   return (
     <div
       ref={containerRef}
-      className="group relative aspect-video w-full overflow-hidden rounded-2xl border border-gray-800 bg-black shadow-2xl select-none"
+      className="group relative aspect-video w-full overflow-hidden rounded-2xl border border-surface-border bg-black shadow-ambient-glow select-none transition-all"
     >
       <video
         ref={videoRef}
@@ -238,7 +237,7 @@ export function UnifiedPlayer({
       />
 
       {/* Control Overlay */}
-      <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/95 via-black/70 to-transparent p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+      <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-background-dark/95 via-surface-dark/75 to-transparent p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
         {/* Scrubber Progress Bar */}
         <div className="flex items-center gap-2 mb-2">
           <input
@@ -247,16 +246,16 @@ export function UnifiedPlayer({
             max={duration || 100}
             value={currentTime}
             onChange={handleSeek}
-            className="w-full h-1.5 bg-gray-700/80 rounded-lg appearance-none cursor-pointer accent-indigo-500 hover:accent-indigo-400 transition-all"
+            className="w-full h-1.5 bg-surface-border rounded-lg appearance-none cursor-pointer accent-brand-primary hover:accent-brand-primary/80 transition-all"
           />
         </div>
 
         {/* Buttons Row */}
-        <div className="flex items-center justify-between text-white text-xs">
+        <div className="flex items-center justify-between text-text-primary text-xs">
           <div className="flex items-center gap-3">
             <button
               onClick={togglePlay}
-              className="p-1 hover:text-indigo-400 transition-colors"
+              className="p-1 hover:text-brand-primary transition-colors"
               title={isPlaying ? "Pause" : "Play"}
             >
               {isPlaying ? <Pause className="h-5 w-5" /> : <Play className="h-5 w-5 fill-current" />}
@@ -266,7 +265,7 @@ export function UnifiedPlayer({
               onClick={() => {
                 if (videoRef.current) videoRef.current.currentTime -= 10;
               }}
-              className="p-1 hover:text-indigo-400 transition-colors"
+              className="p-1 hover:text-brand-primary transition-colors"
               title="Rewind 10 seconds"
             >
               <RotateCcw className="h-4 w-4" />
@@ -275,11 +274,11 @@ export function UnifiedPlayer({
             <div className="flex items-center gap-1.5">
               <button
                 onClick={toggleMute}
-                className="p-1 hover:text-indigo-400 transition-colors"
+                className="p-1 hover:text-brand-primary transition-colors"
                 title={isMuted ? "Unmute" : "Mute"}
               >
                 {isMuted || volume === 0 ? (
-                  <VolumeX className="h-4 w-4" />
+                  <VolumeX className="h-4 w-4 text-text-secondary" />
                 ) : (
                   <Volume2 className="h-4 w-4" />
                 )}
@@ -291,11 +290,11 @@ export function UnifiedPlayer({
                 step={0.05}
                 value={isMuted ? 0 : volume}
                 onChange={handleVolumeChange}
-                className="w-16 h-1 bg-gray-700 rounded appearance-none cursor-pointer accent-indigo-500"
+                className="w-16 h-1 bg-surface-border rounded appearance-none cursor-pointer accent-brand-primary"
               />
             </div>
 
-            <span className="font-mono text-gray-300 ml-2 text-[11px]">
+            <span className="font-mono text-text-secondary ml-2 text-[11px]">
               {formatTime(currentTime)} / {formatTime(duration)}
             </span>
           </div>
@@ -308,18 +307,18 @@ export function UnifiedPlayer({
                   setShowSpeedMenu(!showSpeedMenu);
                   setShowQualityMenu(false);
                 }}
-                className="px-2 py-1 rounded bg-gray-800/90 hover:bg-gray-700 font-semibold text-[11px] text-gray-200"
+                className="px-2 py-1 rounded-lg bg-surface-dark border border-surface-border hover:bg-surface-border font-mono font-semibold text-[11px] text-text-primary transition-colors"
               >
                 {playbackRate}x
               </button>
               {showSpeedMenu && (
-                <div className="absolute bottom-8 right-0 bg-gray-900 border border-gray-800 rounded-lg shadow-2xl py-1 w-20 z-20">
+                <div className="absolute bottom-9 right-0 bg-surface-dark border border-surface-border rounded-xl shadow-2xl py-1 w-20 z-20">
                   {[0.75, 1, 1.25, 1.5, 2].map((rate) => (
                     <button
                       key={rate}
                       onClick={() => changePlaybackRate(rate)}
-                      className={`w-full px-3 py-1 text-left text-xs hover:bg-indigo-600/30 ${
-                        playbackRate === rate ? "text-indigo-400 font-bold" : "text-gray-300"
+                      className={`w-full px-3 py-1 text-left text-xs font-mono hover:bg-brand-primary/10 ${
+                        playbackRate === rate ? "text-brand-primary font-bold" : "text-text-secondary"
                       }`}
                     >
                       {rate}x
@@ -329,7 +328,7 @@ export function UnifiedPlayer({
               )}
             </div>
 
-            {/* Quality Selector (for Multi-bitrate HLS) */}
+            {/* Quality Selector */}
             {availableLevels.length > 0 && (
               <div className="relative">
                 <button
@@ -337,14 +336,14 @@ export function UnifiedPlayer({
                     setShowQualityMenu(!showQualityMenu);
                     setShowSpeedMenu(false);
                   }}
-                  className="p-1 hover:text-indigo-400 transition-colors"
+                  className="p-1 hover:text-brand-primary transition-colors text-text-secondary"
                   title="Quality Settings"
                 >
                   <Settings className="h-4 w-4" />
                 </button>
                 {showQualityMenu && (
-                  <div className="absolute bottom-8 right-0 bg-gray-900 border border-gray-800 rounded-lg shadow-2xl py-1 w-28 z-20 text-xs">
-                    <div className="px-3 py-1 font-bold text-gray-500 border-b border-gray-800 text-[10px] uppercase">
+                  <div className="absolute bottom-9 right-0 bg-surface-dark border border-surface-border rounded-xl shadow-2xl py-1 w-28 z-20 text-xs">
+                    <div className="px-3 py-1 font-mono font-bold text-text-secondary border-b border-surface-border text-[10px] uppercase">
                       Quality
                     </div>
                     <button
@@ -352,12 +351,12 @@ export function UnifiedPlayer({
                         setCurrentLevelIndex(-1);
                         setShowQualityMenu(false);
                       }}
-                      className={`w-full px-3 py-1.5 text-left hover:bg-indigo-600/30 flex items-center justify-between ${
-                        currentLevelIndex === -1 ? "text-indigo-400 font-bold" : "text-gray-300"
+                      className={`w-full px-3 py-1.5 text-left hover:bg-brand-primary/10 flex items-center justify-between font-mono ${
+                        currentLevelIndex === -1 ? "text-brand-primary font-bold" : "text-text-secondary"
                       }`}
                     >
                       <span>Auto</span>
-                      {currentLevelIndex === -1 && <CheckCircle2 className="h-3 w-3" />}
+                      {currentLevelIndex === -1 && <CheckCircle2 className="h-3 w-3 text-brand-primary" />}
                     </button>
                     {availableLevels.map((lvl, idx) => (
                       <button
@@ -366,12 +365,12 @@ export function UnifiedPlayer({
                           setCurrentLevelIndex(idx);
                           setShowQualityMenu(false);
                         }}
-                        className={`w-full px-3 py-1.5 text-left hover:bg-indigo-600/30 flex items-center justify-between ${
-                          currentLevelIndex === idx ? "text-indigo-400 font-bold" : "text-gray-300"
+                        className={`w-full px-3 py-1.5 text-left hover:bg-brand-primary/10 flex items-center justify-between font-mono ${
+                          currentLevelIndex === idx ? "text-brand-primary font-bold" : "text-text-secondary"
                         }`}
                       >
                         <span>{lvl.height}p</span>
-                        {currentLevelIndex === idx && <CheckCircle2 className="h-3 w-3" />}
+                        {currentLevelIndex === idx && <CheckCircle2 className="h-3 w-3 text-brand-primary" />}
                       </button>
                     ))}
                   </div>
@@ -382,7 +381,7 @@ export function UnifiedPlayer({
             {/* Fullscreen Button */}
             <button
               onClick={toggleFullscreen}
-              className="p-1 hover:text-indigo-400 transition-colors"
+              className="p-1 hover:text-brand-primary transition-colors"
               title="Toggle Fullscreen"
             >
               {isFullscreen ? <Minimize className="h-4 w-4" /> : <Maximize className="h-4 w-4" />}
