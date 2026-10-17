@@ -1,15 +1,12 @@
-from app.models.models import (
-    Branch,
+from app.models.subject import Branch, Subject, Unit, JSONType
+from app.models.video import (
     ChannelWhitelist,
-    JSONType,
     QuotaLog,
-    Subject,
-    Unit,
-    UserProgress,
     Video,
     VideoClassification,
     VideoTranscript,
 )
+from app.models.user_progress import UserProgress
 
 __all__ = [
     "Branch",
