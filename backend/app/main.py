@@ -6,7 +6,7 @@ from fastapi.responses import JSONResponse
 
 from app.api.v1.api import api_router
 from app.core.config import get_settings
-from app.core.database import async_session_factory, engine, Base
+from app.core.database import async_session_factory, engine, Base, switch_to_sqlite_fallback
 from app.services.taxonomy_service import seed_taxonomy
 from app.services.youtube_service import QuotaExceededError
 
@@ -22,8 +22,12 @@ settings = get_settings()
 async def lifespan(app: FastAPI):
     """Application lifespan: initialize schemas and seed official AKTU taxonomy."""
     logger.info("Initializing database tables and constraints...")
-    async with engine.begin() as conn:
-        await conn.run_sync(Base.metadata.create_all)
+    try:
+        async with engine.begin() as conn:
+            await conn.run_sync(Base.metadata.create_all)
+    except Exception as e:
+        logger.warning(f"Primary database connection failed ({e}). Switching to local SQLite fallback.")
+        await switch_to_sqlite_fallback()
 
     logger.info("Seeding official AKTU B.Tech curriculum taxonomy...")
     async with async_session_factory() as session:
