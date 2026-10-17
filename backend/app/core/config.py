@@ -18,7 +18,7 @@ class Settings(BaseSettings):
     DEBUG: bool = True
 
     # Database & Redis
-    DATABASE_URL: str = "postgresql+asyncpg://postgres:postgres@localhost:5432/aktu_stream"
+    DATABASE_URL: str = "sqlite+aiosqlite:///./aktu_stream.db"
     REDIS_URL: str = "redis://localhost:6379/0"
 
     # AI & Gemini API
