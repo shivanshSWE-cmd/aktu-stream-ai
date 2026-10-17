@@ -1,0 +1,38 @@
+[project]
+name = "aktu-stream-ai-backend"
+version = "1.0.0"
+description = "AKTU Stream AI - Enterprise Educational Video Streaming Backend"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.30.0",
+    "pydantic>=2.9.0",
+    "pydantic-settings>=2.5.0",
+    "sqlalchemy>=2.0.35",
+    "asyncpg>=0.29.0",
+    "alembic>=1.13.0",
+    "pgvector>=0.3.5",
+    "google-genai>=2.30.1",
+    "google-api-python-client>=2.147.0",
+    "youtube-transcript-api>=0.6.2",
+    "boto3>=1.35.0",
+    "aioboto3>=13.2.0",
+    "redis>=5.1.0",
+    "arq>=0.26.0",
+    "python-multipart>=0.0.12",
+    "httpx>=0.27.2",
+]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "W", "UP", "B", "C4"]
+ignore = ["E501"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+python_files = ["test_*.py"]

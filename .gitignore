@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Build Outputs
+.next/
+out/
+build/
+dist/
+
+# Test & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Database & Storage
+*.sqlite3
+*.db
+/postgres_data/
+/redis_data/
+/minio_data/
+
+# OS Files
+.DS_Store
+Thumbs.db
