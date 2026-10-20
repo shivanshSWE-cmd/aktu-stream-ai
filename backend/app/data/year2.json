@@ -1,0 +1,1396 @@
+{
+  "title": "AKTU B.Tech 2nd Year Notes & PYQ",
+  "subjectMeta": {
+    "maths4": {
+      "title": "Engineering Mathematics IV",
+      "icon": "📐",
+      "badge": "Maths 4"
+    },
+    "coa": {
+      "title": "Computer Organization & Architecture",
+      "icon": "💻",
+      "badge": "COA"
+    },
+    "DSTL": {
+      "title": "Discrete Structures & Theory of Logic",
+      "icon": "🔢",
+      "badge": "DSTL"
+    },
+    "Python": {
+      "title": "Python Programming",
+      "icon": "🐍",
+      "badge": "Python"
+    },
+    "TC": {
+      "title": "Technical Communication",
+      "icon": "🗣️",
+      "badge": "TC"
+    },
+    "DSA": {
+      "title": "Data Structures & Algorithms",
+      "icon": "🌳",
+      "badge": "DSA"
+    },
+    "OS": {
+      "title": "Operating Systems",
+      "icon": "⚙️",
+      "badge": "OS"
+    },
+    "TAFL": {
+      "title": "Theory of Automata & Formal Languages",
+      "icon": "🤖",
+      "badge": "TAFL"
+    },
+    "JAVA": {
+      "title": "Java Programming",
+      "icon": "☕",
+      "badge": "JAVA"
+    },
+    "humanValues": {
+      "title": "Universal Human Values",
+      "icon": "🕊️",
+      "badge": "Human Values"
+    },
+    "cyberSecurity": {
+      "title": "Cyber Security",
+      "icon": "🛡️",
+      "badge": "Cyber Security"
+    },
+    "electronics": {
+      "title": "Electronics Engineering",
+      "icon": "🔌",
+      "badge": "Electronics"
+    },
+    "energyScience": {
+      "title": "Energy Science & Engineering",
+      "icon": "⚡",
+      "badge": "Energy Science"
+    },
+    "dsd": {
+      "title": "Digital System Design",
+      "icon": "💾",
+      "badge": "DSD"
+    }
+  },
+  "subjects": {
+    "maths4": {
+      "units": {
+        "unit1": {
+          "lectures": {
+            "oneshot_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/43b005d6-b7c9-46df-9027-393ec5f7b1ab.pdf",
+            "combined_dpp_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/446cf62c-9dae-4444-9ce4-461b7d996341.pdf",
+            "combined_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/53839497-c08a-4072-8475-620b07292222.pdf",
+            "lec1_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/c4f61aff-fa15-4ff3-8d7d-18df4c5c8bc4.pdf",
+            "lec2_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/e18f36f7-bf49-48f6-8e71-f1091220ec50.pdf",
+            "lec3_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/1e50fb8a-9f49-44f3-900a-69401e4721f9.pdf",
+            "lec4_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/597890b3-afd2-43ee-acd8-0c675c7e939c.pdf",
+            "lec5_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/f35a3811-d4d8-4dd2-a10a-37ecbfdb4961.pdf",
+            "lec6_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/05f721e2-b138-415c-b35a-df7a4609fcb4.pdf",
+            "dpp6_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/4f85fd2c-790e-4d97-8314-7d146ab40655.pdf",
+            "lec7_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/115cf4f5-75cf-46ef-b55a-de808e0cd5af.pdf",
+            "dpp7_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/63611d54-2a46-4b7d-886e-ceba28d3f206.pdf",
+            "lec8_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/421bf507-5436-4973-8a6d-0696829375fd.pdf",
+            "dpp8_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/e5c78246-9d93-46f4-a700-72c9e4d182b1.pdf",
+            "lec9_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/64236d43-bdc0-4ba1-bda5-a2563d621cd8.pdf",
+            "dpp9_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/6cfe67ec-2c29-4105-b148-8ac214ce9795.pdf",
+            "lec10_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/5d3a98b1-1b76-4a80-836f-1f6c75aa2224.pdf",
+            "dpp10_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/f2022121-ecd2-4c8e-ac30-138c65fb76be.pdf",
+            "lec11_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/f2c8b11c-38f1-4baa-9fe8-508b71917ff8.pdf",
+            "dpp11_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/bba2bf6c-c1bb-4f75-8fc5-11ba2cc415d1.pdf",
+            "lec12_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/c32dc053-c48e-426e-99d0-83b2a004f997.pdf",
+            "dpp12_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/0f8794ad-1cbd-40a3-9605-bad8e574dd33.pdf",
+            "lec13_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/9ff99a41-4fa6-4e75-a2c0-791856c042d8.pdf",
+            "dpp13_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/caf201e9-40aa-4036-bbc0-3f97a0ee11a7.pdf",
+            "lec14_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/8d09f8a7-89e3-44ef-a550-42e5fe0f4709.pdf",
+            "dpp14_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/39a27d44-7eda-43b6-87ac-c3800b44de0c.pdf",
+            "lec15_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/d5e0e0f7-f96c-4125-a29d-adb40d4c8c9c.pdf",
+            "dpp15_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/f55628cf-9b98-4f2e-8f87-8d6956ce991d.pdf"
+          }
+        },
+        "unit2": {
+          "lectures": {
+            "oneshot_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/e74ac578-4597-46d5-a24b-7bc7a0be755b.pdf",
+            "combined_dpp_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/1cafb2aa-c939-44d4-9ad4-0b492e6e3a45.pdf",
+            "combined_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/5de22e89-e9b2-41d1-9512-592b3d08f33d.pdf",
+            "lec1_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/297c07d3-78ec-4430-a30b-b28623267bd9.pdf",
+            "dpp1_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/239c8542-486f-4e79-842c-288f23f278f9.pdf",
+            "lec2_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/7078351b-b652-4e2e-9998-19d24a348926.pdf",
+            "dpp2_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/eb1a0439-cbe3-4956-bb68-4b69e71b8bf2.pdf",
+            "lec3_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/993a9764-aecf-4624-ace2-1c5aa7708708.pdf",
+            "dpp3_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/7dbbd735-5bb8-4b94-85ab-fabca9233b66.pdf",
+            "lec4_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/0654ca30-629a-44da-bfec-cd8ef81bbe9e.pdf",
+            "dpp4_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/23ecfb55-33e0-4330-969e-adedd44aece4.pdf",
+            "lec5_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/2f4fc635-eff6-4f09-a355-f0bfa15cf8e3.pdf",
+            "dpp5_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/f26584b8-622e-4109-87ab-10c505647c9d.pdf",
+            "lec6_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/cd31957d-b873-4639-8e79-50abc6af4696.pdf",
+            "dpp6_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/8df4a75d-1577-4226-a3e2-13ec1780fa9c.pdf",
+            "lec7_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/175ca206-96a2-4b33-86ad-402b8c11b1a0.pdf",
+            "dpp7_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/59f96e3e-4b32-4327-b635-ec022dc79fc3.pdf",
+            "lec8_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/e92517ec-d8ed-4907-9670-b0baab5a8a79.pdf",
+            "dpp8_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/777a6717-06a2-48be-bed6-ab3fda1ea320.pdf",
+            "lec9_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/78f3e081-d2ed-410b-94e2-94be481f678f.pdf",
+            "dpp9_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/4f9a4e1c-00cf-43bb-a663-1233b20032f2.pdf",
+            "lec10_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/2f46235f-f0bc-42ce-985a-9977de9de1a1.pdf",
+            "dpp10_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/aa130c4d-db39-4299-9ecd-eecff4922d0b.pdf",
+            "lec11_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/ba38413b-009f-42df-bb39-a9762d118eb4.pdf",
+            "dpp11_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/90bbaa2c-fac2-4beb-9475-979cd9c69bb0.pdf",
+            "lec12_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/fd50e144-f2f1-4253-9b81-a72e302f9328.pdf",
+            "dpp12_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/bf89b3bf-84a6-4587-aaa1-035f21cfdef6.pdf",
+            "lec13_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/07e6aced-3589-49b7-9c99-0efbcd963c4d.pdf",
+            "dpp13_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/9a21accf-5406-469d-be08-a17b69d27130.pdf"
+          }
+        },
+        "unit3": {
+          "name": "Unit 3",
+          "lectures": {
+            "oneshot_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/d3f1aeae-53eb-4388-af4f-5546c9f16aad.pdf",
+            "handwritten_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/7920e8a0-29d1-4756-83be-d2b97de86a79.pdf",
+            "combined_dpp_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/20c65d84-78a7-4086-8f62-be4e3d3566dd.pdf",
+            "combined_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/52c60c83-0803-46ab-b83b-9d1b5c138f3f.pdf",
+            "lec1": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/789994bd-690b-4d72-af31-8aad661ccb01.pdf",
+            "dpp1": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/97abf0d5-1325-48a8-8f32-5d6651c42d19.pdf",
+            "lec2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/ddec78a0-3e5c-4eaf-a665-6ff8bce3f189.pdf",
+            "dpp2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/fe828353-8ac7-4c19-8c23-a53ec4e452fc.pdf",
+            "lec3": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/27251c55-bc37-4628-9483-ba7f0141f051.pdf",
+            "dpp3": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/14939f8a-ac7a-4af5-97d0-83a02e019940.pdf",
+            "lec4": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/c5a9b41b-52a2-429f-a3c3-82d1429febc0.pdf",
+            "dpp4": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/d94e8d66-9b27-47d1-bf77-14f00bef0a65.pdf",
+            "lec5": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/a14c7792-67a5-415b-8111-48236b2159c0.pdf",
+            "dpp5": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/9c2a1d64-d800-411d-bac9-4951d8fbddf1.pdf",
+            "lec6": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/d49332ca-3ae2-471b-ad1d-411938007150.pdf",
+            "dpp6": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/fc32b4cc-c137-412d-97c0-f6332c422589.pdf",
+            "lec7": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/e9340bc9-6c22-496a-a4fd-7aa0bcd7a9f4.pdf",
+            "dpp7": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/9caace4a-ccae-4f7a-b27e-a40933d305d5.pdf",
+            "lec8": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/bdecddcf-b782-47ca-ba8b-bf28b921da86.pdf",
+            "dpp8": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/4855668f-779a-4ddb-ac11-e18b4ed9b6f1.pdf",
+            "lec9": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/ac2422ff-090a-4133-a6b7-f2aa5c32ac72.pdf",
+            "dpp9": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/b900538c-afff-4483-887e-6a1dc71cb31a.pdf",
+            "lec10": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/281d14a5-af95-4ab1-a713-cbe841cec2d4.pdf",
+            "dpp10": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/9e81bb1b-dd9f-4de8-9fc9-c3b67f03b4a9.pdf",
+            "lec11": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/103ca940-eab5-4301-81b6-162fdf08b8c5.pdf",
+            "dpp11": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/f1f24919-9f81-4f62-af81-dea7c20f95da.pdf"
+          }
+        },
+        "unit4": {
+          "name": "Unit 4",
+          "lectures": {
+            "oneshot_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/7b5ba8cf-fc70-4796-99f4-af86a329d0f4.pdf",
+            "combined_dpp_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/e6d939aa-c8aa-4548-949b-0b5b2fa20555.pdf",
+            "handwritten_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/66e672c0-2546-46e2-9017-511ccd3e73b3.pdf",
+            "combined_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/01d12c84-5098-436d-a3e0-bedcf573313a.pdf",
+            "lec1_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/a921883f-f5cf-4aea-bd41-f497346240dc.pdf",
+            "dpp1": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/abc91ab0-8405-48f5-a8fb-9868e639495e.pdf",
+            "lec2_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/3ca88eb0-d2fa-49f7-82c0-2ae503f0bd60.pdf",
+            "dpp2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/084fc51b-f0fa-4fd4-8181-605b1a782df4.pdf",
+            "lec3_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/a3be60db-311b-4008-bd05-5c6e4e687f36.pdf",
+            "dpp3": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/36da65ad-e34a-4030-8467-2134c8ad5aaf.pdf",
+            "lec4_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/2b6647f2-bf8a-4591-b637-d1e2924c0328.pdf",
+            "dpp4": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/80731dcd-fd1e-4326-8112-4f1ca8ad827a.pdf",
+            "lec5_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/8fe4713d-43bd-445d-b296-f2c95a36d26d.pdf",
+            "dpp5": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/ee8fe1ef-2b77-44f9-b398-344a0c9c07c9.pdf",
+            "lec6_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/642d49ba-c40f-4510-ab4b-0f438eced0a7.pdf",
+            "dpp6": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/1d05a749-e766-4bf3-b254-a13be6f1300e.pdf",
+            "lec7_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/b6b924d7-2eb9-4366-a01d-2b63655402ff.pdf",
+            "dpp7": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/79e766b8-9d12-4025-bf1d-c9759fad7e76.pdf",
+            "lec8_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/45f6c6eb-6c84-4db4-be85-a7f45e863948.pdf",
+            "dpp8": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/83ebde9d-50f5-4653-81df-f0a6a10270c2.pdf",
+            "lec9_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/aa020cfc-0469-4591-84d4-8e0cc71c8812.pdf",
+            "dpp9": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/cfe6e134-11cb-4f24-a192-8e7b4cc379c5.pdf"
+          }
+        },
+        "unit5": {
+          "name": "Unit 5",
+          "lectures": {
+            "oneshot_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/4cab52c7-1db6-4b51-be23-55c6a5921107.pdf",
+            "combined_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/483fb160-dc4a-4ae8-a014-3f5c55551ec3.pdf",
+            "lec1": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/f9a5a9e6-fd99-451d-b279-57166689ae53.pdf",
+            "lec2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/8643b1cc-87dc-4450-a5fb-9516d2b7e90c.pdf",
+            "dpp2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/9405ae73-754e-4a73-87c6-003c3f3b8e8b.pdf",
+            "lec3": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/adb150fb-4588-4c48-be57-c543bb6e5c9b.pdf",
+            "dpp3": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/2eb59c92-d033-40fe-99b0-f9e8b31ca05b.pdf",
+            "lec4_updated": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/8557f8c3-ec96-4745-b64c-da8e9c76b8d6.pdf",
+            "dpp4": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/fd556a42-2404-4249-a83f-7836c7e456e3.pdf",
+            "lec5": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/cbbce176-7a8a-45dd-b85a-f4cd70b4707c.pdf",
+            "dpp5": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/e1512fb9-9cc6-4604-826c-55208c3b151c.pdf",
+            "lec6": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/f69bd857-9bd6-42f5-a065-6e41ebf7c337.pdf",
+            "dpp6": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/3a3692d9-d74f-4c0b-b933-565ef1cef704.pdf",
+            "lec7": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/c647a2b5-5cdc-41e5-99a4-ffbb861fedcd.pdf",
+            "dpp7": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/bef02274-0a14-47a3-a829-a5c59df33b61.pdf",
+            "lec8": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/2ea72d77-038e-4fb8-bf6f-49b684e7c9c8.pdf",
+            "dpp8": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/b7bffe78-de83-49c8-8696-bdccce173b8d.pdf",
+            "lec9": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/776a309c-6880-4da3-a07e-007c1fa71130.pdf"
+          }
+        }
+      }
+    },
+    "coa": {
+      "units": {
+        "unit1": {
+          "name": "Unit 1",
+          "lectures": {
+            "imp_questions": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/9eef5a2f-aef0-4d08-a663-6015f5822c1e.pdf",
+            "one_shot_notes_1": "https://cdn-wl-assets.classplus.co/production/436362/c87ed131-ab70-471e-8774-cdf292019c51.pdf",
+            "one_shot_notes_2": "https://cdn-wl-assets.classplus.co/production/436362/7cef9ee7-4298-44ba-9f20-dbabb6246391.pdf",
+            "handwritten_notes": "https://cdn-wl-assets.classplus.co/production/436362/0f5a0ced-e869-4c3e-9615-4fd69f919340.pdf",
+            "combined_notes": "https://cdn-wl-assets.classplus.co/production/436362/4bd585a3-02f4-4adb-b881-fc619dadf270.pdf",
+            "lec1_notes": "https://cdn-wl-assets.classplus.co/production/436362/14d08bfa-f33a-4a54-b418-e369146376bd.pdf",
+            "lec2_notes": "https://cdn-wl-assets.classplus.co/production/436362/a9931181-9d9d-4162-8a22-f56cac4658bd.pdf",
+            "lec3_notes": "https://cdn-wl-assets.classplus.co/production/436362/fff79427-84d8-490a-a146-3d749eebf8c3.pdf",
+            "lec4_notes": "https://cdn-wl-assets.classplus.co/production/436362/6d027c26-e966-4669-905d-7f0f1b417d00.pdf",
+            "lec5_notes": "https://cdn-wl-assets.classplus.co/production/436362/8e9368c2-ebc0-41e6-9faa-f25e6bd268dc.pdf",
+            "lec6_notes": "https://cdn-wl-assets.classplus.co/production/436362/4dd714de-d5f0-4b3c-82e3-92f11bca1126.pdf",
+            "lec7_notes": "https://cdn-wl-assets.classplus.co/production/436362/29aa7e67-c2be-476c-ae17-31edcb2790bb.pdf",
+            "lec8_notes": "https://cdn-wl-assets.classplus.co/production/436362/aa12a691-fbcc-4a30-8a4f-2260d31a4e43.pdf"
+          }
+        },
+        "unit2": {
+          "name": "Unit 2",
+          "lectures": {
+            "one_shot_notes_1": "https://cdn-wl-assets.classplus.co/production/436362/c63a4d5d-6573-40d1-9c80-6e9c1cc2b5bd.pdf",
+            "one_shot_notes_2": "https://cdn-wl-assets.classplus.co/production/436362/b1e502cd-2e7b-4dad-96ed-a4b0dbba2672.pdf",
+            "combined_notes": "https://cdn-wl-assets.classplus.co/production/436362/89ddcc8b-d3ee-4dfe-82ef-05ba8ab1387c.pdf",
+            "handwritten_notes": "https://cdn-wl-assets.classplus.co/production/436362/886b0fd1-3cc0-4e31-86eb-8d9d4abd5925.pdf",
+            "lec1_notes": "https://cdn-wl-assets.classplus.co/production/436362/bc70b75d-168c-4215-8099-9b304bb58f35.pdf",
+            "lec2_notes": "https://cdn-wl-assets.classplus.co/production/436362/75aa4b77-12e8-4363-b058-78679375efaf.pdf",
+            "lec3_notes": "https://cdn-wl-assets.classplus.co/production/436362/18bd6b5e-93fb-4b72-93b5-55b4b6ad8e00.pdf",
+            "lec4_notes": "https://cdn-wl-assets.classplus.co/production/436362/952ca8a8-ab4c-470a-a4ad-27094c76aa78.pdf",
+            "lec5_notes": "https://cdn-wl-assets.classplus.co/production/436362/e595ab31-e64e-4615-b936-634d7bd77e16.pdf",
+            "lec6_notes": "https://cdn-wl-assets.classplus.co/production/436362/83df4f15-6ee7-4163-90e0-f0fec298782d.pdf",
+            "lec7_notes": "https://cdn-wl-assets.classplus.co/production/436362/4993422f-e953-4e22-8bf4-8295d67c2cc6.pdf",
+            "lec8_notes": "https://cdn-wl-assets.classplus.co/production/436362/fbb47e33-6090-46b2-8f25-76a2fa034c95.pdf",
+            "lec9_notes": "https://cdn-wl-assets.classplus.co/production/436362/529e60dd-05f1-47f8-a1e8-b6ae37ba52dd.pdf",
+            "lec10_notes": "https://cdn-wl-assets.classplus.co/production/436362/c3c95813-c1a9-4436-8171-ecd7a1c9db2c.pdf"
+          }
+        },
+        "unit3": {
+          "name": "Unit 3",
+          "lectures": {
+            "one_shot_notes": "https://cdn-wl-assets.classplus.co/production/436362/911efec0-35ee-4975-83d5-617c985801ed.pdf",
+            "handwritten_notes": "https://cdn-wl-assets.classplus.co/production/436362/a10db096-5018-4373-b7b7-dba6a62c0e2c.pdf",
+            "combined_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/c33c6215-b4cc-40dd-9759-2646555b6487.pdf",
+            "lec1_4_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/ebd68ee7-0da1-48b9-b667-e9b9da50a839.pdf",
+            "lec5_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/eb36ecd8-97d2-41ed-ba01-7612c575cdb6.pdf",
+            "lec6_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/cd2fd34c-76d7-47f8-a49c-51fc89df374d.pdf",
+            "lec7_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/c0043776-709c-4e2e-9f2e-b307f620bb6a.pdf",
+            "lec8_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/b0606af6-6825-4185-8f30-166caeafe58e.pdf",
+            "lec9_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/7af38caf-fc4f-45dc-b390-e56b4ea79de1.pdf",
+            "lec10_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/2ee3fab9-3eb9-4f87-b66d-608685b5a5fe.pdf",
+            "lec11_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/ec853e20-2800-47d8-8e09-2963cbbd3efc.pdf",
+            "lec12_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/28b2515f-4a94-443f-af27-539ef373caae.pdf",
+            "lec13_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/fb449b79-5df6-4f73-8d71-9e6b5cbec63c.pdf"
+          }
+        },
+        "unit4": {
+          "name": "Unit 4",
+          "lectures": {
+            "one_shot_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/6e1473f1-e34c-4f6d-9677-595d72c8860f.pdf",
+            "handwritten_notes": "https://cdn-wl-assets.classplus.co/production/436362/02d9c355-cf83-4a3e-805f-2ea01aa7b2ec.pdf",
+            "combined_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/390c5135-e982-4974-baea-ce5aa9ccdb5f.pdf",
+            "lec1_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/d9fc0e17-ffe7-4c89-a469-7d039312e411.pdf",
+            "lec2_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/283908f4-5905-437b-8275-7a74eb22e76a.pdf",
+            "lec3_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/01942368-a934-41f3-bb40-f2a2d2a03085.pdf",
+            "lec4_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/8f61e1d0-ce92-4367-91d4-3938b9e3af13.pdf",
+            "lec5_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/f1d2e734-f3ce-48cb-87b2-c9cd6989f3a4.pdf",
+            "lec6_7_8_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/54c7feb4-f035-43c4-8b0e-85591718a823.pdf",
+            "lec9_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/033addfb-bdd6-42c6-91e1-5db89fde6cd7.pdf",
+            "lec10_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/c03865e1-2b8c-48ca-8410-fabca1b35632.pdf"
+          }
+        },
+        "unit5": {
+          "name": "Unit 5",
+          "lectures": {
+            "one_shot_notes": "https://cdn-wl-assets.classplus.co/production/436362/6b5f805f-2f9c-4f8f-aa66-620fa9b7cfa3.pdf",
+            "combined_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/393be644-ca57-4c3a-92a7-f0f364723386.pdf",
+            "lec1_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/1c40a442-102d-426a-9d1d-d677b80606fe.pdf",
+            "lec2_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/24e6af47-26e0-4884-9efa-8d3ee17dbbfe.pdf",
+            "lec3_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/9613ddc3-2f1b-402c-bcbb-36004a63500e.pdf",
+            "lec4_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/88a83076-80e4-49d3-a0aa-3ae64723e30d.pdf",
+            "lec5_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/24f8f30a-d429-4320-9d48-74bf10494e81.pdf",
+            "lec6_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/6a84aa41-18b3-4d7f-a4ee-f63463ab08ee.pdf"
+          }
+        }
+      }
+    },
+    "DSTL": {
+      "units": {
+        "unit1": {
+          "name": "Unit 1",
+          "lectures": {
+            "one_shot_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/284a9303-5c3f-45ef-bd10-b69ece5bcc84.pdf",
+            "combined_dpp_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/1f48441a-5969-45ff-a1a7-fde5929cae19.pdf",
+            "combined_notes": "https://cdn-wl-assets.classplus.co/production/436362/6fa59cd3-4ad9-4fce-bee3-39007a9eefbe.pdf",
+            "lec_1_notes": "https://cdn-wl-assets.classplus.co/production/436362/86eaf4d4-390d-4718-8a3e-977087554b68.pdf",
+            "lec_2_notes": "https://cdn-wl-assets.classplus.co/production/436362/4190b0e7-7f2e-4520-bbb3-ccb0296f7a6b.pdf",
+            "lec_3_notes": "https://cdn-wl-assets.classplus.co/production/436362/ff6e62fd-6d2d-437f-93e7-516f597a2d20.pdf",
+            "lec_4_notes": "https://cdn-wl-assets.classplus.co/production/436362/42834b15-a9c6-4777-accf-3bdbf7908eef.pdf",
+            "lec_5_notes": "https://cdn-wl-assets.classplus.co/production/436362/6d096536-e888-40e3-86a9-b81c7121cff2.pdf",
+            "lec_6_notes": "https://cdn-wl-assets.classplus.co/production/436362/3aed3f67-4426-47d3-a297-4cf393f003e3.pdf",
+            "lec_7_notes": "https://cdn-wl-assets.classplus.co/production/436362/ad36fdd8-5bf7-4288-a70c-24ad9084ebd6.pdf",
+            "lec_8_notes": "https://cdn-wl-assets.classplus.co/production/436362/09a55233-2fb9-4a88-a1fd-6bbbcff1dcfb.pdf",
+            "lec_9_notes": "https://cdn-wl-assets.classplus.co/production/436362/a4c73230-9ef9-4662-b45a-318e860ba524.pdf",
+            "dpp_9_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/be4e1a6e-96fa-4a1b-8a8c-145f758dd34b.pdf",
+            "lec_10_notes": "https://cdn-wl-assets.classplus.co/production/436362/58e3d5a8-c5b4-4320-b716-f7c1caf57e04.pdf",
+            "dpp_10_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/bd70d1cc-5c37-468a-a317-9f0560403517.pdf",
+            "lec_11_notes": "https://cdn-wl-assets.classplus.co/production/436362/5758ffcd-3656-4a39-939d-6cf0a507ba20.pdf",
+            "dpp_11_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/032360b4-240d-4b75-a9b0-e2d6721780c9.pdf",
+            "lec_12_notes": "https://cdn-wl-assets.classplus.co/production/436362/9f58eb41-6b0d-4204-a5e1-11eda36bee3b.pdf",
+            "dpp_12_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/b33a859d-de34-413b-8bd6-cc2ee17ea26b.pdf",
+            "lec_13_notes": "https://cdn-wl-assets.classplus.co/production/436362/9f8e7d55-22df-495a-aeb7-e3d36bc5487f.pdf",
+            "dpp_13_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/cfaabf40-e1e2-4c9c-986b-dedb069e5228.pdf",
+            "lec_14_notes": "https://cdn-wl-assets.classplus.co/production/436362/4cf95782-c2b2-4e9f-8603-45ea578a7bb7.pdf",
+            "dpp_14_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/34d80ce4-8955-4fb0-bea8-07cce39f2317.pdf",
+            "lec_15_notes": "https://cdn-wl-assets.classplus.co/production/436362/8ff05c0c-ee28-4bb1-8aae-e3924fcec62c.pdf",
+            "dpp_15_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/017924cf-d77f-431e-8bf2-8cf7f0d71697.pdf",
+            "lec_16_notes": "https://cdn-wl-assets.classplus.co/production/436362/b8fb7d4b-2744-4be0-b39e-684da72b32db.pdf",
+            "dpp_16_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/99395f9c-9c96-48a1-8cfa-2d3f221a0a89.pdf",
+            "hand_written_notes": "https://cdn-wl-assets.classplus.co/production/436362/cac5321a-aae7-486f-9ce0-a371cd2c5ab6.pdf"
+          }
+        },
+        "unit2": {
+          "name": "Unit 2",
+          "lectures": {
+            "one_shot_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/36439ad2-7994-4efc-a7ea-819b7077cbd7.pdf",
+            "combined_dpp_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/ac4cb92e-787c-4afe-992e-b440f8b67953.pdf",
+            "combined_notes": "https://cdn-wl-assets.classplus.co/production/436362/08b4fcd6-841b-442f-8237-c8d56223eace.pdf",
+            "lec_1_notes": "https://cdn-wl-assets.classplus.co/production/436362/b174b294-ee84-4326-8a08-eba418b62381.pdf",
+            "dpp_1_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/74c57572-34ba-414c-ae20-f7a2ab2f938b.pdf",
+            "lec_2_notes": "https://cdn-wl-assets.classplus.co/production/436362/9e5d68a3-04b5-48ee-abcc-8f063e6ebd19.pdf",
+            "dpp_2_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/12bdad19-4f2f-450f-a474-11b261abe6bd.pdf",
+            "lec_3_notes": "https://cdn-wl-assets.classplus.co/production/436362/858dbc01-98b4-47e0-aacf-c8412105c8da.pdf",
+            "dpp_3_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/91d24c50-7d56-4525-ae66-793f6820d5c2.pdf",
+            "lec_4_notes": "https://cdn-wl-assets.classplus.co/production/436362/5b0f551a-f3f2-4bc7-b802-bb947bfd2061.pdf",
+            "lec_5_notes": "https://cdn-wl-assets.classplus.co/production/436362/ed3a89d6-7255-493f-b2ae-43bdc7427dbc.pdf",
+            "lec_6_notes": "https://cdn-wl-assets.classplus.co/production/436362/11db548c-aafd-47f0-8bad-6a648b9853a8.pdf",
+            "dpp_6_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/6b2fe0b2-aa19-4310-8584-7c3cf83cd7ae.pdf",
+            "lec_7_notes": "https://cdn-wl-assets.classplus.co/production/436362/f619a4e8-7a78-4d65-9546-5398fc92602b.pdf",
+            "dpp_7_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/0b551dec-e9cd-4f2a-a819-c26382febe59.pdf",
+            "lec_8_notes": "https://cdn-wl-assets.classplus.co/production/436362/c0610a67-9cb4-4e99-9aec-2c52ebbd49bb.pdf",
+            "dpp_8_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/d7139ec0-c2c4-4596-a5db-9af59883d24c.pdf",
+            "lec_9_notes": "https://cdn-wl-assets.classplus.co/production/436362/2d6b5425-a015-4072-b792-3393abbf699e.pdf",
+            "dpp_9_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/0f675322-3060-4e2d-a621-073fb5feb93b.pdf",
+            "hand_written_notes": "https://cdn-wl-assets.classplus.co/production/436362/304f9477-566c-436a-8b95-59e8302987df.pdf"
+          }
+        },
+        "unit3": {
+          "name": "Unit 3",
+          "lectures": {
+            "one_shot_final_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/332dce8a-21ba-4b07-937b-d8f4b0dd7d62.pdf",
+            "combined_notes": "https://cdn-wl-assets.classplus.co/production/436362/100a243a-b842-4697-ba81-629308d65e65.pdf",
+            "lec_1_notes": "https://cdn-wl-assets.classplus.co/production/436362/4f281436-f06f-4e46-935d-e5d61bdc08a6.pdf",
+            "lec_2_notes": "https://cdn-wl-assets.classplus.co/production/436362/72f366d1-48ea-4d19-9a03-b9ea669418e0.pdf",
+            "dpp_2_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/cbcc8dd1-1095-4a6a-a58c-20d09ad61199.pdf",
+            "lec_3_notes": "https://cdn-wl-assets.classplus.co/production/436362/8bdd80ba-2822-40ad-8d07-2ce783dc79aa.pdf",
+            "dpp_3_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/b50a54de-8802-494d-bbdd-2dcfd09da50a.pdf",
+            "lec_4_notes": "https://cdn-wl-assets.classplus.co/production/436362/ce751b9a-8638-4c0f-91bd-81924732b2e8.pdf",
+            "dpp_4_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/10213830-847d-41a8-867e-601afe313415.pdf",
+            "lec_5_notes": "https://cdn-wl-assets.classplus.co/production/436362/69fef6f0-8dd3-4fb6-812c-7fa7299a6cd1.pdf",
+            "dpp_5_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/96d76a79-0769-4ec6-994d-f1bad1adb86b.pdf",
+            "lec_6_notes": "https://cdn-wl-assets.classplus.co/production/436362/0d34e7c0-f126-4f94-935c-e89c1e7726e3.pdf",
+            "dpp_6_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/fad0a510-1c9f-409b-8a41-e78a58a23510.pdf",
+            "lec_7_notes": "https://cdn-wl-assets.classplus.co/production/436362/1ae1164d-6a0f-4ca5-8567-844c3096ba6f.pdf",
+            "lec_8_notes": "https://cdn-wl-assets.classplus.co/production/436362/2b344cd3-759f-47bd-823e-cf952d06d0a1.pdf",
+            "lec_9_notes": "https://cdn-wl-assets.classplus.co/production/436362/c179963d-1ac0-4b1e-af47-ef16b6b04c1d.pdf",
+            "hand_written_notes": "https://cdn-wl-assets.classplus.co/production/436362/849963c5-9d28-443d-b393-5c797e25b6b0.pdf"
+          }
+        },
+        "unit4": {
+          "name": "Unit 4",
+          "lectures": {
+            "one_shot_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/fca6178e-7477-4b51-bc36-9db93bb6d33d.pdf",
+            "combined_notes": "https://cdn-wl-assets.classplus.co/production/436362/466a37dd-577b-4313-b828-d2e676b6df82.pdf",
+            "combined_dpp_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/bded5cfe-69e1-487e-b8e9-0b8cc3d4eea8.pdf",
+            "pyq_5_year": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/cdb43340-89d1-45c0-ac02-d749f0bd644c.pdf",
+            "lec1_notes": "https://cdn-wl-assets.classplus.co/production/436362/c23d448b-6b8d-4d0b-8c1a-4e18e644ecdd.pdf",
+            "dpp1_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/186e2c39-fb58-4a34-b503-adaea6cd086e.pdf",
+            "lec2_notes": "https://cdn-wl-assets.classplus.co/production/436362/ca1ac721-fcb3-436a-a18e-8e885fd0cdbe.pdf",
+            "dpp2_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/dbb58d39-424f-46ee-be09-d13f5ac1276b.pdf",
+            "lec3_notes": "https://cdn-wl-assets.classplus.co/production/436362/d4647cf6-a289-42c0-a7d0-e5d8d9b53a50.pdf",
+            "dpp3_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/b4b9fd3f-8e43-42a3-b1b7-50e32c4e696f.pdf",
+            "lec4_notes": "https://cdn-wl-assets.classplus.co/production/436362/3180e3ea-14bd-4e9f-afb4-3201ee0ab9d5.pdf",
+            "dpp4_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/90deb3b4-ae0c-4709-a1df-36ebcdaaf749.pdf",
+            "lec5_notes": "https://cdn-wl-assets.classplus.co/production/436362/dbc39364-1d12-43cb-a886-e3d966b47e81.pdf",
+            "dpp5_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/e2797009-71e6-4f8d-8a75-b4d8670a5e98.pdf",
+            "lec6_notes": "https://cdn-wl-assets.classplus.co/production/436362/004f4505-c71b-462b-b660-1846b58360f8.pdf",
+            "dpp6_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/f36b8a4b-92e4-4282-8e13-02d05b827691.pdf",
+            "lec7_notes": "https://cdn-wl-assets.classplus.co/production/436362/f665c4bb-31c1-444d-a943-55fc0c38a7d3.pdf",
+            "dpp7_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/bb7745db-db77-4dff-ae19-1ac4964bcadc.pdf",
+            "lec8_notes": "https://cdn-wl-assets.classplus.co/production/436362/1e7c629e-ff91-404d-b804-bf7e54b9b8ed.pdf",
+            "dpp8_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/0b8a26f0-c568-4ccd-90f2-94e5e71e1867.pdf",
+            "lec9_notes": "https://cdn-wl-assets.classplus.co/production/436362/2938e4a3-1a39-40ab-ba9e-25b7863ee485.pdf",
+            "dpp9_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/189d507f-49f6-4257-a94b-f1d81557f465.pdf",
+            "lec10_notes": "https://cdn-wl-assets.classplus.co/production/436362/b9839d0b-cc6b-4172-b5a7-89a09c90d8b0.pdf",
+            "dpp10_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/6f69a7eb-6a26-480f-9be2-b9ef486e0ba1.pdf",
+            "lec11_notes": "https://cdn-wl-assets.classplus.co/production/436362/6304efcd-b0c5-4d82-a996-7a221bb97aab.pdf",
+            "dpp11_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/99bff5d9-094b-43ca-a897-d46fd1616808.pdf",
+            "lec12_notes": "https://cdn-wl-assets.classplus.co/production/436362/1dee433c-c703-4581-b9c0-356d9f8ad9ff.pdf",
+            "dpp12_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/9698ccf3-b885-48bb-9a0b-675b1f7f9338.pdf"
+          }
+        },
+        "unit5": {
+          "name": "Unit 5",
+          "lectures": {
+            "one_shot_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/f0137fba-917d-4385-97b4-82ccc2a78b40.pdf",
+            "combined_notes": "https://cdn-wl-assets.classplus.co/production/436362/5c294b16-8204-4809-a66c-d711f8d41d7c.pdf",
+            "pyq_5_year": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/54fa2391-6c25-4341-bc8b-71a0e0c2fa0c.pdf",
+            "lec1_notes": "https://cdn-wl-assets.classplus.co/production/436362/0411a1dc-a308-4e2f-985d-d22d96d5b03c.pdf",
+            "dpp1_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/48b8ddf9-5687-4921-8f8d-f76124d2e1f8.pdf",
+            "lec2_notes": "https://cdn-wl-assets.classplus.co/production/436362/45348267-8067-449b-a86e-189ce502a6c9.pdf",
+            "dpp2_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/cae04cd4-9037-4f20-85b9-14bf7107d9f3.pdf",
+            "lec3_notes": "https://cdn-wl-assets.classplus.co/production/436362/b73767a7-df91-4fa3-a169-92c403b999e4.pdf",
+            "dpp3_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/ed785cb4-8c82-4590-ab83-bff8b505eaca.pdf",
+            "lec4_notes": "https://cdn-wl-assets.classplus.co/production/436362/791873f9-a388-4f95-9a6e-4ec137d2a644.pdf",
+            "dpp4_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/7bb6d1a4-cae6-48d5-afdc-f1df593a5c0a.pdf",
+            "lec5_notes": "https://cdn-wl-assets.classplus.co/production/436362/8ee724e4-fe4f-42ab-849c-b6adba67bc5c.pdf",
+            "dpp5_sol": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/934f6552-1013-46d9-a9f1-ac326c47cfa0.pdf",
+            "lec6_notes": "https://cdn-wl-assets.classplus.co/production/436362/18ee6fab-90c1-41e6-8e3d-4f4ca6dc3356.pdf"
+          }
+        }
+      }
+    },
+    "Python": {
+      "units": {
+        "unit1": {
+          "lectures": {
+            "pyq 3 years": "https://cdn-wl-assets.classplus.co/production/436362/7aea77da-f11a-4274-b334-dc14b9f8b433.pdf",
+            "Most_Imp_Questions": "https://cdn-wl-assets.classplus.co/production/436362/0fcb51b5-5953-43b4-a243-a3e740b23246.pdf",
+            "one_shot_notes": "https://cdn-wl-assets.classplus.co/production/436362/8ac96985-d555-4125-8e6d-a13d98d65fb3.pdf",
+            "combined_notes": "https://cdn-wl-assets.classplus.co/production/436362/b8d461ed-5b5e-4216-abca-7459982cba52.pdf",
+            "lec1_notes": "https://cdn-wl-assets.classplus.co/production/436362/e436f090-d714-45e9-8f48-95a27d83c237.pdf",
+            "lec2_notes": "https://cdn-wl-assets.classplus.co/production/436362/462b469e-458d-465f-a92c-ac1803f62fc4.pdf",
+            "lec3_notes": "https://cdn-wl-assets.classplus.co/production/436362/c3f8aff0-29aa-4d27-a0eb-efb4211475bd.pdf",
+            "lec4_notes": "https://cdn-wl-assets.classplus.co/production/436362/49137611-ea4c-4c49-9b2c-b4da944a2638.pdf"
+          }
+        },
+        "unit2": {
+          "lectures": {
+            "one_shot_notes": "https://cdn-wl-assets.classplus.co/production/436362/dffb9609-9798-41d2-a4a9-956711694c62.pdf",
+            "combined_notes": "https://cdn-wl-assets.classplus.co/production/436362/6807f161-f243-47e3-a4d7-06823b4965a4.pdf",
+            "lec1_notes": "https://cdn-wl-assets.classplus.co/production/436362/66928177-92b9-4ee5-963a-0198acf1bdea.pdf",
+            "lec2_notes": "https://cdn-wl-assets.classplus.co/production/436362/636dfb2b-aa2b-4183-810c-1e85acd25cf2.pdf",
+            "lec3_notes": "https://cdn-wl-assets.classplus.co/production/436362/ea9ed261-c166-4478-893c-becbe06a7a9f.pdf",
+            "lec4_notes": "https://cdn-wl-assets.classplus.co/production/436362/290d03f9-2465-485e-9330-91ee0c89d499.pdf",
+            "lec5_notes": "https://cdn-wl-assets.classplus.co/production/436362/8a5ac370-e55d-45a6-8209-cf1ba964e256.pdf",
+            "lec6_notes": "https://cdn-wl-assets.classplus.co/production/436362/72e0dae7-d51c-4eed-bb88-6667550d787e.pdf"
+          }
+        },
+        "unit3": {
+          "lectures": {
+            "one_shot_notes": "https://cdn-wl-assets.classplus.co/production/436362/29472eff-d782-402b-bfb1-bf0b35f9bcbf.pdf",
+            "combined_notes": "https://cdn-wl-assets.classplus.co/production/436362/c1e65fae-4e11-4a08-89c5-b89c793e58d0.pdf",
+            "part1_notes": "https://cdn-wl-assets.classplus.co/production/436362/ea95629a-0341-4c24-a6e1-430c311da7a9.pdf",
+            "string_notes": "https://cdn-wl-assets.classplus.co/production/436362/1951adcc-03d4-4b27-bbb3-9c3ecd0e12eb.pdf",
+            "part2_notes": "https://cdn-wl-assets.classplus.co/production/436362/33443d4f-984e-4629-8d5d-6f13333052fe.pdf",
+            "part3_notes": "https://cdn-wl-assets.classplus.co/production/436362/43a7a850-cce3-42e0-8255-64cd307a95e0.pdf"
+          }
+        },
+        "unit4": {
+          "lectures": {
+            "one_shot_notes": "https://cdn-wl-assets.classplus.co/production/436362/c6ae1452-462b-4c8c-81a5-f2a6172ed368.pdf",
+            "combined_notes": "https://cdn-wl-assets.classplus.co/production/436362/79bdf22a-f11f-4049-b82e-8f7d57171324.pdf",
+            "lec1_notes": "https://cdn-wl-assets.classplus.co/production/436362/93baa04a-ec88-4f44-b9a9-041de6da3ce5.pdf",
+            "lec2_notes": "https://cdn-wl-assets.classplus.co/production/436362/44187043-4ea1-4ef6-84a6-5dfa8dad8154.pdf",
+            "lec3_notes": "https://cdn-wl-assets.classplus.co/production/436362/affefeb1-4dbb-4b0b-9bd5-f60b72306310.pdf",
+            "lec4_notes": "https://cdn-wl-assets.classplus.co/production/436362/722b750a-5fc2-4977-9822-390485697a2d.pdf",
+            "lec5_notes": "https://cdn-wl-assets.classplus.co/production/436362/fc4ff7df-45b0-4509-88f9-1b7a9625539e.pdf",
+            "lec6_notes": "https://cdn-wl-assets.classplus.co/production/436362/641b24d1-faad-4199-bb3e-3dbe4dc639ce.pdf"
+          }
+        },
+        "unit5": {
+          "lectures": {
+            "one_shot_notes": "https://cdn-wl-assets.classplus.co/production/436362/6da87dc5-4462-4a27-b209-284e26176b10.pdf",
+            "combined_notes": "https://cdn-wl-assets.classplus.co/production/436362/f1056480-d8a5-4220-831b-d25e5fbdf916.pdf",
+            "lec1_notes": "https://cdn-wl-assets.classplus.co/production/436362/16ad3488-03ee-45af-9877-c521cce5f2b3.pdf",
+            "lec2_notes": "https://cdn-wl-assets.classplus.co/production/436362/7f157679-7d33-4f2a-a33c-ceea48858d01.pdf",
+            "lec3_notes": "https://cdn-wl-assets.classplus.co/production/436362/9e7eefaf-3c93-4485-ada0-b74cf666e322.pdf",
+            "lec4_notes": "https://cdn-wl-assets.classplus.co/production/436362/e9c90c07-d1c2-42ed-9ee7-eacf5ffc496b.pdf",
+            "lec5_notes": "https://cdn-wl-assets.classplus.co/production/436362/4d0faee9-745a-4fd9-b425-072903021dc6.pdf"
+          }
+        }
+      }
+    },
+    "TC": {
+      "units": {
+        "unit1": {
+          "name": "Unit 1",
+          "lectures": {
+            "one_shot_notes": "https://cdn-wl-assets.classplus.co/production/436362/97f6e7f6-343c-4ff0-88d3-4b5b451bf2bd.pdf",
+            "combined_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/5df48fb9-ce2c-4d7b-b96a-ee774ed6fc82.pdf"
+          }
+        },
+        "unit2": {
+          "name": "Unit 2",
+          "lectures": {
+            "one_shot_notes": "https://cdn-wl-assets.classplus.co/production/436362/d864f452-cda0-4967-8e7e-5d7f3b6a20f0.pdf",
+            "combined_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/02ca8ecd-4cc9-4dd0-8ceb-d21eb2219a19.pdf",
+            "handouts": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/2bf74d7f-0273-40dc-be03-f3f067c243d3.pdf"
+          }
+        },
+        "unit3": {
+          "name": "Unit 3",
+          "lectures": {
+            "one_shot_notes": "https://cdn-wl-assets.classplus.co/production/436362/c1077333-27e3-49d5-8268-414a090e9f66.pdf",
+            "combined_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/7d0bc435-943c-4ca4-9fab-5d148563fd0f.pdf"
+          }
+        },
+        "unit4": {
+          "name": "Unit 4",
+          "lectures": {
+            "one_shot_notes": "https://cdn-wl-assets.classplus.co/production/436362/02711f36-3d58-4171-938e-9b3f62288e8b.pdf",
+            "combined_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/79973806-eebe-4d32-bc19-a387a99ac28d.pdf",
+            "lec1_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/b766f4cd-c2ec-4dcc-ac35-c90d8d0a3dc3.pdf",
+            "lec2_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/e4327f6c-b422-49ce-a579-70ca0d6677f8.pdf",
+            "lec3_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/0012441f-939e-42e1-ab58-962579691737.pdf",
+            "lec4_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/37415391-0263-4b20-a785-21e5926260e2.pdf"
+          }
+        },
+        "unit5": {
+          "name": "Unit 5",
+          "lectures": {
+            "one_shot_notes": "https://cdn-wl-assets.classplus.co/production/436362/789e233a-d14f-44f8-928a-bab0376c8261.pdf",
+            "combined_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/ee44d749-f81a-4abd-b642-5f0287392104.pdf"
+          }
+        }
+      }
+    },
+    "DSA": {
+      "units": {
+        "unit1": {
+          "name": "Unit 1",
+          "lectures": {
+            "lec1_notes": "https://cdn-wl-assets.classplus.co/production/436362/d66f3859-f78a-4d92-9a43-ebeb3bb75661.pdf",
+            "lec2_notes": "https://cdn-wl-assets.classplus.co/production/436362/5e48acc2-62ad-4daf-8ac9-d55270d2c92e.pdf",
+            "lec3_notes": "https://cdn-wl-assets.classplus.co/production/436362/447519bf-a717-4c91-8f2f-80c5c248e11b.pdf",
+            "lec4_notes": "https://cdn-wl-assets.classplus.co/production/436362/c50cc081-1d08-45cd-9d79-19b01d9ee647.pdf",
+            "lec5_notes": "https://cdn-wl-assets.classplus.co/production/436362/20195c7c-688d-4ad5-85f0-839a4a079452.pdf",
+            "lec6_notes": "https://cdn-wl-assets.classplus.co/production/436362/6908306c-66d5-4e08-b6d0-d38d313f709e.pdf",
+            "lec7_notes": "https://cdn-wl-assets.classplus.co/production/436362/98b6b11f-65ba-463b-af76-107194534ff2.pdf",
+            "lec8_notes": "https://cdn-wl-assets.classplus.co/production/436362/93940eb1-44b7-4177-be75-6265943bd7e4.pdf",
+            "lec9_notes": "https://cdn-wl-assets.classplus.co/production/436362/c3fd61e3-b658-46bf-82de-d61ec3c9217b.pdf",
+            "lec10_notes": "https://cdn-wl-assets.classplus.co/production/436362/2007b141-c8bb-4f14-bde3-2a3c39322d8a.pdf",
+            "lec11_notes": "https://cdn-wl-assets.classplus.co/production/436362/54822fd4-d291-4fee-8e85-a0a91a5b27fe.pdf",
+            "lec12_notes": "https://cdn-wl-assets.classplus.co/production/436362/f9639092-3149-48fd-ab18-10f60e2360e6.pdf",
+            "lec13_notes": "https://cdn-wl-assets.classplus.co/production/436362/0b2c5ed6-e6e6-419e-ae17-d5ca57b37e60.pdf",
+            "lec14_notes": "https://cdn-wl-assets.classplus.co/production/436362/a1d06f8c-88b9-4139-9eec-c40decfd15d9.pdf",
+            "lec15_notes": "https://cdn-wl-assets.classplus.co/production/436362/af844956-b937-4e26-9690-dfc625a7ac08.pdf",
+            "lec16_notes": "https://cdn-wl-assets.classplus.co/production/436362/2de565bf-fd01-4b90-bd73-c6b3a711ad28.pdf",
+            "lec17_notes": "https://cdn-wl-assets.classplus.co/production/436362/06e906e2-4ad4-4690-8433-019f60d5af73.pdf",
+            "lec18_notes": "https://cdn-wl-assets.classplus.co/production/436362/1cd4ffb5-595a-42df-aa5c-c24a3f7e0d10.pdf",
+            "lec19_notes": "https://cdn-wl-assets.classplus.co/production/436362/29cfb68e-a2fa-441b-b2ba-50b36251a711.pdf"
+          }
+        },
+        "unit2": {
+          "name": "Unit 2",
+          "lectures": {
+            "one_shot_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/aee05b69-2e74-418e-8efe-a856a5d81960.pdf",
+            "combined_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/210f8820-5978-40f5-9ef4-7e7971a4e73d.pdf",
+            "lec1_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/e574f3ad-56ec-447d-9166-c84a3dd2959d.pdf",
+            "lec2_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/c81fecc6-fad9-4f8a-924e-e4895c46bb61.pdf",
+            "lec3_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/c8a80305-8e3d-4262-9b9c-69a43a47af9b.pdf",
+            "lec4_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/c5f5c2be-e66d-4625-8839-e67c1f8c47b2.pdf",
+            "lec5_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/f22f1b83-5a65-40e9-9868-244a6c931f1b.pdf",
+            "lec6_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/5ba7d8e7-4349-47eb-bc26-25e81cceded8.pdf",
+            "lec7_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/b0930fac-6444-4e54-b88a-0af371aadfc9.pdf",
+            "lec8_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/9a3c92a9-2b26-4ce9-8300-267041dcd652.pdf",
+            "lec9_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/e43fbcbc-bfad-4ebc-8e50-27d89e36252d.pdf",
+            "lec10_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/57a6732e-f0c2-4e5f-8e94-6677c0b6e3d6.pdf"
+          }
+        },
+        "unit3": {
+          "name": "Unit 3",
+          "lectures": {
+            "one_shot_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/ba2038c9-49e2-4711-9e90-4c61c09dd951.pdf",
+            "combined_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/5b04253c-e343-426d-b57b-ce70e299a558.pdf",
+            "lec1_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/b93b1d57-5739-4dca-b6a8-6f4fb37c6c87.pdf",
+            "lec2_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/1b94ebbe-7723-480a-8110-40296c46bc6b.pdf",
+            "lec3_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/03fdb9bd-ae3f-46e4-87d4-f3516cbdfeab.pdf",
+            "lec4_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/98d68635-a46c-4a00-bd9d-afac9f9cd361.pdf",
+            "lec5_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/163ca156-2666-419e-8c5d-71e226c92d34.pdf",
+            "lec6_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/36b811f4-3523-4340-9bad-5d114a0aa27a.pdf",
+            "lec7_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/1c64bcf1-28b8-4901-b5b2-29021d373d24.pdf",
+            "lec8_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/b81ddfcb-8d48-4fa6-8b06-092009c3df0c.pdf",
+            "lec9_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/a0c438f4-237b-4901-8efc-d9197f3646ac.pdf"
+          }
+        },
+        "unit4": {
+          "name": "Unit 4",
+          "lectures": {
+            "one_shot_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/f71a1d3b-4d67-4eed-9d4a-d6d55eb5675f.pdf",
+            "combined_notes": "https://cdn-wl-assets.classplus.co/production/436362/9aef5eaf-734d-4660-aea0-20e568b19d18.pdf",
+            "lec1_notes": "https://cdn-wl-assets.classplus.co/production/436362/d2161305-55d8-4350-8f33-ed5efee02b84.pdf",
+            "lec2_notes": "https://cdn-wl-assets.classplus.co/production/436362/c232cd20-09d6-4b12-ad4c-f8308ef2972b.pdf",
+            "lec3_notes": "https://cdn-wl-assets.classplus.co/production/436362/9c38ae54-316e-43dc-a072-dd7f1a48656c.pdf",
+            "lec4_notes": "https://cdn-wl-assets.classplus.co/production/436362/234401d4-b104-40c8-803a-1cb01d35ec0a.pdf",
+            "lec5_notes": "https://cdn-wl-assets.classplus.co/production/436362/18f10b9a-dc1e-4e27-98ea-a8872e9184ee.pdf",
+            "lec6_notes": "https://cdn-wl-assets.classplus.co/production/436362/6bfdf26e-7532-48e0-9146-6b93befc227f.pdf",
+            "lec7_notes": "https://cdn-wl-assets.classplus.co/production/436362/601cb9b3-9024-47a8-99b5-61923ec1d7ba.pdf"
+          }
+        },
+        "unit5": {
+          "name": "Unit 5",
+          "lectures": {
+            "one_shot_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/21ba1480-dcc8-4971-92d6-ccb3f30255eb.pdf",
+            "lec1_notes": "https://cdn-wl-assets.classplus.co/production/436362/50cd8c49-6908-4084-a76c-04dcfdc51bb1.pdf",
+            "lec2_notes": "https://cdn-wl-assets.classplus.co/production/436362/790217d8-3424-446c-96fe-20b2577f9bbc.pdf",
+            "lec3_notes": "https://cdn-wl-assets.classplus.co/production/436362/ae89a4d8-d9a0-4281-bc55-af49505adacf.pdf",
+            "lec4_notes": "https://cdn-wl-assets.classplus.co/production/436362/53aa5a3f-1bd4-4e33-9e48-d9a09f4f8396.pdf",
+            "lec5_notes": "https://cdn-wl-assets.classplus.co/production/436362/ad64eaa0-f018-4d0f-890a-8b6b9dada98e.pdf"
+          }
+        }
+      }
+    },
+    "OS": {
+      "units": {
+        "unit1": {
+          "name": "Unit 1",
+          "lectures": {
+            "syllabus_intro_notes": "https://cdn-wl-assets.classplus.co/production/436362/b76a5634-2eab-4f02-9565-8bbf18a6f569.pdf",
+            "combined_notes": "https://cdn-wl-assets.classplus.co/production/436362/4b4b4b87-582c-4bae-af38-a96e52c3dd60.pdf",
+            "lec1_notes": "https://cdn-wl-assets.classplus.co/production/436362/0fc75764-8847-41d1-8714-a51b11019c14.pdf",
+            "lec2_notes": "https://cdn-wl-assets.classplus.co/production/436362/24d006a6-5eab-4dcd-90c3-c28c23f0e2d2.pdf",
+            "lec3_notes": "https://cdn-wl-assets.classplus.co/production/436362/44db11e4-2289-4486-905f-48b1435b8425.pdf",
+            "lec3_part2_notes": "https://cdn-wl-assets.classplus.co/production/436362/cd09939f-dfdb-4d46-a1b0-e3c02d30a11f.pdf",
+            "lec4_notes": "https://cdn-wl-assets.classplus.co/production/436362/6802c0a0-f108-4578-ad77-1de4f736c4e8.pdf",
+            "one_shot_notes": "https://cdn-wl-assets.classplus.co/production/436362/4736ef38-f530-42ff-8d60-378d0216de4e.pdf",
+            "one_shot_revision_notes": "https://cdn-wl-assets.classplus.co/production/436362/c7505d1c-fc35-4795-b042-adba246869a7.pdf",
+            "lec1_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/936e4c51-adfe-488e-a413-77207b46c00a.pdf",
+            "lec2_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/8793a67f-a8fa-4193-845a-c60afa0df01f.pdf",
+            "lec3_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/9a1eec5f-2754-46f7-836b-3426e61398e5.pdf",
+            "lec4_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/9d2c7b58-bfc5-432b-b8bc-3a38443cebd9.pdf",
+            "lec5_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/4243d774-8773-49be-8fb7-9e2ad3bfd841.pdf",
+            "combined_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/436362/ca801a76-1412-4356-b900-535197ce1b16.pdf"
+          }
+        },
+        "unit2": {
+          "name": "Unit 2",
+          "lectures": {
+            "combined_notes": "https://cdn-wl-assets.classplus.co/production/436362/3636afe5-590e-46d4-a261-f24bcfd6a0bc.pdf",
+            "lec1_notes": "https://cdn-wl-assets.classplus.co/production/436362/b2748f64-78eb-4fb8-9f0c-bbada78ebcb7.pdf",
+            "lec2_notes": "https://cdn-wl-assets.classplus.co/production/436362/ca4dcb14-9e8d-4a38-afa3-331bf31431bc.pdf",
+            "lec3_notes": "https://cdn-wl-assets.classplus.co/production/436362/d9ec4636-d24e-4def-a411-9c56f5c80ffe.pdf",
+            "lec4_notes": "https://cdn-wl-assets.classplus.co/production/436362/1736a70d-b599-4758-8dea-14f0894fd9a3.pdf",
+            "lec5_notes": "https://cdn-wl-assets.classplus.co/production/436362/ccf39d51-a47e-4c99-bd05-954cebdc435b.pdf",
+            "lec6_notes": "https://cdn-wl-assets.classplus.co/production/436362/ccba2a90-f859-40c7-b789-c1933d582e33.pdf",
+            "one_shot_notes": "https://cdn-wl-assets.classplus.co/production/436362/a58ae4ca-6aa9-488d-acb8-812e4ee4c882.pdf",
+            "one_shot_revision_notes": "https://cdn-wl-assets.classplus.co/production/436362/b89039d3-2c83-4c42-8d8a-b462123aa0b8.pdf",
+            "combined_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/436362/22f2258e-922c-496d-80f2-d7e989481540.pdf",
+            "lec1_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/436362/f037569b-2aa6-476a-a224-5ea60378f458.pdf",
+            "lec2_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/436362/ea0ec35b-a266-4234-8e17-bd17f27cedda.pdf",
+            "lec3_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/436362/e1221cd2-4e50-4c0b-9c6d-88b5f91a66cf.pdf",
+            "lec4_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/436362/1c4204b7-00e3-43f6-91f1-45dc3b7e0f4f.pdf",
+            "lec5_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/436362/3c99eb2f-d481-4d9e-8390-e18c28d997ac.pdf",
+            "lec6_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/436362/691555d2-7a91-46d7-aac3-2bc6e600e412.pdf",
+            "lec7_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/a78c2141-9532-4ed1-9df9-907fea402456.pdf",
+            "lec8_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/a7897a2d-d490-4e06-8ea3-2afe2ac7beb7.pdf",
+            "lec9_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/cd3894f4-3457-4c8b-8f49-ef9f3833677a.pdf"
+          }
+        },
+        "unit3": {
+          "name": "Unit 3",
+          "lectures": {
+            "lec1_notes": "https://cdn-wl-assets.classplus.co/production/436362/8776122c-d06b-4679-9f87-3970f2ddc307.pdf",
+            "lec2_notes": "https://cdn-wl-assets.classplus.co/production/436362/14f23223-ff86-4bf4-9dbe-d8b33dcb3dcc.pdf",
+            "lec3_notes": "https://cdn-wl-assets.classplus.co/production/436362/78edefc8-c0fb-4533-8fad-ecdd64852aa6.pdf",
+            "lec4_notes": "https://cdn-wl-assets.classplus.co/production/436362/b9e4a8c0-10ab-4356-9985-5abaf76261f9.pdf",
+            "one_shot_notes": "https://cdn-wl-assets.classplus.co/production/436362/7e6ab734-726a-4e14-a93a-0e147f2c5311.pdf",
+            "one_shot_revision_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/0df4ad86-6496-4883-8e85-b2e36120f194.pdf",
+            "combined_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/ee1e3c14-48f7-46b4-9a1b-77f44364e7cf.pdf",
+            "lec1_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/bf11c111-2e9d-4831-812b-8e5679ef8e7f.pdf",
+            "lec2_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/778b3816-0eef-49ab-b67d-91df8943f430.pdf",
+            "lec3_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/26618a86-1675-44e8-a41d-a9e9519c119f.pdf",
+            "lec4_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/7f816271-8af0-4ece-8188-ee23c705832a.pdf",
+            "lec5_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/d4f96f2d-457e-448d-bb89-b3eb4018edc6.pdf",
+            "lec6_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/e3a4d064-17b4-42df-9ef5-f0f9b11fa4a7.pdf",
+            "lec7_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/cd720b3e-9e6d-40c2-a310-2e5cc3d98532.pdf",
+            "lec8_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/3417a0c9-adcb-432a-9d1b-2c954df6c44a.pdf",
+            "lec9_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/54db69df-4c34-42ca-ae52-e3f511d79f43.pdf",
+            "lec10_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/4f5bf8ec-0d40-46db-bfd3-3b87566a8bf7.pdf",
+            "lec11_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/9a795d7c-7894-464e-abe6-531c44637c03.pdf",
+            "lec12_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/fafebe48-dbbc-40d1-b7fd-13f6c8e85094.pdf",
+            "lec13_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/d2b9be1b-94a0-4b62-9a9e-360bd63be65c.pdf"
+          }
+        },
+        "unit4": {
+          "name": "Unit 4",
+          "lectures": {
+            "one_shot_notes": "https://cdn-wl-assets.classplus.co/production/436362/fe1784e9-3fdd-41d9-a199-7d4c894eb56d.pdf",
+            "one_shot_revision_notes": "https://cdn-wl-assets.classplus.co/production/436362/433fb17e-57de-4494-b3f5-c28dd7bb4508.pdf",
+            "combined_notes": "https://cdn-wl-assets.classplus.co/production/436362/3221ac24-81a0-4183-befe-d50a57425025.pdf",
+            "lec1_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/481c0e52-63be-4b10-b44d-1120ac5dc95d.pdf",
+            "lec2_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/1d3113bf-646e-4084-a7e7-7ff9f524b2a1.pdf",
+            "lec3_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/2933b28d-2082-4590-a811-5d15766e5a8e.pdf",
+            "lec4_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/b312dbec-822c-4f06-be33-58d63cff92d9.pdf",
+            "lec5_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/213ce713-3ae3-4256-ab87-129e865b1977.pdf",
+            "lec6_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/a9509a10-c3a2-439f-9516-8e5555a45370.pdf",
+            "lec7_notes": "https://cdn-wl-assets.classplus.co/production/436362/5773d302-650f-422d-9f7d-1917785d141e.pdf",
+            "lec8_notes": "https://cdn-wl-assets.classplus.co/production/436362/11a06c6a-c35c-4800-82ca-4508bbdfe356.pdf"
+          }
+        },
+        "unit5": {
+          "name": "Unit 5",
+          "lectures": {
+            "one_shot_notes": "https://cdn-wl-assets.classplus.co/production/436362/0ecabff5-924b-4a5c-b6fa-8c4e3b0e64ec.pdf",
+            "one_shot_revision_notes": "https://cdn-wl-assets.classplus.co/production/436362/4bdc9052-3d3c-4399-8280-15f51de2416b.pdf",
+            "combined_notes": "https://cdn-wl-assets.classplus.co/production/436362/7294d240-5ec3-4a49-a4c9-58efe87f0c71.pdf",
+            "lec1_notes": "https://cdn-wl-assets.classplus.co/production/436362/3f57eb73-5958-4261-8991-5cbbcb4d9174.pdf",
+            "lec2_notes": "https://cdn-wl-assets.classplus.co/production/436362/c77ddd44-f9e5-4c03-8ecf-03d7c02a187f.pdf",
+            "lec3_notes": "https://cdn-wl-assets.classplus.co/production/436362/4c9213cb-bf9b-4172-b18a-0db15d9237cb.pdf",
+            "lec4_notes": "https://cdn-wl-assets.classplus.co/production/436362/82c9ee02-e800-4d87-916a-1c7ac6c4e2d6.pdf"
+          }
+        }
+      }
+    },
+    "TAFL": {
+      "units": {
+        "unit1": {
+          "name": "Unit 1",
+          "lectures": {
+            "combined_notes": "https://cdn-wl-assets.classplus.co/production/436362/95b3fea5-0732-4340-b91c-82edaa6d73d6.pdf",
+            "lec1_notes": "https://cdn-wl-assets.classplus.co/production/436362/4ea05de2-d43f-4155-bc29-2924b0b1b040.pdf",
+            "lec2_notes": "https://cdn-wl-assets.classplus.co/production/436362/fe94f4b5-3990-45ba-a472-3cbb562f9c3e.pdf",
+            "lec3_notes": "https://cdn-wl-assets.classplus.co/production/436362/483bd7ee-d01a-4049-8c9c-0e6109e5c769.pdf",
+            "lec4_notes": "https://cdn-wl-assets.classplus.co/production/436362/381af6f7-d8a6-4f84-a0f7-f0cd55b877cf.pdf",
+            "lec5_notes": "https://cdn-wl-assets.classplus.co/production/436362/1789a716-89bd-4f87-8cfc-a473d8b9e215.pdf",
+            "lec6_notes": "https://cdn-wl-assets.classplus.co/production/436362/694862cd-3aae-4c81-8d39-1bee7bdbb730.pdf",
+            "lec7_notes": "https://cdn-wl-assets.classplus.co/production/436362/a85e3bc2-af35-4819-b01b-12b60291f95d.pdf",
+            "lec8_notes": "https://cdn-wl-assets.classplus.co/production/436362/bbf32871-661c-4fbc-bc68-96d42dfaf00f.pdf",
+            "lec9_notes": "https://cdn-wl-assets.classplus.co/production/436362/0bc68bd3-f0ba-45d1-a4bd-ec3147466dc6.pdf",
+            "lec10_notes": "https://cdn-wl-assets.classplus.co/production/436362/0df4616a-6c7c-42b3-a6af-229c8b11a03f.pdf",
+            "combined_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/436362/66c17bda-3a23-4654-868c-a3b876c3445b.pdf",
+            "lec1_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/d815511a-20a5-46bc-9f3d-528f8106397d.pdf",
+            "lec2_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/bd837901-019b-4dab-b87a-954d9d5407f5.pdf",
+            "lec3_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/741504ac-f8d5-4736-87a1-43dd3e477217.pdf",
+            "lec4_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/9b4dc164-9f08-4d8f-9d6b-8ed856b36352.pdf",
+            "lec5_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/7e6ded00-a56b-4e92-8980-65106e091e58.pdf",
+            "lec6_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/1e745c56-b9f1-4ce6-8581-e4ab67806870.pdf",
+            "lec7_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/cbcc4d74-b48d-4d1f-addd-7b225e0116b3.pdf",
+            "lec8_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/2ce85d57-f97b-4c14-b9e2-a373afa9e584.pdf",
+            "lec9_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/b3315465-37c7-4868-b65c-3920f6f8281f.pdf",
+            "lec10_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/952e1192-f6fa-4a34-ba97-7afc47e40648.pdf",
+            "lec11_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/22a2e82c-9ffd-4473-9782-7141c61b166c.pdf",
+            "lec12_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/19bb1e85-0d42-4338-a0b3-f9e77023d8a1.pdf",
+            "lec13_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/d8f75d76-f8b7-4a71-96dd-f2ffe68d5070.pdf",
+            "lec14_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/c90a1c10-3e9d-4edc-a5bd-104708fdc895.pdf",
+            "lec15_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/8bb2632b-6dae-4ab7-b7ad-9e3cfc8249da.pdf",
+            "lec16_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/6ec4a70d-5b2c-4961-a18e-a6fccda9995b.pdf",
+            "lec17_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/9c63bb66-523a-428f-baae-747f59191005.pdf",
+            "one_shot_revision_notes": "https://cdn-wl-assets.classplus.co/production/436362/7fbe3a9e-f737-471c-aa6a-3d86962eab6b.pdf"
+          }
+        },
+        "unit2": {
+          "name": "Unit 2",
+          "lectures": {
+            "lec1_notes": "https://cdn-wl-assets.classplus.co/production/436362/a2676d14-5650-42b9-97e4-d2d11fae159c.pdf",
+            "lec2_notes": "https://cdn-wl-assets.classplus.co/production/436362/a9dd5535-bfe7-4a24-b1a0-5b98307e09d7.pdf",
+            "lec3_notes": "https://cdn-wl-assets.classplus.co/production/436362/4ea6b68a-5837-4cf5-957a-eaacde60c60e.pdf",
+            "lec4_notes": "https://cdn-wl-assets.classplus.co/production/436362/a96eebb2-9a13-4398-beb2-eb1b5d3609f5.pdf",
+            "lec5_notes": "https://cdn-wl-assets.classplus.co/production/436362/75ddacb4-2ce5-4396-b62a-b6c47cb56141.pdf",
+            "combined_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/1f65d406-3dc0-44d4-8495-614f80758f12.pdf",
+            "lec1_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/436362/fd2e52b0-c14e-4ff6-809a-849e6145d406.pdf",
+            "lec2_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/436362/997023de-34c3-4d7e-a73c-9b4f8957bfea.pdf",
+            "lec3_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/436362/ff9b0b3a-a84f-42e2-aa86-62f7279a8769.pdf",
+            "lec4_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/436362/f6ce91b9-d593-4f9b-b746-858c1f008797.pdf",
+            "lec5_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/436362/5d948d10-4c17-41f9-8f9c-0e188a681bc9.pdf",
+            "lec6_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/560a1d74-436c-4a12-b4b9-1616373ff155.pdf",
+            "lec7_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/cc7dedac-4950-45a3-b84b-b92f374138eb.pdf",
+            "lec8_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/574025ae-4f80-46a1-be3b-54fd8a396a62.pdf",
+            "lec9_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/ffe465ba-270f-4483-9803-8e80407ff046.pdf",
+            "lec10_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/368d5aea-61c6-45e1-ad4b-a69417e438c1.pdf",
+            "lec11_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/ce3e3669-62d0-42b8-994b-8a0d46037295.pdf",
+            "lec12_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/98c42707-a13e-4104-a052-385d39a89de5.pdf",
+            "one_shot_revision_notes": "https://cdn-wl-assets.classplus.co/production/436362/4a77af2f-e678-46c1-bf49-dd3d7b34d06a.pdf"
+          }
+        },
+        "unit3": {
+          "name": "Unit 3",
+          "lectures": {
+            "combined_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/967872c8-c7ed-44f8-9987-f2631dfdb6a2.pdf",
+            "lec1_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/6b3aab90-0c37-4e82-baa3-1f0add60cd9e.pdf",
+            "lec2_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/264aacfe-98e2-41c6-930a-366381612c61.pdf",
+            "lec3_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/11bd467d-caf9-4083-8b1b-d6999d73adc3.pdf",
+            "lec4_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/183c4223-1ef4-41ea-bd33-9e33d11ad232.pdf",
+            "lec5_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/6ad0dceb-3cec-4b96-bc6a-a46b147c4b45.pdf",
+            "lec6_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/644c4e36-7556-45c3-af74-d59ba23f7473.pdf",
+            "lec7_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/ad1ce396-cf5e-4c09-823c-a6b72d4f2f73.pdf",
+            "lec8_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/03d71340-f915-4bec-9d89-10a82a38d300.pdf",
+            "lec9_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/3b4c181f-4882-4084-b73a-cef3cbf82244.pdf",
+            "lec10_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/2d1b3d41-31bf-4fa7-87cd-c116373e1382.pdf",
+            "lec11_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/19ed186a-f157-4b14-9b5e-bdcc5dcd2e84.pdf",
+            "lec12_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/2c765e0e-eb16-4461-90be-04886903d621.pdf",
+            "lec13_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/d439863d-62b3-49f8-8a23-ba106ef8cd2d.pdf",
+            "one_shot_revision_notes": "https://cdn-wl-assets.classplus.co/production/436362/60675f0e-6a7c-4ad9-a3d5-134673f31cf9.pdf"
+          }
+        },
+        "unit4": {
+          "name": "Unit 4",
+          "lectures": {
+            "combined_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/cb641e34-e73c-4e85-aedd-cf60cbd7c227.pdf",
+            "lec1_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/a1bbc123-ed6e-418d-88d9-5e8f354b11b8.pdf",
+            "lec2_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/2a5216fc-59a0-477a-84a2-fec347557ec1.pdf",
+            "lec3_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/2af8efe9-4781-4fec-965c-7ef558d1156d.pdf",
+            "lec4_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/b8166dad-182f-4d7c-b567-9c46e102da3d.pdf",
+            "lec5_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/b5787ead-69fb-415f-be21-1969dd7df931.pdf",
+            "lec6_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/ff3bdf25-95b5-44c3-9634-22769b12906a.pdf",
+            "lec7_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/5f0e8b3b-caad-45f7-98fd-863edb6528f7.pdf",
+            "lec8_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/2a46805d-fa79-4fdd-87e7-165c47f108a5.pdf",
+            "lec9_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/3a1159e6-755b-49f0-87a3-7dd1faeaa86b.pdf",
+            "lec10_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/0699238e-58e9-4017-9885-4bd2b19a6da9.pdf",
+            "lec11_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/5e539f22-809b-4586-b34a-0eb9ee648d82.pdf",
+            "one_shot_revision_notes": "https://cdn-wl-assets.classplus.co/production/436362/febff503-7f42-4716-a2d0-dbe1cd5f5237.pdf"
+          }
+        },
+        "unit5": {
+          "name": "Unit 5",
+          "lectures": {
+            "combined_notes": "https://cdn-wl-assets.classplus.co/production/436362/51485848-67ac-4665-b16d-c97c7b18b7a9.pdf",
+            "lec1_notes": "https://cdn-wl-assets.classplus.co/production/436362/9f67d743-8959-4cf6-ab23-3d6548b69d17.pdf",
+            "lec2_notes": "https://cdn-wl-assets.classplus.co/production/436362/0371cbde-0820-43ad-abb9-b9f7c9667364.pdf",
+            "lec3_notes": "https://cdn-wl-assets.classplus.co/production/436362/fe885f11-ae73-476d-bf61-4e70d24dec72.pdf",
+            "lec4_notes": "https://cdn-wl-assets.classplus.co/production/436362/5e1ce592-ad68-463d-b27b-69610f1f3422.pdf",
+            "lec5_notes": "https://cdn-wl-assets.classplus.co/production/436362/25b6d990-14f8-4644-91a9-170d4838eeed.pdf",
+            "lec6_notes": "https://cdn-wl-assets.classplus.co/production/436362/9de042f0-0f5e-4651-9964-ed00020d41d3.pdf",
+            "lec7_notes": "https://cdn-wl-assets.classplus.co/production/436362/5846f17f-ace4-4ee7-a020-31ff8b100261.pdf",
+            "lec8_notes": "https://cdn-wl-assets.classplus.co/production/436362/f30e666d-bc56-4882-a719-496a7399530e.pdf",
+            "lec9_notes": "https://cdn-wl-assets.classplus.co/production/436362/27e6708e-2c9b-41ac-ab9e-ccdecb5da377.pdf",
+            "lec10_notes": "https://cdn-wl-assets.classplus.co/production/436362/d6bb9924-97fc-42f2-a8be-e954d1bd519e.pdf",
+            "lec11_notes": "https://cdn-wl-assets.classplus.co/production/436362/a843987f-65d5-4e56-8fb3-073116b919c6.pdf",
+            "lec12_notes": "https://cdn-wl-assets.classplus.co/production/436362/77cbc7f1-fa65-43ff-91b6-8e05151b1eb1.pdf",
+            "lec13_notes": "https://cdn-wl-assets.classplus.co/production/436362/4045a642-3535-4eec-bd97-28a9af5dfe5d.pdf",
+            "one_shot_revision_notes": "https://cdn-wl-assets.classplus.co/production/436362/d1aed204-d66e-4d66-b27b-f57e6d369a47.pdf"
+          }
+        }
+      }
+    },
+    "JAVA": {
+      "units": {
+        "unit1": {
+          "name": "Unit 1",
+          "lectures": {
+            "introduction_pdf": "https://cdn-wl-assets.classplus.co/production/436362/7e4114dc-2fd0-4a74-88ff-66582e2b75e8.pdf",
+            "practice_questions": "https://cdn-wl-assets.classplus.co/production/436362/99fb3e06-25ce-4f62-aa95-0384b6896f92.pdf",
+            "combined_notes": "https://cdn-wl-assets.classplus.co/production/436362/fe123f41-dea7-4148-93a0-fbd88c8c6a7f.pdf",
+            "unmarked_combined_notes": "https://cdn-wl-assets.classplus.co/production/436362/b0766eb5-4899-4841-b403-ab00e1fe83b5.pdf",
+            "lec1_notes": "https://cdn-wl-assets.classplus.co/production/436362/2136aba7-f5f6-480b-bcd2-b1de6e238410.pdf",
+            "lec1_code": "https://cdn-wl-assets.classplus.co/production/436362/1f29732c-ed20-402e-83bd-295ae5544d6b.pdf",
+            "lec2_notes": "https://cdn-wl-assets.classplus.co/production/436362/5371727d-ef32-471f-b512-3c51d469307f.pdf",
+            "lec2_code": "https://cdn-wl-assets.classplus.co/production/436362/81be6705-2a5a-42f7-80b1-8b02d02a172a.pdf",
+            "lec3_notes": "https://cdn-wl-assets.classplus.co/production/436362/7fc529b7-b039-42d1-9713-87b0226dba5b.pdf",
+            "lec3_code": "https://cdn-wl-assets.classplus.co/production/436362/e8f6dcf2-9206-4a09-ad35-abd8b7ec2f1b.pdf",
+            "lec4_notes": "https://cdn-wl-assets.classplus.co/production/436362/a2b906c9-88f7-46f8-bec6-e46f4656cf1a.pdf",
+            "lec4_code": "https://cdn-wl-assets.classplus.co/production/436362/45103879-7896-4b28-8ef6-64bd27613840.pdf",
+            "lec5_notes": "https://cdn-wl-assets.classplus.co/production/436362/ad580e3b-e2a1-4a29-a87c-c530e6af0fe7.pdf",
+            "lec5_code": "https://cdn-wl-assets.classplus.co/production/436362/5085b13a-2e42-4689-8a6f-0620853fbb36.pdf",
+            "lec6_notes": "https://cdn-wl-assets.classplus.co/production/436362/3ba81938-4b0d-40dc-a145-478d4d62957b.pdf",
+            "lec6_code": "https://cdn-wl-assets.classplus.co/production/436362/8c39771d-9aff-4b23-88ee-f529b18efeaa.pdf",
+            "lec7_notes": "https://cdn-wl-assets.classplus.co/production/436362/ec054a1c-1c97-439f-9b01-a800a87f4a95.pdf",
+            "lec7_code": "https://cdn-wl-assets.classplus.co/production/436362/7a5bb0fc-977b-4e86-9e25-373ff9d6f8f8.pdf",
+            "lec8_notes": "https://cdn-wl-assets.classplus.co/production/436362/93378cf0-d44f-4503-8900-fdd4602ac19e.pdf",
+            "lec8_code": "https://cdn-wl-assets.classplus.co/production/436362/93ff1ef8-9fa1-4757-9e18-8057c6aa3245.pdf",
+            "lec9_notes": "https://cdn-wl-assets.classplus.co/production/436362/922cdd4f-d739-4f3c-bdbd-c2736aa58890.pdf",
+            "lec9_code": "https://cdn-wl-assets.classplus.co/production/436362/3c10b754-db75-4c1d-8d97-01b40ef6caab.pdf",
+            "lec10_notes": "https://cdn-wl-assets.classplus.co/production/436362/2af2be36-d4e8-4e34-a558-68679c93535d.pdf",
+            "lec10_code": "https://cdn-wl-assets.classplus.co/production/436362/c0e14065-a1c8-4997-ba78-a37e7c04e03c.pdf",
+            "lec11_notes": "https://cdn-wl-assets.classplus.co/production/436362/42157dc5-7292-4a51-aa16-1de1083c8fad.pdf",
+            "lec11_code": "https://cdn-wl-assets.classplus.co/production/436362/8cddd2d0-f942-4f3d-ab66-0e927b76069c.pdf",
+            "lec12_notes": "https://cdn-wl-assets.classplus.co/production/436362/58204c16-caa2-4d63-86f7-f9e0a88543e7.pdf",
+            "lec12_code": "https://cdn-wl-assets.classplus.co/production/436362/a06a871d-c9db-4583-8f56-0a88ab2e495f.pdf",
+            "lec13_notes": "https://cdn-wl-assets.classplus.co/production/436362/9bda0052-ff2c-4979-9b4e-6c45106b0e91.pdf",
+            "lec13_code": "https://cdn-wl-assets.classplus.co/production/436362/785ce987-1443-45d7-a56f-562387793af4.pdf",
+            "lec14_notes": "https://cdn-wl-assets.classplus.co/production/436362/f421d821-7e15-41f0-bb8e-a1f583228af5.pdf",
+            "lec14_code1": "https://cdn-wl-assets.classplus.co/production/436362/cd4c5d71-de7f-4476-a3b1-ff0d298fb97f.pdf",
+            "lec14_code2": "https://cdn-wl-assets.classplus.co/production/436362/5cc5216a-a848-4eb5-a52d-aefdb74e30b5.pdf",
+            "lec14_code3": "https://cdn-wl-assets.classplus.co/production/436362/3eeaa763-793d-4552-a0e7-97b27840bef7.pdf",
+            "lec15_notes": "https://cdn-wl-assets.classplus.co/production/436362/3c3ef7e2-62b6-4857-a291-ea1b6a9211e3.pdf",
+            "lec15_code": "https://cdn-wl-assets.classplus.co/production/436362/538405bb-a528-42a0-97d3-3ef13baece9b.pdf",
+            "lec16_notes": "https://cdn-wl-assets.classplus.co/production/436362/b9f35a6f-d3f2-4f91-a782-033a6a13ee95.pdf",
+            "lec16_code": "https://cdn-wl-assets.classplus.co/production/436362/5c334217-b635-42d8-86b7-2050782fb124.pdf",
+            "lec17_notes": "https://cdn-wl-assets.classplus.co/production/436362/6945c9be-2def-44d4-ba80-53a90c0756bd.pdf",
+            "lec17_code": "https://cdn-wl-assets.classplus.co/production/436362/8de1b314-48e1-42fa-a5e5-4d2f94f81721.pdf",
+            "lec18_notes": "https://cdn-wl-assets.classplus.co/production/436362/6fa367d6-b795-4974-8a2b-6146a5900434.pdf",
+            "lec18_code1": "https://cdn-wl-assets.classplus.co/production/436362/5676b1e5-cae3-4d97-ac59-61e04934351d.pdf",
+            "lec18_code2": "https://cdn-wl-assets.classplus.co/production/436362/f9be90af-5150-41c6-a088-8588af2a46be.pdf",
+            "lec18_code3": "https://cdn-wl-assets.classplus.co/production/436362/0ceb5b8c-4d6d-4d54-bbf4-9e500e71ec97.pdf",
+            "lec18_code4": "https://cdn-wl-assets.classplus.co/production/436362/1f658b4d-6e3d-4465-be1e-bc2b461df5fb.pdf",
+            "lec19_notes": "https://cdn-wl-assets.classplus.co/production/436362/1fffe138-597a-42a2-9294-0f601cce1c36.pdf",
+            "lec19_code": "https://cdn-wl-assets.classplus.co/production/436362/9199bed2-9912-41e0-a9d2-f6c15f4c3019.pdf",
+            "lec20_notes": "https://cdn-wl-assets.classplus.co/production/436362/4c59cc0c-880e-4868-b170-24cddb5b4c19.pdf",
+            "lec20_code": "https://cdn-wl-assets.classplus.co/production/436362/061d3b2a-bff4-4c5d-93f1-32a0b5682ceb.pdf",
+            "lec21_notes": "https://cdn-wl-assets.classplus.co/production/436362/a9985509-f1ab-47a5-a45a-1f5651f65a82.pdf",
+            "lec21_code": "https://cdn-wl-assets.classplus.co/production/436362/2a0e2d44-de98-4d09-be2f-c0e45396fc15.pdf",
+            "lec22_notes": "https://cdn-wl-assets.classplus.co/production/436362/b9024b7c-ff3c-40fa-8f10-58ecd4f59068.pdf",
+            "lec22_code1": "https://cdn-wl-assets.classplus.co/production/436362/a3d48242-8454-44c4-9eb7-ee64fca0f1a4.pdf",
+            "lec22_code2": "https://cdn-wl-assets.classplus.co/production/436362/04c9d2a7-6e37-4539-9b68-0c39d868d528.pdf",
+            "lec22_code3": "https://cdn-wl-assets.classplus.co/production/436362/0f7a9f51-6ee7-476b-bd2f-ed7b50633145.pdf",
+            "combined_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/436362/0985e6bf-d1af-4805-9f69-e1f3cd1761db.pdf",
+            "unit_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/2c41af73-49e5-465f-859e-6393591bfe11.pdf",
+            "lec1_syll_intro": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/f378e3ad-0451-410d-b5f6-a825274ef00c.pdf",
+            "lec2_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/16163f72-fe9a-40c7-b390-da489e380636.pdf",
+            "lec3_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/f15ddb11-2f37-4446-ad58-575c5b234c9e.pdf",
+            "lec5_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/2289ca3e-e8df-4107-85c1-e42b1849ceea.pdf",
+            "lec7_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/3ecd91f0-47d7-48c8-95d2-d39597399082.pdf",
+            "lec8_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/a2fa494b-b8e2-4107-97c0-f2b0129f2152.pdf",
+            "lec9_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/089b77ef-6b7c-4bcd-904a-2c74f7f47519.pdf",
+            "lec10_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/0ce46ac8-6836-4766-9ede-962bbd958028.pdf",
+            "lec11_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/436362/f41f0359-f13b-43ae-a3c7-912f3bbcc6f8.pdf",
+            "one_shot_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/1110bfa7-2237-4ac6-978c-58b12f385f3c.pdf"
+          }
+        },
+        "unit2": {
+          "name": "Unit 2",
+          "lectures": {
+            "one_shot_notes": "https://cdn-wl-assets.classplus.co/production/436362/cb94e7e6-97ba-40c8-99d6-763c30a9c524.pdf",
+            "combined_notes": "https://cdn-wl-assets.classplus.co/production/436362/4dbc995f-bf5d-4d35-b515-17b732bfb0f0.pdf",
+            "unmarked_combined_notes": "https://cdn-wl-assets.classplus.co/production/436362/139c7556-c9c3-409c-bcfa-a06df5709f85.pdf",
+            "lec1_notes": "https://cdn-wl-assets.classplus.co/production/436362/28eed607-2830-4719-877e-f3224fe3aacb.pdf",
+            "lec1_code": "https://cdn-wl-assets.classplus.co/production/436362/5bc2e123-3511-4fb8-ab8f-0d8d0ac1f3d7.pdf",
+            "lec2_notes": "https://cdn-wl-assets.classplus.co/production/436362/4d0f7dff-3b6c-4ad5-8548-666f3e2262d8.pdf",
+            "lec2_code": "https://cdn-wl-assets.classplus.co/production/436362/75636535-4af4-4024-b35e-d73273867de4.pdf",
+            "lec3_notes": "https://cdn-wl-assets.classplus.co/production/436362/12e23519-f166-4ca9-9fe2-1a75f64ede46.pdf",
+            "lec3_code1": "https://cdn-wl-assets.classplus.co/production/436362/28a563a3-e947-4108-b4c5-077549c17484.pdf",
+            "lec3_code2": "https://cdn-wl-assets.classplus.co/production/436362/39a54795-c2d7-4e16-8bcb-77eb41463b35.pdf",
+            "lec3_code3": "https://cdn-wl-assets.classplus.co/production/436362/3d6c7983-5c0a-429d-bec5-4bb8c7bc7465.pdf",
+            "lec4_notes": "https://cdn-wl-assets.classplus.co/production/436362/538a53f6-8e75-454c-8130-e91e364a93fa.pdf",
+            "lec4_code1": "https://cdn-wl-assets.classplus.co/production/436362/65a6836a-1e38-4962-986b-665afb17cbdc.pdf",
+            "lec4_code2": "https://cdn-wl-assets.classplus.co/production/436362/bad5c01e-5812-4cf6-b43e-da021cd1a423.pdf",
+            "lec5_notes": "https://cdn-wl-assets.classplus.co/production/436362/81d19ac5-23e3-4dfe-95e1-435b666e569e.pdf",
+            "lec5_code": "https://cdn-wl-assets.classplus.co/production/436362/64fe9321-d588-44ce-9f22-f63c4d2d7604.pdf",
+            "lec6_notes": "https://cdn-wl-assets.classplus.co/production/436362/915eea42-f14f-46fe-8004-629120d31590.pdf",
+            "lec6_code": "https://cdn-wl-assets.classplus.co/production/436362/4bb480ca-7bd6-4765-bb7f-23ae3ac08b4d.pdf",
+            "lec7_notes": "https://cdn-wl-assets.classplus.co/production/436362/cdcfc201-cbe9-44cd-9af2-4678d0e1fbc6.pdf",
+            "lec7_code1": "https://cdn-wl-assets.classplus.co/production/436362/dec40d83-8f5b-4ab0-a5b0-8487504bd79a.pdf",
+            "lec7_code2": "https://cdn-wl-assets.classplus.co/production/436362/b14f456e-b886-4564-8c9a-726bf15a5ed8.pdf",
+            "lec8_notes": "https://cdn-wl-assets.classplus.co/production/436362/242a5e46-85ee-4d4b-a7ad-8caff7a797ec.pdf",
+            "lec8_code1": "https://cdn-wl-assets.classplus.co/production/436362/ec0dc425-24ef-4679-b840-b368fe066fec.pdf",
+            "lec8_code2": "https://cdn-wl-assets.classplus.co/production/436362/d33bebdc-7528-442e-94a5-0ce0c0a4f53e.pdf",
+            "lec8_code3": "https://cdn-wl-assets.classplus.co/production/436362/2ceeadd8-93dd-4591-81e2-d432c97f1c34.pdf",
+            "lec9_notes": "https://cdn-wl-assets.classplus.co/production/436362/74c34426-5e9b-4785-8b6c-552a2d27e17c.pdf",
+            "lec9_code": "https://cdn-wl-assets.classplus.co/production/436362/833527a7-d2ba-4486-bf46-8ffbd6d266de.pdf",
+            "lec10_notes": "https://cdn-wl-assets.classplus.co/production/436362/8a7205cf-1287-493d-96be-d7c4dd3833ff.pdf",
+            "lec10_code1": "https://cdn-wl-assets.classplus.co/production/436362/1fda191d-667f-4c11-a4f9-3407e623b2a7.pdf",
+            "lec10_code2": "https://cdn-wl-assets.classplus.co/production/436362/90e933ea-3c2c-4487-b087-41004f07b1f9.pdf",
+            "lec10_code3": "https://cdn-wl-assets.classplus.co/production/436362/4f6fe4d9-d1f9-4751-975b-361f01edb138.pdf",
+            "lec11_notes": "https://cdn-wl-assets.classplus.co/production/436362/5c455dc0-3264-4a5f-be43-2b608f5228cc.pdf",
+            "lec11_code1": "https://cdn-wl-assets.classplus.co/production/436362/6d9a982e-aa81-4ab5-a3ab-9a3cd7e84686.pdf",
+            "lec11_code2": "https://cdn-wl-assets.classplus.co/production/436362/f1ce1c23-b4ce-4f7a-9b59-2b47b05d0c47.pdf",
+            "combined_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/436362/1bfd18fd-29c9-48db-a6de-8a6289df83bd.pdf",
+            "lec1_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/436362/fc29dddb-9455-4e7e-ab59-a8475c2e0c2a.pdf",
+            "lec2_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/436362/fded0d38-b5cc-4f33-a817-3396e8fbabdb.pdf",
+            "unit_notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/9291a4ab-7c2a-4078-822c-28e2ddb04ed8.pdf",
+            "lec3_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/436362/179e6a06-1455-4869-b759-11a3014939e4.pdf",
+            "one_shot_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/436362/1382a5a8-05fa-496a-b34e-ebc0b9c62761.pdf"
+          }
+        },
+        "unit3": {
+          "name": "Unit 3",
+          "lectures": {
+            "one_shot_notes": "https://cdn-wl-assets.classplus.co/production/436362/f3d5baa0-52b6-4215-83b7-9bd78e9e6773.pdf",
+            "combined_notes": "https://cdn-wl-assets.classplus.co/production/436362/65e3a719-ff80-4949-8fb1-626f11a55ca9.pdf",
+            "unmarked_combined_notes": "https://cdn-wl-assets.classplus.co/production/436362/b8730099-aad6-4d60-9197-303dd005c577.pdf",
+            "lec1_notes": "https://cdn-wl-assets.classplus.co/production/436362/b776eabd-0154-449f-9703-e2e6b5d079d1.pdf",
+            "lec1_code1": "https://cdn-wl-assets.classplus.co/production/436362/1380cf37-0324-4c25-a4bf-c9bba85edbc5.pdf",
+            "lec1_code2": "https://cdn-wl-assets.classplus.co/production/436362/75e2faf5-0f20-458d-b3bf-721d6407cc0b.pdf",
+            "lec1_code3": "https://cdn-wl-assets.classplus.co/production/436362/c9bea0a8-1e48-4074-a055-d148a7aefda5.pdf",
+            "lec1_code4": "https://cdn-wl-assets.classplus.co/production/436362/49f68324-b3ef-419a-abd7-d84ce75dcff1.pdf",
+            "lec1_code5": "https://cdn-wl-assets.classplus.co/production/436362/ddad5efe-f7f0-40a9-8f81-6c1011b2b747.pdf",
+            "lec2_notes": "https://cdn-wl-assets.classplus.co/production/436362/7d76bba2-dc21-4853-becf-ee7eaba21c9a.pdf",
+            "lec2_code1": "https://cdn-wl-assets.classplus.co/production/436362/ae330a60-0161-46db-826f-d51071e64c89.pdf",
+            "lec2_code2": "https://cdn-wl-assets.classplus.co/production/436362/c6307cc7-492a-46c8-9da0-f05e5604c811.pdf",
+            "lec3_notes": "https://cdn-wl-assets.classplus.co/production/436362/a65a6024-cfc1-452c-9f94-4fb24125be1e.pdf",
+            "lec3_code1": "https://cdn-wl-assets.classplus.co/production/436362/16616515-1e6e-4208-b0c4-0f48e9142a90.pdf",
+            "lec3_code2": "https://cdn-wl-assets.classplus.co/production/436362/52f8de2a-5296-4005-977b-73c939909fb1.pdf",
+            "lec3_code3": "https://cdn-wl-assets.classplus.co/production/436362/129bada9-423e-4f8d-be9d-672535417e67.pdf",
+            "lec4_notes": "https://cdn-wl-assets.classplus.co/production/436362/b2e6e454-4154-46f3-abf6-cc61746c93c0.pdf",
+            "lec4_code1": "https://cdn-wl-assets.classplus.co/production/436362/bb334955-62f3-4007-a7bc-0ea5bddf6e70.pdf",
+            "lec4_code2": "https://cdn-wl-assets.classplus.co/production/436362/08fd7363-1447-47cd-9cfa-cf7d03879626.pdf",
+            "lec4_code3": "https://cdn-wl-assets.classplus.co/production/436362/b2bd7f28-4fe3-4c1e-9610-c9b0df6d6cd7.pdf",
+            "lec4_code4": "https://cdn-wl-assets.classplus.co/production/436362/18a7e835-9f1f-4fa8-951c-aae67a01a960.pdf",
+            "lec4_code5": "https://cdn-wl-assets.classplus.co/production/436362/cdae1d64-b77b-48dd-95be-9eeab5edad67.pdf",
+            "lec5_notes": "https://cdn-wl-assets.classplus.co/production/436362/c230c7bc-54df-427f-9127-460311cca71c.pdf",
+            "lec5_code1": "https://cdn-wl-assets.classplus.co/production/436362/7f82598c-a0c3-40c2-966a-7149442fa07e.pdf",
+            "lec5_code2": "https://cdn-wl-assets.classplus.co/production/436362/9ec19157-4015-4a4f-9df2-d57fae8f41ee.pdf",
+            "lec6_notes": "https://cdn-wl-assets.classplus.co/production/436362/23e7cf7c-c650-4789-a918-bd75a3ab7c72.pdf",
+            "lec6_code1": "https://cdn-wl-assets.classplus.co/production/436362/96ec1eb3-0a18-4eb5-90f4-caa7ef50d256.pdf",
+            "lec6_code2": "https://cdn-wl-assets.classplus.co/production/436362/62cc6aed-8d74-4d0d-af35-24157047829a.pdf",
+            "lec6_code3": "https://cdn-wl-assets.classplus.co/production/436362/2d7a5dc8-1024-4b5a-99db-4fdb8140092f.pdf",
+            "lec1_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/436362/5a2209de-cbb6-4b85-b1f4-af51056fa245.pdf",
+            "lec2_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/436362/a147ed7f-fa95-4a94-9778-4addb1f85d2c.pdf",
+            "lec3_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/436362/7dbe1a18-a852-4351-b5f9-259bcbf18e28.pdf",
+            "lec4_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/436362/493551a0-4ff9-4647-afe7-d5b490d17572.pdf",
+            "lec5_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/436362/3cf685b0-615c-4c80-911f-732a8958804e.pdf",
+            "one_shot_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/436362/84466fd9-21f7-4ccf-aad5-92568d09edfe.pdf"
+          }
+        },
+        "unit4": {
+          "name": "Unit 4",
+          "lectures": {
+            "one_shot_notes": "https://cdn-wl-assets.classplus.co/production/436362/c20be7a1-8303-4ea6-a4c3-cf676b5dfcff.pdf",
+            "combined_notes": "https://cdn-wl-assets.classplus.co/production/436362/bedea482-21da-4d81-b4bd-fd9c940dbdbe.pdf",
+            "unmarked_combined_notes": "https://cdn-wl-assets.classplus.co/production/436362/e5afcfb6-e196-4d75-bdfe-d5fbda6adccc.pdf",
+            "lec1_notes": "https://cdn-wl-assets.classplus.co/production/436362/78be594e-55f5-4aec-80db-15b25afe6f49.pdf",
+            "lec1_code1": "https://cdn-wl-assets.classplus.co/production/436362/abd6f1d2-6f4f-4f1f-b130-f84b80fa92b0.pdf",
+            "lec2_notes": "https://cdn-wl-assets.classplus.co/production/436362/0124b800-5514-4206-9e46-c0f618d0a79b.pdf",
+            "lec2_code1": "https://cdn-wl-assets.classplus.co/production/436362/23a00e04-438b-4890-8051-8a67b4b25cbf.pdf",
+            "lec2_code2": "https://cdn-wl-assets.classplus.co/production/436362/baa76e7c-be21-4816-a1fb-11822504eecb.pdf",
+            "lec3_notes": "https://cdn-wl-assets.classplus.co/production/436362/075e9a6a-cdfe-4527-a8bf-b88c2c1bdd70.pdf",
+            "lec3_code1": "https://cdn-wl-assets.classplus.co/production/436362/269494a2-a7db-4d03-bdde-11b80e0a7a32.pdf",
+            "lec3_code2": "https://cdn-wl-assets.classplus.co/production/436362/46ea678f-91ba-4ac1-a923-2f315a03fa9e.pdf",
+            "lec3_code3": "https://cdn-wl-assets.classplus.co/production/436362/20bcc838-78e0-4598-b73c-f26dc2c08e2e.pdf",
+            "lec3_code4": "https://cdn-wl-assets.classplus.co/production/436362/74504283-7c8c-4256-a65d-a1f553b42b21.pdf",
+            "lec3_code5": "https://cdn-wl-assets.classplus.co/production/436362/388abf62-23f1-407f-9520-e5dd70e95e88.pdf",
+            "lec3_code6": "https://cdn-wl-assets.classplus.co/production/436362/cb5884f4-1850-4ac6-adba-f72ac8bb6baa.pdf",
+            "lec3_code7": "https://cdn-wl-assets.classplus.co/production/436362/9b944b93-06f2-4a16-967f-78b38c341145.pdf",
+            "lec4_notes": "https://cdn-wl-assets.classplus.co/production/436362/04539524-a3c1-409b-9f2f-f68be1423c18.pdf",
+            "lec4_code1": "https://cdn-wl-assets.classplus.co/production/436362/8b17cdba-abd1-468d-b022-d1410945d8e2.pdf",
+            "lec4_code2": "https://cdn-wl-assets.classplus.co/production/436362/96cb4e10-76aa-49ef-8ccd-b34a664bede7.pdf",
+            "lec4_code3": "https://cdn-wl-assets.classplus.co/production/436362/f456cd17-a756-433f-b20c-72d4b89f4eac.pdf",
+            "lec4_code4": "https://cdn-wl-assets.classplus.co/production/436362/aa506ff4-1470-4182-8e33-f1e348572060.pdf",
+            "lec4_code5": "https://cdn-wl-assets.classplus.co/production/436362/e6f5ca85-d318-46ba-b04b-6b74addbd9a9.pdf",
+            "lec4_code6": "https://cdn-wl-assets.classplus.co/production/436362/293fd91a-f99f-4c74-8ae9-f061961c212e.pdf",
+            "lec4_code7": "https://cdn-wl-assets.classplus.co/production/436362/40e9286e-154c-4aad-8fb3-969e11c2802c.pdf",
+            "lec4_code8": "https://cdn-wl-assets.classplus.co/production/436362/c7fb5e68-6096-42bd-b20d-3918eaf5b800.pdf",
+            "lec4_code9": "https://cdn-wl-assets.classplus.co/production/436362/0556e315-ed9c-4669-bdbc-a19de4ddaf71.pdf",
+            "lec4_code10": "https://cdn-wl-assets.classplus.co/production/436362/42885193-f18d-4413-99d4-4ff8c30b717e.pdf",
+            "lec5_notes": "https://cdn-wl-assets.classplus.co/production/436362/f3de698f-19fc-4a15-a0fb-362db7d71227.pdf",
+            "lec5_code1": "https://cdn-wl-assets.classplus.co/production/436362/621aecc3-9266-4d66-bf01-37d4c22c78b9.pdf",
+            "lec5_code2": "https://cdn-wl-assets.classplus.co/production/436362/fc6cdce2-481c-4734-a293-322b32e5db60.pdf",
+            "lec1_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/436362/25518e88-50ba-48ec-92c9-c9d2a0b31ffb.pdf",
+            "lec2_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/436362/6b7645a9-5670-41a6-9655-7833147c15d5.pdf",
+            "lec3_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/436362/89a2496d-b280-4a46-b64f-cf612b44ecc5.pdf",
+            "one_shot_notes_v2": "https://cdn-wl-assets.classplus.co/production/436362/ea71a446-2be9-4cee-9d6a-fe234b1073cc.pdf"
+          }
+        },
+        "unit5": {
+          "name": "Unit 5",
+          "lectures": {
+            "one_shot_notes": "https://cdn-wl-assets.classplus.co/production/436362/5ed66b17-c260-4ec6-a8a1-9847d464e791.pdf",
+            "one_shot_notes_v2": "https://cdn-wl-assets.classplus.co/production/436362/c455f937-315b-4a60-90a0-2bdb5137c5e0.pdf",
+            "notes": "https://ali-cdn-wl-assets.classplus.co/production/436362/ea32b45c-3e47-4269-95ce-a6d386dc135e.pdf"
+          }
+        }
+      }
+    },
+    "humanValues": {
+      "units": {
+        "unit1": {
+          "name": "Unit 1",
+          "lectures": {
+            "imp_questions": "https://cdn-wl-assets.classplus.co/production/436362/d837d4ac-140d-44b9-9ccb-36168a0f6331.pdf",
+            "one_shot_notes": "https://cdn-wl-assets.classplus.co/production/436362/b73f2183-a1e2-45ad-ac92-1f7c351a51ec.pdf",
+            "one_shot_notes_v2": "https://cdn-wl-assets.classplus.co/production/436362/cedd213e-2474-420b-a794-4c2657897b54.pdf",
+            "handwritten_notes": "https://cdn-wl-assets.classplus.co/production/436362/17e43686-0e0f-446b-baab-d2168bf6d574.pdf",
+            "complete_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/7042cb4d-27df-4651-94c5-c3aee7e0f3e9.pdf"
+          }
+        },
+        "unit2": {
+          "name": "Unit 2",
+          "lectures": {
+            "one_shot_notes": "https://cdn-wl-assets.classplus.co/production/436362/50d125d3-af87-4cd7-b9d8-b290230dcd80.pdf",
+            "one_shot_notes_v2": "https://cdn-wl-assets.classplus.co/production/436362/aa82ca0c-fc07-433f-83b4-977688058d72.pdf",
+            "complete_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/059b4aff-9171-4e00-ae4d-d3cb3dfa1627.pdf"
+          }
+        },
+        "unit3": {
+          "name": "Unit 3",
+          "lectures": {
+            "one_shot_notes": "https://cdn-wl-assets.classplus.co/production/436362/90242a68-f80c-4730-9471-8df0a53816a0.pdf",
+            "one_shot_notes_v2": "https://cdn-wl-assets.classplus.co/production/436362/d218af9c-8df7-4b01-a0fc-6acbb2864f0f.pdf",
+            "combined_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/70c41318-95d6-4021-96a8-216f91b6fea6.pdf"
+          }
+        },
+        "unit4": {
+          "name": "Unit 4",
+          "lectures": {
+            "one_shot_notes": "https://cdn-wl-assets.classplus.co/production/436362/6c557a08-e34d-47cd-baf7-336b57d8ba09.pdf",
+            "one_shot_notes_v2": "https://cdn-wl-assets.classplus.co/production/436362/694be965-3569-4a79-a372-bd0a0547c6ed.pdf",
+            "combined_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/ae8bc26d-3a80-4113-8882-2a00a6bc66b1.pdf"
+          }
+        },
+        "unit5": {
+          "name": "Unit 5",
+          "lectures": {
+            "one_shot_notes": "https://cdn-wl-assets.classplus.co/production/436362/2edd0efc-77d6-4d8f-9508-65bfe4532416.pdf",
+            "one_shot_notes_v2": "https://cdn-wl-assets.classplus.co/production/436362/c12b7c51-a5ef-48a8-bf54-213362d12a91.pdf",
+            "combined_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/525f923e-b46b-45a3-9cbd-5559ba4e483d.pdf"
+          }
+        }
+      }
+    },
+    "cyberSecurity": {
+      "units": {
+        "unit1": {
+          "name": "Unit 1",
+          "lectures": {
+            "one_shot_notes_new": "https://cdn-wl-assets.classplus.co/production/436362/0a861dc9-4a99-40aa-9d8d-58c934579501.pdf",
+            "one_shot_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/300b6360-b811-46a8-b886-b668ab825a3a.pdf",
+            "compact_one_shot_notes": "https://cdn-wl-assets.classplus.co/production/436362/a558db62-7ef3-4f82-913f-e0679b14f932.pdf"
+          }
+        },
+        "unit2": {
+          "name": "Unit 2",
+          "lectures": {
+            "one_shot_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/14f05b7c-0018-466c-8285-553a1b4ebc7a.pdf",
+            "compact_one_shot_notes": "https://cdn-wl-assets.classplus.co/production/436362/7e315b4f-4390-463b-b2fa-8b10663c70ed.pdf"
+          }
+        },
+        "unit3": {
+          "name": "Unit 3",
+          "lectures": {
+            "one_shot_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/42332687-e9fe-4d11-8e9b-e1baa7a7e646.pdf",
+            "compact_one_shot_notes": "https://cdn-wl-assets.classplus.co/production/436362/0734de8a-bb62-4528-9b01-10c7464a34f6.pdf"
+          }
+        },
+        "unit4": {
+          "name": "Unit 4",
+          "lectures": {
+            "one_shot_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/ff760b7b-4d7f-42b4-a009-d7dd2f31920c.pdf",
+            "compact_one_shot_notes": "https://cdn-wl-assets.classplus.co/production/436362/16e6cb20-83e2-4616-b545-4b26424a4001.pdf"
+          }
+        },
+        "unit5": {
+          "name": "Unit 5",
+          "lectures": {
+            "one_shot_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/d2b4cb7a-9013-4227-8288-82fe90d87783.pdf",
+            "compact_one_shot_notes": "https://cdn-wl-assets.classplus.co/production/436362/cb1bfa8f-45e9-4738-ad1d-8fd3db330591.pdf"
+          }
+        },
+        "important_questions": {
+          "name": "Important Questions",
+          "lectures": {
+            "imp_questions": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/c7966c4b-3055-4cf4-9b49-b3758ca0ab76.pdf",
+            "imp_questions_2425": "https://cdn-wl-assets.classplus.co/production/436362/224fcf4d-2fac-4f6e-a903-142921d65d39.pdf"
+          }
+        }
+      }
+    },
+    "dsd": {
+      "units": {
+        "unit1": {
+          "name": "Unit 1",
+          "lectures": {
+            "syllabus": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/d684a907-ea32-48de-946e-4afe29451717.pdf",
+            "combined_notes": "https://cdn-wl-assets.classplus.co/production/436362/472cfb2e-dc6d-4365-8cd6-bf11570a11d6.pdf",
+            "lec1_notes": "https://cdn-wl-assets.classplus.co/production/436362/d7e785a9-c335-48a7-a471-d9cbc6cfde8c.pdf",
+            "lec2_notes": "https://cdn-wl-assets.classplus.co/production/436362/b6adc8c1-db61-45d3-be51-06271831a06b.pdf",
+            "lec3_notes": "https://cdn-wl-assets.classplus.co/production/436362/25b79112-fc66-47a1-af3f-af98045f593f.pdf",
+            "lec4_notes": "https://cdn-wl-assets.classplus.co/production/436362/b94997f6-0287-4a5a-bcaa-6261b4f39811.pdf",
+            "lec5_notes": "https://cdn-wl-assets.classplus.co/production/436362/1b9f6377-899f-4c9c-9583-f4296da12378.pdf",
+            "lec6_notes": "https://cdn-wl-assets.classplus.co/production/436362/57e1c8c8-1d24-4f21-a2dc-271a6d3a0ef6.pdf",
+            "one_shot_notes": "https://cdn-wl-assets.classplus.co/production/436362/159ec5d0-d17c-4cce-abd6-f6743fd14123.pdf",
+            "one_shot_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/64699690-1607-406f-9bb4-ed102f928629.pdf",
+            "combined_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/296bf1c0-2471-48fe-bba8-1e7849cd7892.pdf",
+            "lec1_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/4a1ac44a-16f8-4250-8c85-17c1fe8b9635.pdf",
+            "lec2_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/027e7c18-730b-4e84-b2c1-9b464be4bf7a.pdf",
+            "lec3_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/2bc8c565-4820-4545-8ea4-27dc5b4e3751.pdf",
+            "lec4_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/965715bd-c77f-4d03-83b2-60e4c09d1493.pdf",
+            "lec5_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/7af21710-0d90-4c50-9faf-23470644ef3d.pdf",
+            "lec6_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/8a6a36e6-89a0-4bb5-b56f-fe380b7a2ed6.pdf",
+            "lec7_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/fa6ec599-fdb3-45ae-82bf-df766855ec0d.pdf",
+            "lec8_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/38bf525b-d629-4652-a362-433cc6ce6420.pdf",
+            "lec9_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/46b0c170-f517-4392-b12d-4cf575fc9caa.pdf",
+            "lec10_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/c9174d3a-c869-4ca4-a1a1-bf545b045b72.pdf",
+            "lec11_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/ee32aea6-f58f-4acf-9129-a203342523dc.pdf",
+            "lec12_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/b1f93e5b-7f7a-45f8-867d-27e29ce37bf5.pdf"
+          }
+        },
+        "unit2": {
+          "name": "Unit 2",
+          "lectures": {
+            "combined_notes": "https://cdn-wl-assets.classplus.co/production/436362/527275cc-9dc3-4acd-aa03-9f11f8b71919.pdf",
+            "lec1_notes": "https://cdn-wl-assets.classplus.co/production/436362/da71ff01-0fe1-40fc-9f73-39d32e7987ac.pdf",
+            "lec2_notes": "https://cdn-wl-assets.classplus.co/production/436362/4c8caea9-759f-4da4-9372-ec4dea1c60d1.pdf",
+            "lec3_notes": "https://cdn-wl-assets.classplus.co/production/436362/a890ec85-f6fc-4132-83b4-db04c1322b69.pdf",
+            "lec4_notes": "https://cdn-wl-assets.classplus.co/production/436362/32d74791-48da-4ce6-bb3c-1630b0251c31.pdf",
+            "lec5_notes": "https://cdn-wl-assets.classplus.co/production/436362/a5e177cc-dc8b-4a82-9a0e-8309942b8c1b.pdf",
+            "lec6_notes": "https://cdn-wl-assets.classplus.co/production/436362/fc265827-cc08-440f-b724-dc9ae1b9da66.pdf",
+            "lec7_notes": "https://cdn-wl-assets.classplus.co/production/436362/f9c838a7-9b89-4aba-9a61-202eafcd75bb.pdf",
+            "lec8_notes": "https://cdn-wl-assets.classplus.co/production/436362/d2eb0506-c99a-4c33-8e93-c0c0eb891bc8.pdf",
+            "one_shot_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/89130109-7d90-4cae-8feb-725be23d3b6f.pdf",
+            "combined_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/24d1dfe7-58b7-46a2-b3d3-7825fad798c3.pdf",
+            "lec1_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/b4ac05d7-3dbe-4f26-89b4-7ab3a49f9f93.pdf",
+            "lec2_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/0da56444-f86e-4cb3-92a4-688aea375f95.pdf",
+            "lec3_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/4c01fdf0-bd67-47c9-9495-c1ad06122d6c.pdf",
+            "lec4_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/01dc2bcf-dfe0-487b-8e3a-0db1a4edddd6.pdf",
+            "lec5_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/c20db591-ed1f-420b-92ab-4aef9ec0ac86.pdf",
+            "lec6_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/ebb182a3-f0dd-445d-895b-2ae82e692eef.pdf",
+            "lec7_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/78aa1e15-fa69-4c69-ad7f-2fd95ea26a64.pdf",
+            "lec8_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/9581391d-3419-4f5a-95f6-94cc294f2ae4.pdf",
+            "lec9_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/109065a3-73de-42ca-a799-87b621551b33.pdf",
+            "lec10_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/78666805-fe1b-4f1b-b3ab-65c6cd85587d.pdf"
+          }
+        },
+        "unit3": {
+          "name": "Unit 3",
+          "lectures": {
+            "combined_notes": "https://cdn-wl-assets.classplus.co/production/436362/076b0612-aef0-4c00-93a4-2cbc23f4fd50.pdf",
+            "lec1_notes": "https://cdn-wl-assets.classplus.co/production/436362/03e0566d-3f76-42ec-96fb-c1800db693eb.pdf",
+            "lec2_notes": "https://cdn-wl-assets.classplus.co/production/436362/278aa55c-30a1-4ab3-933e-eb2ca9e2b3bc.pdf",
+            "lec3_notes": "https://cdn-wl-assets.classplus.co/production/436362/28349ff4-38ae-4d56-8ba9-2f9fcfe61a8d.pdf",
+            "lec4_notes": "https://cdn-wl-assets.classplus.co/production/436362/50af3703-6a23-40ec-867d-592c81579c8e.pdf",
+            "lec5_notes": "https://cdn-wl-assets.classplus.co/production/436362/fa8651ec-688b-4e43-89d8-d3673413df81.pdf",
+            "lec6_notes": "https://cdn-wl-assets.classplus.co/production/436362/284c2020-90bf-41ef-972b-88f3f0bca9c5.pdf",
+            "one_shot_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/fe36681b-4290-49b1-9c29-ecaacc86409b.pdf",
+            "combined_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/02c2195e-73a0-40aa-af6d-2e981fb308ad.pdf",
+            "lec1_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/2b106cf7-2ee7-4baf-b1b0-8375e4c2ec3a.pdf",
+            "lec2_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/0e3f7e62-0af1-4664-b142-ce420ae80a97.pdf",
+            "lec3_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/4b770511-8fe6-4983-ad10-dec9b8fbc0ea.pdf",
+            "lec4_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/1d2b7278-84e0-45ca-8dbf-47f87e33efe2.pdf",
+            "lec5_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/86ae609f-ec9f-4db9-b994-e2515179f15b.pdf",
+            "lec6_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/715b731c-8257-4d8f-9b37-39002c82408b.pdf",
+            "lec7_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/60b2f180-250a-408d-bf4e-dc5f56385fc0.pdf",
+            "lec8_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/5b417bc0-8874-4612-8d08-d3d35448b0c2.pdf",
+            "lec9_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/2139a62e-cb0d-4771-84dc-def7b457af88.pdf",
+            "lec10_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/142943d6-c01b-4e31-be34-e84fcf992744.pdf"
+          }
+        },
+        "unit4": {
+          "name": "Unit 4",
+          "lectures": {
+            "lec1_notes": "https://cdn-wl-assets.classplus.co/production/436362/4fa1c86f-16f6-449a-9f5e-f531d2c2cc02.pdf",
+            "lec2_notes": "https://cdn-wl-assets.classplus.co/production/436362/1e04e262-8019-406d-9e24-44bb11dd048c.pdf",
+            "lec3_notes": "https://cdn-wl-assets.classplus.co/production/436362/44931721-02f1-48db-a045-09a211757cd8.pdf",
+            "lec4_notes": "https://cdn-wl-assets.classplus.co/production/436362/62fba7d0-6c75-4ef8-9c7b-d02952a710f8.pdf",
+            "one_shot_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/baa618b5-4f22-46a6-8739-b2973a6712c2.pdf",
+            "combined_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/508a8cf9-2988-4ab4-bd98-d01b16e82bfc.pdf",
+            "lec1_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/40cb3e5a-9fb5-490c-b54c-156c738ba1be.pdf",
+            "lec2_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/019b8620-62d3-4ef1-b54c-fce74911d590.pdf",
+            "lec3_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/78daaf9c-82db-42c7-a9a9-5996b1d7c941.pdf",
+            "lec4_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/cf02e6b7-8763-46e7-98f9-b179e87c6d7d.pdf",
+            "lec5_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/31d703e0-c212-47ee-9c20-d30a99c773d3.pdf",
+            "lec6_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/25729af8-92f2-43ae-8d3e-8abc8fd162f7.pdf",
+            "lec7_notes": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/d908011f-f36f-47a0-9be1-70d22ed518b7.pdf"
+          }
+        },
+        "unit5": {
+          "name": "Unit 5",
+          "lectures": {
+            "one_shot_notes": "https://cdn-wl-assets.classplus.co/production/436362/2b08d854-6a4a-42ad-bd1d-b2960eb4dcc7.pdf",
+            "one_shot_notes_v2": "https://ali-cdn-wl-assets.classplus.co/production/single/mvxiz/840124a8-48a7-40d8-a401-476b3a82158f.pdf",
+            "combined_notes": "https://cdn-wl-assets.classplus.co/production/436362/0191b011-9cfa-43dd-96db-337ee458422a.pdf",
+            "lec1_notes": "https://cdn-wl-assets.classplus.co/production/436362/a456190c-0171-4160-baba-81dc6c2df21f.pdf",
+            "lec2_notes": "https://cdn-wl-assets.classplus.co/production/436362/8ed975ba-4923-4692-a0d2-199abcfe3bfa.pdf",
+            "lec3_notes": "https://cdn-wl-assets.classplus.co/production/436362/3ee0eac2-83df-4fc0-b905-e519ceec062d.pdf",
+            "lec4_notes": "https://cdn-wl-assets.classplus.co/production/436362/22514b34-8556-4d4c-8d95-a26b1bc5c336.pdf"
+          }
+        }
+      }
+    },
+    "energyScience": {
+      "units": {
+        "unit1": {
+          "name": "Unit 1",
+          "lectures": {
+            "one_shot_notes": "https://cdn-wl-assets.classplus.co/production/436362/579884f1-c708-4a27-ab6c-2d78b6e856ec.pdf",
+            "combined_notes": "https://cdn-wl-assets.classplus.co/production/436362/8533962e-179b-4c7d-8e2c-c68a62fbb5a2.pdf"
+          }
+        },
+        "unit2": {
+          "name": "Unit 2",
+          "lectures": {
+            "one_shot_notes": "https://cdn-wl-assets.classplus.co/production/436362/9bf4cae2-02b6-4e51-8abc-aab289fac081.pdf",
+            "combined_notes": "https://cdn-wl-assets.classplus.co/production/436362/f274ccd9-75c7-4af6-8db9-40fa0aca5af5.pdf"
+          }
+        },
+        "unit3": {
+          "name": "Unit 3",
+          "lectures": {
+            "one_shot_notes": "https://cdn-wl-assets.classplus.co/production/436362/92fc0eb7-816f-453d-bd18-28f035dc3ee1.pdf",
+            "combined_notes": "https://cdn-wl-assets.classplus.co/production/436362/92da5c43-2c69-4e56-bc40-15c458cf7d22.pdf"
+          }
+        },
+        "unit4": {
+          "name": "Unit 4",
+          "lectures": {
+            "one_shot_notes": "https://cdn-wl-assets.classplus.co/production/436362/f81889f2-a2c0-4fa9-974e-6aae1a9925ac.pdf",
+            "combined_notes": "https://cdn-wl-assets.classplus.co/production/436362/c2cc6ef6-e2dc-46c2-af0c-aaa65fe9618a.pdf"
+          }
+        },
+        "unit5": {
+          "name": "Unit 5",
+          "lectures": {
+            "one_shot_notes": "https://cdn-wl-assets.classplus.co/production/436362/c932e121-5fcb-4037-9605-262655e55f06.pdf",
+            "combined_notes": "https://cdn-wl-assets.classplus.co/production/436362/56dd4cb8-9e04-410f-ad77-6f0c42957928.pdf"
+          }
+        },
+        "important_questions": {
+          "name": "Important Questions",
+          "lectures": {
+            "imp_ques_pyqs": "https://cdn-wl-assets.classplus.co/production/436362/c06f5bef-ca75-4c48-90f0-c8e041134291.pdf"
+          }
+        }
+      }
+    },
+    "energy_science": {
+      "units": {
+        "unit1": {
+          "name": "Unit 1",
+          "lectures": {
+            "important_questions_pyq": "https://cdn-wl-assets.classplus.co/production/436362/c06f5bef-ca75-4c48-90f0-c8e041134291.pdf",
+            "one_shot_notes": "https://cdn-wl-assets.classplus.co/production/436362/579884f1-c708-4a27-ab6c-2d78b6e856ec.pdf",
+            "combined_notes": "https://cdn-wl-assets.classplus.co/production/436362/8533962e-179b-4c7d-8e2c-c68a62fbb5a2.pdf"
+          }
+        },
+        "unit2": {
+          "name": "Unit 2",
+          "lectures": {
+            "one_shot_notes": "https://cdn-wl-assets.classplus.co/production/436362/9bf4cae2-02b6-4e51-8abc-aab289fac081.pdf",
+            "combined_notes": "https://cdn-wl-assets.classplus.co/production/436362/f274ccd9-75c7-4af6-8db9-40fa0aca5af5.pdf"
+          }
+        },
+        "unit3": {
+          "name": "Unit 3",
+          "lectures": {
+            "one_shot_notes": "https://cdn-wl-assets.classplus.co/production/436362/92fc0eb7-816f-453d-bd18-28f035dc3ee1.pdf",
+            "combined_notes": "https://cdn-wl-assets.classplus.co/production/436362/92da5c43-2c69-4e56-bc40-15c458cf7d22.pdf"
+          }
+        },
+        "unit4": {
+          "name": "Unit 4",
+          "lectures": {
+            "one_shot_notes": "https://cdn-wl-assets.classplus.co/production/436362/f81889f2-a2c0-4fa9-974e-6aae1a9925ac.pdf",
+            "combined_notes": "https://cdn-wl-assets.classplus.co/production/436362/c2cc6ef6-e2dc-46c2-af0c-aaa65fe9618a.pdf"
+          }
+        },
+        "unit5": {
+          "name": "Unit 5",
+          "lectures": {
+            "one_shot_notes": "https://cdn-wl-assets.classplus.co/production/436362/c932e121-5fcb-4037-9605-262655e55f06.pdf",
+            "combined_notes": "https://cdn-wl-assets.classplus.co/production/436362/56dd4cb8-9e04-410f-ad77-6f0c42957928.pdf"
+          }
+        }
+      }
+    },
+    "electronics": {
+      "units": {
+        "unit1": {
+          "name": "Unit 1",
+          "lectures": {
+            "one_shot_notes": "https://cdn-wl-assets.classplus.co/production/436362/5db76ee1-7034-40ed-8b92-bf30ff5608f9.pdf"
+          }
+        },
+        "unit2": {
+          "name": "Unit 2",
+          "lectures": {
+            "one_shot_notes": "https://cdn-wl-assets.classplus.co/production/436362/f2f710db-d33e-491e-b160-44819d8896a2.pdf"
+          }
+        },
+        "unit3": {
+          "name": "Unit 3",
+          "lectures": {
+            "one_shot_notes": "https://cdn-wl-assets.classplus.co/production/436362/a77e72f7-eed3-42b2-bbe7-3beedc4dc110.pdf"
+          }
+        },
+        "unit4": {
+          "name": "Unit 4",
+          "lectures": {
+            "one_shot_notes": "https://cdn-wl-assets.classplus.co/production/436362/f0115fbd-3183-4e81-947d-335c68807932.pdf"
+          }
+        },
+        "unit5": {
+          "name": "Unit 5",
+          "lectures": {
+            "one_shot_notes": "https://cdn-wl-assets.classplus.co/production/436362/9505b5e1-f5c2-4201-bd90-c8fc0bfb3afc.pdf"
+          }
+        }
+      }
+    }
+  }
+}

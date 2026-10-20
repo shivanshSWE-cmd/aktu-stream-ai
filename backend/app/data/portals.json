@@ -1,0 +1,90 @@
+{
+  "portals": [
+    {
+      "id": "1year",
+      "title": "1st Year Gateway Classes",
+      "path": "/1year.html",
+      "count": "13 Subjects • 182 Notes",
+      "badge": "1st Year • All Branches",
+      "icon": "📚",
+      "color": "#ffffff"
+    },
+    {
+      "id": "2ndyear",
+      "title": "2nd Year Gateway Classes",
+      "path": "/2ndyear.html",
+      "count": "15 Subjects • 881 Notes",
+      "badge": "2nd Year • CSE / IT",
+      "icon": "📝",
+      "color": "#ffffff"
+    },
+    {
+      "id": "3year",
+      "title": "3rd Year Gateway Classes",
+      "path": "/3year.html",
+      "count": "34 Subjects • 323 Notes",
+      "badge": "3rd Year • All Electives",
+      "icon": "🎓",
+      "color": "#ffffff"
+    },
+    {
+      "id": "4year",
+      "title": "4th Year All Platforms",
+      "path": "/4year.html",
+      "count": "20 Subjects • 127 Notes",
+      "badge": "4th Year • All Platforms",
+      "icon": "🚀",
+      "color": "#ffffff"
+    },
+    {
+      "id": "multiatom",
+      "title": "Multi Atoms 2nd Year",
+      "path": "/multiatom.html",
+      "count": "11 Subjects • Fast PDF",
+      "badge": "Multi Atoms • 2nd Year",
+      "icon": "🧪",
+      "color": "#ffffff"
+    },
+    {
+      "id": "3year-multiatom",
+      "title": "Multi Atoms 3rd Year",
+      "path": "/3year-multiatom.html",
+      "count": "14 Subjects • 63 Notes",
+      "badge": "Multi Atoms • 3rd Year",
+      "icon": "⚛️",
+      "color": "#ffffff"
+    },
+    {
+      "id": "4year-multiatom",
+      "title": "Multi Atoms 4th Year",
+      "path": "/4year-multiatom.html",
+      "count": "11 Subjects • 25 Notes",
+      "badge": "Multi Atoms • 4th Year",
+      "icon": "⚛️",
+      "color": "#ffffff"
+    },
+    {
+      "id": "lectindex",
+      "title": "Video Lectures Hub",
+      "path": "/lectindex.html",
+      "count": "28 Courses • One-Shots & Playlists",
+      "badge": "AH Tutorials • MultiAtoms",
+      "icon": "🎬",
+      "color": "#ffffff"
+    },
+    {
+      "id": "under",
+      "title": "AKTU B.Tech PYQ Bank",
+      "path": "/under.html",
+      "count": "1,961 Papers • Sem 1-8",
+      "badge": "Sem 1 to 8 • All Branches",
+      "icon": "🎯",
+      "color": "#ffffff"
+    }
+  ],
+  "stats": {
+    "totalSearchItems": 3757,
+    "totalPYQs": 1961,
+    "totalCategories": 9
+  }
+}

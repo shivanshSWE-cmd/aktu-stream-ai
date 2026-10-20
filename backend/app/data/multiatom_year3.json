@@ -1,0 +1,285 @@
+{
+  "title": "MultiAtoms 3rd Year Notes",
+  "subjects": [
+    {
+      "id": "m1",
+      "title": "🤖 MLT (Machine Learning Techniques)",
+      "notes": [
+        {
+          "url": "https://drive.google.com/file/d/12xUUlhnZwgsKejXjnp5vPM5F91475tcb/view",
+          "title": "MLT Unit 2 by MultiAtoms"
+        }
+      ],
+      "icon": "🤖",
+      "cleanTitle": "MLT (Machine Learning)"
+    },
+    {
+      "id": "m2",
+      "title": "💻 Computer Networks",
+      "notes": [
+        {
+          "url": "https://drive.google.com/file/d/1bIu0duopFsk2QyofcSGMKdj80qi5XPe3/view",
+          "title": "CN Unit 1 by MultiAtoms"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1bMWSAapF1qzQvm2l-Ogd_gy49ybVJa7-/view",
+          "title": "CN Unit 2 by MultiAtoms"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1bQo4d55_C3y-NVTui4dyED-yXk3_uXjm/view",
+          "title": "CN Unit 3 by MultiAtoms"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1bP9hga-tlRV61XLgGWKNbp9HDy9VeQfr/view",
+          "title": "CN Unit 4 by MultiAtoms"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1bQSpB8lbtYy15mb-x11dCVTbR_NzN1l3/view",
+          "title": "CN Unit 5 by MultiAtoms"
+        }
+      ],
+      "icon": "💻",
+      "cleanTitle": "Computer Networks"
+    },
+    {
+      "id": "m3",
+      "title": "🌐 Web Technology",
+      "notes": [
+        {
+          "url": "https://drive.google.com/file/d/1iiYWgLefmH2ptNeiYPyRMWulcefM-xyP/view",
+          "title": "Web Tech Unit 1 by MultiAtoms"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1ikLwzAVsde1AZIxpoCvkZcI15hpfzBfh/view",
+          "title": "Web Tech Unit 2"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1XRQRMXFMVw7o1znVGCdidv2783oujccY/view",
+          "title": "Web Tech Unit 3"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1a2W8OwaxTAiwgZvssHIMXB0bLpK-4VqJ/view",
+          "title": "Web Tech Unit 4"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1Z1jePa9iDwBPyBKrvJhiavM1iLj21X1t/view",
+          "title": "Web Tech Unit 5"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1j9DZeg8qKmeYg8y5Eu8AmvHGQ5_tzTfO/view",
+          "title": "All Units WT (New)"
+        }
+      ],
+      "icon": "🌐",
+      "cleanTitle": "Web Technology"
+    },
+    {
+      "id": "m4",
+      "title": "🗜️ Data Compression",
+      "notes": [
+        {
+          "url": "https://drive.google.com/file/d/1lJ0XVdW7uXv7DwlIxIiSOb29R_FHx4XU/view",
+          "title": "DC Unit 4"
+        }
+      ],
+      "icon": "🗜️",
+      "cleanTitle": "Data Compression"
+    },
+    {
+      "id": "m5",
+      "title": "📋 SPM (Software Project Management)",
+      "notes": [
+        {
+          "url": "https://drive.google.com/file/d/1bTFg39-DMA7_1QFQ9UtbmtUGs2PvF7VW/view",
+          "title": "SPM Unit 1 by MultiAtoms"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1_0PJfNSmB9VqTJ2AsYwNvh5AYziKoqAU/view",
+          "title": "SPM Unit 2 by MultiAtoms"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1cjqPX6IjKf5PFRK9fxvn-uySlJ0sOgs0/view",
+          "title": "SPM Unit 3 by MultiAtoms"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1bVpZi_79Ky-nni3TWxwCc6_Fj-QLoSRz/view",
+          "title": "SPM Unit 4 by MultiAtoms"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1bXkS9qRGgc9KpelB0phKXiEQBZtvTUkW/view",
+          "title": "SPM Unit 5 by MultiAtoms"
+        }
+      ],
+      "icon": "📋",
+      "cleanTitle": "SPM (Software Project Mgmt)"
+    },
+    {
+      "id": "m6",
+      "title": "📡 Constitution of India",
+      "notes": [
+        {
+          "url": "https://drive.google.com/file/d/1dePwVm29QcBpkfvRrHio1Rln859bMhU_/view",
+          "title": "COI Unit 1 by MultiAtoms"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1dlyF4kEBQub_EbURu_V7MdAZGI-W0Zyx/view",
+          "title": "COI Unit 2 by MultiAtoms"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1dm5no9VdG-mlwvgHTR1wSVNSqnGiuNUS/view",
+          "title": "COI Unit 3 by MultiAtoms"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1dyElZVrvmcuqXMp3y8rn6c_hFnSd8gED/view",
+          "title": "COI Unit 5 One Shot by MultiAtoms"
+        }
+      ],
+      "icon": "📡",
+      "cleanTitle": "Constitution of India"
+    },
+    {
+      "id": "m7",
+      "title": "🇮🇳 ITCS",
+      "notes": [
+        {
+          "url": "https://drive.google.com/file/d/1dapOGtId5VvOzfsAaQ-RTlQdyST8U7Y2/view",
+          "title": "ITCS Unit 1 by MultiAtoms"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1e1lNI_LaysiS0VHAhYPuFE-vg5D2KyM9/view",
+          "title": "ITCS Unit 2 by MultiAtoms"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1dxfR2Y2k28WCUOkLUJyx3GgcrOZDR_Z7/view",
+          "title": "ITCS Unit 3 by MultiAtoms"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1dvxYxeHEfDDb23Ge9p9SDCSE_aqyldN7/view",
+          "title": "ITCS Unit 4 by MultiAtoms"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1fQextqKWrZ0L1qa3dIQ1gwRugrJTMbSo/view",
+          "title": "ITCS Unit 5 by MultiAtoms"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1wS-Ijg9Xc9pdHx4mnaXxfAaVaU_M-C0V/view",
+          "title": "ITCS Notes Unit 1-5 (SEB)"
+        }
+      ],
+      "icon": "🇮🇳",
+      "cleanTitle": "ITCS"
+    },
+    {
+      "id": "m8",
+      "title": "🧩 OOSD",
+      "notes": [
+        {
+          "url": "https://drive.google.com/file/d/1ZKylEVrN7G5RLtNZAOI5SsPppQqgHvcb/view",
+          "title": "OOSD All Units Notes by MultiAtoms"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1fjABP15t_09FLW4cXvB1L_Fk6u-h_AgJ/view",
+          "title": "OOSD Unit 1 One Shot"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1ffndDSrUZzUWeULHSNeC0yPNQZHZ75XD/view",
+          "title": "OOSD Unit 2 One Shot"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1fgpKW_ky4FNZbBJbrkuxxcbevImSYAwD/view",
+          "title": "OOSD Unit 3 One Shot"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1ffoEhcEMyFX3W8Da0wmZMkobT-JJ0RZB/view",
+          "title": "OOSD Unit 4 One Shot"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1fi22giwcF9AmKNpGT070-dzsAQ3FJAhJ/view",
+          "title": "OOSD Unit 5 One Shot"
+        }
+      ],
+      "icon": "🧩",
+      "cleanTitle": "OOSD (Object Oriented Design)"
+    },
+    {
+      "id": "m9",
+      "title": "📘 DAA",
+      "notes": [
+        {
+          "url": "https://drive.google.com/file/d/1d01K1qw9ksJamA53I5NES5b-MxNlKuW6/view",
+          "title": "DAA Unit 1 by MultiAtoms"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1-lXonY4oprIXBLjTMzwzblwfJLzIW8rO/view",
+          "title": "DAA Unit 2 by MultiAtoms"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1ROe7jhI1SJ9wuu_eFqNo_r0GU_A6OFwS/view",
+          "title": "DAA Unit 3 by MultiAtoms"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1RQWpyTufl05wLweowS1L4-8Ws5qN_-HV/view",
+          "title": "DAA Unit 4 by MultiAtoms"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1_vfxw4A_PB_G-9aPHJY2BRHCHo_J8rmD/view",
+          "title": "DAA Unit 5 by MultiAtoms"
+        }
+      ],
+      "icon": "📘",
+      "cleanTitle": "DAA (Design & Analysis)"
+    },
+    {
+      "id": "m10",
+      "title": "🌐 Application of Soft Computing",
+      "notes": [
+        {
+          "url": "https://drive.google.com/file/d/1NoQAGdRNKEOO-7pNDBoiUu1GoR1kxInV/view",
+          "title": "ASC Unit 1 by MultiAtoms"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1NkovvXWwCi_AlAosi-IYc-erm6IDgOaI/view",
+          "title": "ASC Unit 3 by MultiAtoms"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1NoXONHCiyYOQdWOH7rD__LD4N3hKr0qF/view",
+          "title": "ASC Unit 4 by MultiAtoms"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1NqPhYKWrmBCtXJYjT3QnOr3ynMlz56PZ/view",
+          "title": "ASC Unit 5 by MultiAtoms"
+        }
+      ],
+      "icon": "🌐",
+      "cleanTitle": "Soft Computing"
+    },
+    {
+      "id": "m11",
+      "title": "🗄️ DBMS",
+      "notes": [
+        {
+          "url": "https://drive.google.com/file/d/1cyaEqBskLoslOHMNV3l6A9y-qW4ShxrZ/view",
+          "title": "DBMS Unit 1 by MultiAtoms Plus"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1d-TAHBE7tZ1FLlBLli9MXVwrP-iX-8eI/view",
+          "title": "DBMS Unit 2 Notes by MultiAtoms Plus"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1h0Et0wswvSaV3MTnEgGvjD7oidkSdCjZ/view",
+          "title": "DBMS Unit 3 Notes by MultiAtoms Plus"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1hiJiwfHyRngcgStiQKwBI53BPqS1WcDU/view",
+          "title": "DBMS Unit 4 Notes by MultiAtoms Plus"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1hfmKdFT9B90KfEXwvKQJuNG0Vs4OS9JG/view",
+          "title": "DBMS Unit 5 by MultiAtoms Plus"
+        }
+      ],
+      "icon": "🗄️",
+      "cleanTitle": "DBMS"
+    }
+  ]
+}

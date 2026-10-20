@@ -1,0 +1,1242 @@
+{
+  "title": "AKTU B.Tech Video Lectures Hub — Unit-Wise One-Shots & Full Playlists",
+  "channels": [
+    {
+      "id": "all",
+      "name": "All Channels",
+      "icon": "🎬"
+    },
+    {
+      "id": "ah-tutorials",
+      "name": "AH Tutorials",
+      "handle": "@AHTUTORIALS2024",
+      "url": "https://www.youtube.com/@AHTUTORIALS2024",
+      "icon": "🔥",
+      "badge": "AH Tutorials"
+    },
+    {
+      "id": "multiatoms",
+      "name": "MultiAtoms",
+      "handle": "@MultiAtoms",
+      "url": "https://www.youtube.com/@MultiAtoms",
+      "icon": "⚛️",
+      "badge": "MultiAtoms"
+    },
+    {
+      "id": "gateway-classes",
+      "name": "Gateway Classes",
+      "handle": "@GatewayClasses",
+      "url": "https://www.youtube.com/@GatewayClasses",
+      "icon": "🎓",
+      "badge": "Gateway Classes"
+    }
+  ],
+  "courses": [
+    {
+      "id": "ah-os",
+      "title": "Operating Systems (OS)",
+      "code": "BCS-401",
+      "channelId": "ah-tutorials",
+      "channelName": "AH Tutorials",
+      "channelBadge": "AH Tutorials",
+      "icon": "💻",
+      "year": "2nd Year",
+      "playlistUrl": "https://www.youtube.com/@AHTUTORIALS2024/search?query=Operating+System+AKTU+One+Shot",
+      "marathonUrl": "https://www.youtube.com/watch?v=25sChVM6Dj4",
+      "units": [
+        {
+          "unit": "Unit 1",
+          "title": "Unit 1: Introduction to OS & System Calls",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/watch?v=25sChVM6Dj4"
+        },
+        {
+          "unit": "Unit 2",
+          "title": "Unit 2: Process Management & CPU Scheduling",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/watch?v=25sChVM6Dj4&t=1800s"
+        },
+        {
+          "unit": "Unit 3",
+          "title": "Unit 3: Deadlocks & Concurrency Control",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/watch?v=25sChVM6Dj4&t=3600s"
+        },
+        {
+          "unit": "Unit 4",
+          "title": "Unit 4: Memory Management & Virtual Memory",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/watch?v=25sChVM6Dj4&t=5400s"
+        },
+        {
+          "unit": "Unit 5",
+          "title": "Unit 5: File Systems & Disk Scheduling",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/watch?v=25sChVM6Dj4&t=7200s"
+        }
+      ]
+    },
+    {
+      "id": "ah-java",
+      "title": "Object Oriented Programming with Java",
+      "code": "BCS-403",
+      "channelId": "ah-tutorials",
+      "channelName": "AH Tutorials",
+      "channelBadge": "AH Tutorials",
+      "icon": "☕",
+      "year": "2nd Year",
+      "playlistUrl": "https://www.youtube.com/@AHTUTORIALS2024/search?query=OOP+with+Java+AKTU+One+Shot",
+      "marathonUrl": "https://www.youtube.com/watch?v=tcPbt94qy3g",
+      "units": [
+        {
+          "unit": "Unit 1",
+          "title": "Unit 1: Core Java, OOP Principles & Syntax",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/watch?v=tcPbt94qy3g"
+        },
+        {
+          "unit": "Unit 2",
+          "title": "Unit 2: Classes, Inheritance & Polymorphism",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/watch?v=tcPbt94qy3g&t=1800s"
+        },
+        {
+          "unit": "Unit 3",
+          "title": "Unit 3: Packages & Exception Handling",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/watch?v=tcPbt94qy3g&t=3600s"
+        },
+        {
+          "unit": "Unit 4",
+          "title": "Unit 4: Multithreading & String Handling",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/watch?v=tcPbt94qy3g&t=5400s"
+        },
+        {
+          "unit": "Unit 5",
+          "title": "Unit 5: Applets, AWT & Event Handling",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/watch?v=tcPbt94qy3g&t=7200s"
+        }
+      ]
+    },
+    {
+      "id": "ah-daa",
+      "title": "Design and Analysis of Algorithms (DAA)",
+      "code": "BCS-503",
+      "channelId": "ah-tutorials",
+      "channelName": "AH Tutorials",
+      "channelBadge": "AH Tutorials",
+      "icon": "⚡",
+      "year": "3rd Year",
+      "playlistUrl": "https://www.youtube.com/@AHTUTORIALS2024/search?query=DAA+AKTU+One+Shot",
+      "units": [
+        {
+          "unit": "Unit 1",
+          "title": "Unit 1: Asymptotic Notations, Recurrences & Sorting",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/watch?v=LcJSt92nx70"
+        },
+        {
+          "unit": "Unit 2",
+          "title": "Unit 2: Advanced Data Structures, B-Trees & Red-Black Trees",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/watch?v=gfM3cvs_Rj0"
+        },
+        {
+          "unit": "Unit 3",
+          "title": "Unit 3: Dynamic Programming, Greedy & Divide-and-Conquer",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/watch?v=ii5UX1Pi2MU"
+        },
+        {
+          "unit": "Unit 4",
+          "title": "Unit 4: Graph Algorithms, MST & Shortest Paths",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/@AHTUTORIALS2024/search?query=DAA+Unit+4+One+Shot"
+        },
+        {
+          "unit": "Unit 5",
+          "title": "Unit 5: String Matching & NP-Completeness",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/@AHTUTORIALS2024/search?query=DAA+Unit+5+One+Shot"
+        }
+      ]
+    },
+    {
+      "id": "ah-coa",
+      "title": "Computer Organization & Architecture (COA)",
+      "code": "BCS-302",
+      "channelId": "ah-tutorials",
+      "channelName": "AH Tutorials",
+      "channelBadge": "AH Tutorials",
+      "icon": "🖥️",
+      "year": "2nd Year",
+      "playlistUrl": "https://www.youtube.com/@AHTUTORIALS2024/search?query=AKTU+COA+PYQ+Oneshot",
+      "units": [
+        {
+          "unit": "Unit 1",
+          "title": "Unit 1: Register Transfer & Microoperations",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/@AHTUTORIALS2024/search?query=COA+Unit+1+One+Shot"
+        },
+        {
+          "unit": "Unit 2",
+          "title": "Unit 2: Basic Computer Organization & Design",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/@AHTUTORIALS2024/search?query=COA+Unit+2+One+Shot"
+        },
+        {
+          "unit": "Unit 3",
+          "title": "Unit 3: Computer Arithmetic & ALU Design",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/@AHTUTORIALS2024/search?query=COA+Unit+3+One+Shot"
+        },
+        {
+          "unit": "Unit 4",
+          "title": "Unit 4: Memory Hierarchy & Cache Mapping",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/@AHTUTORIALS2024/search?query=COA+Unit+4+One+Shot"
+        },
+        {
+          "unit": "Unit 5",
+          "title": "Unit 5: Input-Output Organization & Pipelining",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/@AHTUTORIALS2024/search?query=COA+Unit+5+One+Shot"
+        }
+      ]
+    },
+    {
+      "id": "ah-dstl",
+      "title": "Discrete Structures & Theory of Logic (DSTL)",
+      "code": "BCS-303",
+      "channelId": "ah-tutorials",
+      "channelName": "AH Tutorials",
+      "channelBadge": "AH Tutorials",
+      "icon": "🔢",
+      "year": "2nd Year",
+      "playlistUrl": "https://www.youtube.com/@AHTUTORIALS2024/search?query=DSTL+AKTU+One+Shot",
+      "units": [
+        {
+          "unit": "Unit 1",
+          "title": "Unit 1: Sets, Relations & Propositional Logic",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/@AHTUTORIALS2024/search?query=DSTL+Unit+1+One+Shot"
+        },
+        {
+          "unit": "Unit 2",
+          "title": "Unit 2: Algebraic Structures & Group Theory",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/@AHTUTORIALS2024/search?query=DSTL+Unit+2+One+Shot"
+        },
+        {
+          "unit": "Unit 3",
+          "title": "Unit 3: Lattices & Boolean Algebra",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/@AHTUTORIALS2024/search?query=DSTL+Unit+3+One+Shot"
+        },
+        {
+          "unit": "Unit 4",
+          "title": "Unit 4: Propositional & Predicate Logic",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/@AHTUTORIALS2024/search?query=DSTL+Unit+4+One+Shot"
+        },
+        {
+          "unit": "Unit 5",
+          "title": "Unit 5: Trees & Graph Theory",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/@AHTUTORIALS2024/search?query=DSTL+Unit+5+One+Shot"
+        }
+      ]
+    },
+    {
+      "id": "ah-dsa",
+      "title": "Data Structures & Algorithms (DSA)",
+      "code": "BCS-301",
+      "channelId": "ah-tutorials",
+      "channelName": "AH Tutorials",
+      "channelBadge": "AH Tutorials",
+      "icon": "🌳",
+      "year": "2nd Year",
+      "playlistUrl": "https://www.youtube.com/@AHTUTORIALS2024/search?query=DSA+AKTU+One+Shot",
+      "units": [
+        {
+          "unit": "Unit 1",
+          "title": "Unit 1: Arrays, Stacks & Recursion",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/@AHTUTORIALS2024/search?query=DSA+Unit+1+One+Shot"
+        },
+        {
+          "unit": "Unit 2",
+          "title": "Unit 2: Queues & Linked Lists",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/@AHTUTORIALS2024/search?query=DSA+Unit+2+One+Shot"
+        },
+        {
+          "unit": "Unit 3",
+          "title": "Unit 3: Trees, Binary Trees & Traversals",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/@AHTUTORIALS2024/search?query=DSA+Unit+3+One+Shot"
+        },
+        {
+          "unit": "Unit 4",
+          "title": "Unit 4: Graphs & Shortest Path Algorithms",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/@AHTUTORIALS2024/search?query=DSA+Unit+4+One+Shot"
+        },
+        {
+          "unit": "Unit 5",
+          "title": "Unit 5: Searching, Sorting & Hashing",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/@AHTUTORIALS2024/search?query=DSA+Unit+5+One+Shot"
+        }
+      ]
+    },
+    {
+      "id": "ah-dbms",
+      "title": "Database Management Systems (DBMS)",
+      "code": "BCS-501",
+      "channelId": "ah-tutorials",
+      "channelName": "AH Tutorials",
+      "channelBadge": "AH Tutorials",
+      "icon": "🗄️",
+      "year": "3rd Year",
+      "playlistUrl": "https://www.youtube.com/@AHTUTORIALS2024/search?query=DBMS+AKTU+One+Shot",
+      "units": [
+        {
+          "unit": "Unit 1",
+          "title": "Unit 1: Intro to DBMS, ER Diagrams & Relational Model",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/@AHTUTORIALS2024/search?query=DBMS+Unit+1+One+Shot"
+        },
+        {
+          "unit": "Unit 2",
+          "title": "Unit 2: Relational Algebra, Calculus & SQL",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/@AHTUTORIALS2024/search?query=DBMS+Unit+2+One+Shot"
+        },
+        {
+          "unit": "Unit 3",
+          "title": "Unit 3: Normalization & Functional Dependencies",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/@AHTUTORIALS2024/search?query=DBMS+Unit+3+One+Shot"
+        },
+        {
+          "unit": "Unit 4",
+          "title": "Unit 4: Transaction Processing & Concurrency Control",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/@AHTUTORIALS2024/search?query=DBMS+Unit+4+One+Shot"
+        },
+        {
+          "unit": "Unit 5",
+          "title": "Unit 5: Crash Recovery & Security",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/@AHTUTORIALS2024/search?query=DBMS+Unit+5+One+Shot"
+        }
+      ]
+    },
+    {
+      "id": "ah-python",
+      "title": "Python Programming",
+      "code": "BCC-302",
+      "channelId": "ah-tutorials",
+      "channelName": "AH Tutorials",
+      "channelBadge": "AH Tutorials",
+      "icon": "🐍",
+      "year": "2nd Year",
+      "playlistUrl": "https://www.youtube.com/@AHTUTORIALS2024/search?query=Python+Programming+AKTU+One+Shot",
+      "units": [
+        {
+          "unit": "Unit 1",
+          "title": "Unit 1: Python Basics, Data Types & Conditionals",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/@AHTUTORIALS2024/search?query=Python+Unit+1+One+Shot"
+        },
+        {
+          "unit": "Unit 2",
+          "title": "Unit 2: Functions, Loops & Modules",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/@AHTUTORIALS2024/search?query=Python+Unit+2+One+Shot"
+        },
+        {
+          "unit": "Unit 3",
+          "title": "Unit 3: Strings, Lists, Tuples & Dictionaries",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/@AHTUTORIALS2024/search?query=Python+Unit+3+One+Shot"
+        },
+        {
+          "unit": "Unit 4",
+          "title": "Unit 4: File I/O & Exception Handling",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/@AHTUTORIALS2024/search?query=Python+Unit+4+One+Shot"
+        },
+        {
+          "unit": "Unit 5",
+          "title": "Unit 5: OOP in Python & Standard Libraries",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/@AHTUTORIALS2024/search?query=Python+Unit+5+One+Shot"
+        }
+      ]
+    },
+    {
+      "id": "ah-tafl",
+      "title": "Theory of Automata & Formal Languages (TAFL)",
+      "code": "TCS-401",
+      "channelId": "ah-tutorials",
+      "channelName": "AH Tutorials",
+      "channelBadge": "AH Tutorials",
+      "icon": "⚙️",
+      "year": "2nd Year",
+      "playlistUrl": "https://www.youtube.com/@AHTUTORIALS2024/search?query=TAFL+AKTU+One+Shot",
+      "units": [
+        {
+          "unit": "Unit 1",
+          "title": "Unit 1: Finite Automata & Regular Expressions",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/@AHTUTORIALS2024/search?query=TAFL+Unit+1+One+Shot"
+        },
+        {
+          "unit": "Unit 2",
+          "title": "Unit 2: Regular Languages & Pumping Lemma",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/@AHTUTORIALS2024/search?query=TAFL+Unit+2+One+Shot"
+        },
+        {
+          "unit": "Unit 3",
+          "title": "Unit 3: Context Free Grammars & Normal Forms",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/@AHTUTORIALS2024/search?query=TAFL+Unit+3+One+Shot"
+        },
+        {
+          "unit": "Unit 4",
+          "title": "Unit 4: Pushdown Automata (PDA)",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/@AHTUTORIALS2024/search?query=TAFL+Unit+4+One+Shot"
+        },
+        {
+          "unit": "Unit 5",
+          "title": "Unit 5: Turing Machines & Decidability",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/@AHTUTORIALS2024/search?query=TAFL+Unit+5+One+Shot"
+        }
+      ]
+    },
+    {
+      "id": "ah-cyber",
+      "title": "Cyber Security",
+      "code": "BCC-401",
+      "channelId": "ah-tutorials",
+      "channelName": "AH Tutorials",
+      "channelBadge": "AH Tutorials",
+      "icon": "🛡️",
+      "year": "2nd Year",
+      "playlistUrl": "https://www.youtube.com/@AHTUTORIALS2024/search?query=Cyber+Security+AKTU+One+Shot",
+      "units": [
+        {
+          "unit": "Unit 1",
+          "title": "Unit 1: Introduction to Cyber Security & Threats",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/@AHTUTORIALS2024/search?query=Cyber+Security+Unit+1+One+Shot"
+        },
+        {
+          "unit": "Unit 2",
+          "title": "Unit 2: Cyber Offenses, Attacks & Social Engineering",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/@AHTUTORIALS2024/search?query=Cyber+Security+Unit+2+One+Shot"
+        },
+        {
+          "unit": "Unit 3",
+          "title": "Unit 3: Cybercrime: Mobile & Wireless Devices",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/@AHTUTORIALS2024/search?query=Cyber+Security+Unit+3+One+Shot"
+        },
+        {
+          "unit": "Unit 4",
+          "title": "Unit 4: Security Tools & Methods in Cyber Defense",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/@AHTUTORIALS2024/search?query=Cyber+Security+Unit+4+One+Shot"
+        },
+        {
+          "unit": "Unit 5",
+          "title": "Unit 5: Cyber Laws & IT Act 2000",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/@AHTUTORIALS2024/search?query=Cyber+Security+Unit+5+One+Shot"
+        }
+      ]
+    },
+    {
+      "id": "ah-data-analytics",
+      "title": "Data Analytics",
+      "code": "BCS-052",
+      "channelId": "ah-tutorials",
+      "channelName": "AH Tutorials",
+      "channelBadge": "AH Tutorials",
+      "icon": "📊",
+      "year": "3rd Year",
+      "playlistUrl": "https://www.youtube.com/@AHTUTORIALS2024/search?query=Data+Analytics+AKTU+One+Shot",
+      "units": [
+        {
+          "unit": "Unit 1",
+          "title": "Unit 1: Introduction to Data Analytics & Descriptive Statistics",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/@AHTUTORIALS2024/search?query=Data+Analytics+Unit+1+One+Shot"
+        },
+        {
+          "unit": "Unit 2",
+          "title": "Unit 2: Inferential Statistics & Hypothesis Testing",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/@AHTUTORIALS2024/search?query=Data+Analytics+Unit+2+One+Shot"
+        },
+        {
+          "unit": "Unit 3",
+          "title": "Unit 3: Regression & Predictive Modeling",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/@AHTUTORIALS2024/search?query=Data+Analytics+Unit+3+One+Shot"
+        },
+        {
+          "unit": "Unit 4",
+          "title": "Unit 4: Machine Learning for Analytics & Clustering",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/@AHTUTORIALS2024/search?query=Data+Analytics+Unit+4+One+Shot"
+        },
+        {
+          "unit": "Unit 5",
+          "title": "Unit 5: Big Data Analytics & Visualization",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/@AHTUTORIALS2024/search?query=Data+Analytics+Unit+5+One+Shot"
+        }
+      ]
+    },
+    {
+      "id": "ma-physics",
+      "title": "Engineering Physics",
+      "code": "BAS-101",
+      "channelId": "multiatoms",
+      "channelName": "MultiAtoms",
+      "channelBadge": "MultiAtoms",
+      "icon": "⚛️",
+      "year": "1st Year",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PLh11ucJN276KQV0jrDM3883tvArRJwB7v",
+      "units": [
+        {
+          "unit": "Unit 1",
+          "title": "Unit 1: Relativistic Mechanics One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PLh11ucJN276KQV0jrDM3883tvArRJwB7v"
+        },
+        {
+          "unit": "Unit 2",
+          "title": "Unit 2: Electromagnetic Field Theory One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PLh11ucJN276KQV0jrDM3883tvArRJwB7v"
+        },
+        {
+          "unit": "Unit 3",
+          "title": "Unit 3: Quantum Mechanics One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PLh11ucJN276KQV0jrDM3883tvArRJwB7v"
+        },
+        {
+          "unit": "Unit 4",
+          "title": "Unit 4: Wave Optics & Interference One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PLh11ucJN276KQV0jrDM3883tvArRJwB7v"
+        },
+        {
+          "unit": "Unit 5",
+          "title": "Unit 5: Fiber Optics & Lasers One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PLh11ucJN276KQV0jrDM3883tvArRJwB7v"
+        }
+      ]
+    },
+    {
+      "id": "ma-chemistry",
+      "title": "Engineering Chemistry",
+      "code": "BAS-102",
+      "channelId": "multiatoms",
+      "channelName": "MultiAtoms",
+      "channelBadge": "MultiAtoms",
+      "icon": "🧪",
+      "year": "1st Year",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8s1698CXH-iBOAFYGWUcHaG",
+      "units": [
+        {
+          "unit": "Unit 1",
+          "title": "Unit 1: Atomic and Molecular Structure One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8s1698CXH-iBOAFYGWUcHaG"
+        },
+        {
+          "unit": "Unit 2",
+          "title": "Unit 2: Spectroscopic Techniques One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8s1698CXH-iBOAFYGWUcHaG"
+        },
+        {
+          "unit": "Unit 3",
+          "title": "Unit 3: Electrochemistry & Corrosion One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8s1698CXH-iBOAFYGWUcHaG"
+        },
+        {
+          "unit": "Unit 4",
+          "title": "Unit 4: Water Technology One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8s1698CXH-iBOAFYGWUcHaG"
+        },
+        {
+          "unit": "Unit 5",
+          "title": "Unit 5: Polymers & Engineering Materials One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8s1698CXH-iBOAFYGWUcHaG"
+        }
+      ]
+    },
+    {
+      "id": "ma-maths1",
+      "title": "Engineering Mathematics-I",
+      "code": "BAS-103",
+      "channelId": "multiatoms",
+      "channelName": "MultiAtoms",
+      "channelBadge": "MultiAtoms",
+      "icon": "📐",
+      "year": "1st Year",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8vXKy_Vz7YwXrBm7e2cIceO",
+      "units": [
+        {
+          "unit": "Unit 1",
+          "title": "Unit 1: Matrices & Eigenvalues One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8vXKy_Vz7YwXrBm7e2cIceO"
+        },
+        {
+          "unit": "Unit 2",
+          "title": "Unit 2: Differential Calculus I One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8vXKy_Vz7YwXrBm7e2cIceO"
+        },
+        {
+          "unit": "Unit 3",
+          "title": "Unit 3: Differential Calculus II & Jacobians One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8vXKy_Vz7YwXrBm7e2cIceO"
+        },
+        {
+          "unit": "Unit 4",
+          "title": "Unit 4: Multiple Integrals One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8vXKy_Vz7YwXrBm7e2cIceO"
+        },
+        {
+          "unit": "Unit 5",
+          "title": "Unit 5: Vector Calculus One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8vXKy_Vz7YwXrBm7e2cIceO"
+        }
+      ]
+    },
+    {
+      "id": "ma-maths2",
+      "title": "Engineering Mathematics-II",
+      "code": "BAS-203",
+      "channelId": "multiatoms",
+      "channelName": "MultiAtoms",
+      "channelBadge": "MultiAtoms",
+      "icon": "📐",
+      "year": "1st Year",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8vzwDx1luAhJLUIWqzbVa-H",
+      "units": [
+        {
+          "unit": "Unit 1",
+          "title": "Unit 1: Ordinary Differential Equations One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8vzwDx1luAhJLUIWqzbVa-H"
+        },
+        {
+          "unit": "Unit 2",
+          "title": "Unit 2: Higher Order Linear ODEs One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8vzwDx1luAhJLUIWqzbVa-H"
+        },
+        {
+          "unit": "Unit 3",
+          "title": "Unit 3: Sequence and Series One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8vzwDx1luAhJLUIWqzbVa-H"
+        },
+        {
+          "unit": "Unit 4",
+          "title": "Unit 4: Complex Variable - Differentiation One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8vzwDx1luAhJLUIWqzbVa-H"
+        },
+        {
+          "unit": "Unit 5",
+          "title": "Unit 5: Complex Variable - Integration One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8vzwDx1luAhJLUIWqzbVa-H"
+        }
+      ]
+    },
+    {
+      "id": "ma-fee",
+      "title": "Basic Electrical Engineering (BEE / FEE)",
+      "code": "BEE-101",
+      "channelId": "multiatoms",
+      "channelName": "MultiAtoms",
+      "channelBadge": "MultiAtoms",
+      "icon": "⚡",
+      "year": "1st Year",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PLh11ucJN276LVQCgcc6ps_NtaaOMBbEIv",
+      "units": [
+        {
+          "unit": "Unit 1",
+          "title": "Unit 1: DC Circuits & Network Theorems One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PLh11ucJN276LVQCgcc6ps_NtaaOMBbEIv"
+        },
+        {
+          "unit": "Unit 2",
+          "title": "Unit 2: AC Circuits & Resonance One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PLh11ucJN276LVQCgcc6ps_NtaaOMBbEIv"
+        },
+        {
+          "unit": "Unit 3",
+          "title": "Unit 3: Transformers & Magnetic Circuits One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PLh11ucJN276LVQCgcc6ps_NtaaOMBbEIv"
+        },
+        {
+          "unit": "Unit 4",
+          "title": "Unit 4: Electrical Machines (DC & Induction) One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PLh11ucJN276LVQCgcc6ps_NtaaOMBbEIv"
+        },
+        {
+          "unit": "Unit 5",
+          "title": "Unit 5: Electrical Installations & Safety One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PLh11ucJN276LVQCgcc6ps_NtaaOMBbEIv"
+        }
+      ]
+    },
+    {
+      "id": "ma-electronics",
+      "title": "Fundamentals of Electronics Engineering",
+      "code": "BEC-101",
+      "channelId": "multiatoms",
+      "channelName": "MultiAtoms",
+      "channelBadge": "MultiAtoms",
+      "icon": "📡",
+      "year": "1st Year",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8s5G_BlPJeheBxZfBMts3Vz",
+      "units": [
+        {
+          "unit": "Unit 1",
+          "title": "Unit 1: Semiconductor Diodes & Applications One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8s5G_BlPJeheBxZfBMts3Vz"
+        },
+        {
+          "unit": "Unit 2",
+          "title": "Unit 2: Bipolar Junction Transistors (BJT) One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8s5G_BlPJeheBxZfBMts3Vz"
+        },
+        {
+          "unit": "Unit 3",
+          "title": "Unit 3: Field Effect Transistors (FET/MOSFET) One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8s5G_BlPJeheBxZfBMts3Vz"
+        },
+        {
+          "unit": "Unit 4",
+          "title": "Unit 4: Operational Amplifiers (Op-Amps) One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8s5G_BlPJeheBxZfBMts3Vz"
+        },
+        {
+          "unit": "Unit 5",
+          "title": "Unit 5: Digital Electronics & Electronic Instruments One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8s5G_BlPJeheBxZfBMts3Vz"
+        }
+      ]
+    },
+    {
+      "id": "ma-pps",
+      "title": "Programming for Problem Solving (PPS / C)",
+      "code": "BCS-101",
+      "channelId": "multiatoms",
+      "channelName": "MultiAtoms",
+      "channelBadge": "MultiAtoms",
+      "icon": "💻",
+      "year": "1st Year",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8sCqx21iu0EnfFgQGL5U19l",
+      "units": [
+        {
+          "unit": "Unit 1",
+          "title": "Unit 1: Intro to Computers & C Basics One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8sCqx21iu0EnfFgQGL5U19l"
+        },
+        {
+          "unit": "Unit 2",
+          "title": "Unit 2: Control Structures & Loops One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8sCqx21iu0EnfFgQGL5U19l"
+        },
+        {
+          "unit": "Unit 3",
+          "title": "Unit 3: Arrays & String Manipulation One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8sCqx21iu0EnfFgQGL5U19l"
+        },
+        {
+          "unit": "Unit 4",
+          "title": "Unit 4: Functions & Recursion in C One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8sCqx21iu0EnfFgQGL5U19l"
+        },
+        {
+          "unit": "Unit 5",
+          "title": "Unit 5: Pointers, Structures & File Handling One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8sCqx21iu0EnfFgQGL5U19l"
+        }
+      ]
+    },
+    {
+      "id": "ma-evs",
+      "title": "Environment & Ecology (EVS)",
+      "code": "BAS-104",
+      "channelId": "multiatoms",
+      "channelName": "MultiAtoms",
+      "channelBadge": "MultiAtoms",
+      "icon": "🌱",
+      "year": "1st Year",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8uoXjVVrLlVhq0CS8tBh7ru",
+      "units": [
+        {
+          "unit": "Unit 1",
+          "title": "Unit 1: Ecosystem & Environment One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8uoXjVVrLlVhq0CS8tBh7ru"
+        },
+        {
+          "unit": "Unit 2",
+          "title": "Unit 2: Natural Resources & Conservation One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8uoXjVVrLlVhq0CS8tBh7ru"
+        },
+        {
+          "unit": "Unit 3",
+          "title": "Unit 3: Environmental Pollution & Control One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8uoXjVVrLlVhq0CS8tBh7ru"
+        },
+        {
+          "unit": "Unit 4",
+          "title": "Unit 4: Environmental Protection Acts & Policies One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8uoXjVVrLlVhq0CS8tBh7ru"
+        },
+        {
+          "unit": "Unit 5",
+          "title": "Unit 5: Human Population & Environment One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8uoXjVVrLlVhq0CS8tBh7ru"
+        }
+      ]
+    },
+    {
+      "id": "ma-coa",
+      "title": "Computer Organization & Architecture (COA)",
+      "code": "BCS-302",
+      "channelId": "multiatoms",
+      "channelName": "MultiAtoms",
+      "channelBadge": "MultiAtoms",
+      "icon": "🖥️",
+      "year": "2nd Year",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PLh11ucJN276IV2JaotM0c_YFUmBlSQrSi",
+      "units": [
+        {
+          "unit": "Unit 1",
+          "title": "Unit 1: Register Transfer & Architecture One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PLh11ucJN276IV2JaotM0c_YFUmBlSQrSi"
+        },
+        {
+          "unit": "Unit 2",
+          "title": "Unit 2: Central Processing Unit & Control Design One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PLh11ucJN276IV2JaotM0c_YFUmBlSQrSi"
+        },
+        {
+          "unit": "Unit 3",
+          "title": "Unit 3: Computer Arithmetic & Algorithms One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PLh11ucJN276IV2JaotM0c_YFUmBlSQrSi"
+        },
+        {
+          "unit": "Unit 4",
+          "title": "Unit 4: Memory Organization & Caches One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PLh11ucJN276IV2JaotM0c_YFUmBlSQrSi"
+        },
+        {
+          "unit": "Unit 5",
+          "title": "Unit 5: I/O Organization & Pipelining One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PLh11ucJN276IV2JaotM0c_YFUmBlSQrSi"
+        }
+      ]
+    },
+    {
+      "id": "ma-dstl",
+      "title": "Discrete Structures & Theory of Logic (DSTL)",
+      "code": "BCS-303",
+      "channelId": "multiatoms",
+      "channelName": "MultiAtoms",
+      "channelBadge": "MultiAtoms",
+      "icon": "🔢",
+      "year": "2nd Year",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PLh11ucJN276LYuvuZUvQqqQCjHusYiKBn",
+      "units": [
+        {
+          "unit": "Unit 1",
+          "title": "Unit 1: Set Theory & Relations One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PLh11ucJN276LYuvuZUvQqqQCjHusYiKBn"
+        },
+        {
+          "unit": "Unit 2",
+          "title": "Unit 2: Algebraic Structures & Monoids One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PLh11ucJN276LYuvuZUvQqqQCjHusYiKBn"
+        },
+        {
+          "unit": "Unit 3",
+          "title": "Unit 3: Lattices & Posets One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PLh11ucJN276LYuvuZUvQqqQCjHusYiKBn"
+        },
+        {
+          "unit": "Unit 4",
+          "title": "Unit 4: Logic & Quantifiers One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PLh11ucJN276LYuvuZUvQqqQCjHusYiKBn"
+        },
+        {
+          "unit": "Unit 5",
+          "title": "Unit 5: Graph Theory & Combinatorics One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PLh11ucJN276LYuvuZUvQqqQCjHusYiKBn"
+        }
+      ]
+    },
+    {
+      "id": "ma-os",
+      "title": "Operating Systems (OS)",
+      "code": "BCS-401",
+      "channelId": "multiatoms",
+      "channelName": "MultiAtoms",
+      "channelBadge": "MultiAtoms",
+      "icon": "💻",
+      "year": "2nd Year",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8uIgqjoSjWFbzu7R7ojXUHK",
+      "units": [
+        {
+          "unit": "Unit 1",
+          "title": "Unit 1: Introduction to OS & Architecture One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8uIgqjoSjWFbzu7R7ojXUHK"
+        },
+        {
+          "unit": "Unit 2",
+          "title": "Unit 2: Process Management & Synchronization One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8uIgqjoSjWFbzu7R7ojXUHK"
+        },
+        {
+          "unit": "Unit 3",
+          "title": "Unit 3: Deadlocks Prevention & Avoidance One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8uIgqjoSjWFbzu7R7ojXUHK"
+        },
+        {
+          "unit": "Unit 4",
+          "title": "Unit 4: Memory Management & Paging One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8uIgqjoSjWFbzu7R7ojXUHK"
+        },
+        {
+          "unit": "Unit 5",
+          "title": "Unit 5: File & Disk Management One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8uIgqjoSjWFbzu7R7ojXUHK"
+        }
+      ]
+    },
+    {
+      "id": "ma-dsa",
+      "title": "Data Structures (DS / DSA)",
+      "code": "BCS-301",
+      "channelId": "multiatoms",
+      "channelName": "MultiAtoms",
+      "channelBadge": "MultiAtoms",
+      "icon": "🌳",
+      "year": "2nd Year",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8sThpRe6UtpC1igj0-O6uRr",
+      "units": [
+        {
+          "unit": "Unit 1",
+          "title": "Unit 1: Stacks, Infix/Postfix & Recursion One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8sThpRe6UtpC1igj0-O6uRr"
+        },
+        {
+          "unit": "Unit 2",
+          "title": "Unit 2: Circular & Priority Queues One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8sThpRe6UtpC1igj0-O6uRr"
+        },
+        {
+          "unit": "Unit 3",
+          "title": "Unit 3: Trees, AVL Trees & Threaded Binary Trees One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8sThpRe6UtpC1igj0-O6uRr"
+        },
+        {
+          "unit": "Unit 4",
+          "title": "Unit 4: Graph Traversals (DFS/BFS) One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8sThpRe6UtpC1igj0-O6uRr"
+        },
+        {
+          "unit": "Unit 5",
+          "title": "Unit 5: Sorting & Hashing Techniques One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8sThpRe6UtpC1igj0-O6uRr"
+        }
+      ]
+    },
+    {
+      "id": "ma-daa",
+      "title": "Design and Analysis of Algorithms (DAA)",
+      "code": "BCS-503",
+      "channelId": "multiatoms",
+      "channelName": "MultiAtoms",
+      "channelBadge": "MultiAtoms",
+      "icon": "⚡",
+      "year": "3rd Year",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8tP7SvFD3zS8zxRYfKWg_yf",
+      "units": [
+        {
+          "unit": "Unit 1",
+          "title": "Unit 1: Asymptotics & Divide-and-Conquer One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8tP7SvFD3zS8zxRYfKWg_yf"
+        },
+        {
+          "unit": "Unit 2",
+          "title": "Unit 2: Advanced Search Trees & Heaps One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8tP7SvFD3zS8zxRYfKWg_yf"
+        },
+        {
+          "unit": "Unit 3",
+          "title": "Unit 3: Greedy Method & Dynamic Programming One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8tP7SvFD3zS8zxRYfKWg_yf"
+        },
+        {
+          "unit": "Unit 4",
+          "title": "Unit 4: Backtracking & Branch-and-Bound One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8tP7SvFD3zS8zxRYfKWg_yf"
+        },
+        {
+          "unit": "Unit 5",
+          "title": "Unit 5: Tractable & Non-Tractable Problems (NP) One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8tP7SvFD3zS8zxRYfKWg_yf"
+        }
+      ]
+    },
+    {
+      "id": "ma-java",
+      "title": "Object-Oriented Programming with Java",
+      "code": "BCS-403",
+      "channelId": "multiatoms",
+      "channelName": "MultiAtoms",
+      "channelBadge": "MultiAtoms",
+      "icon": "☕",
+      "year": "2nd Year",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8smJvxjjgLEIL7555d8t3-z",
+      "units": [
+        {
+          "unit": "Unit 1",
+          "title": "Unit 1: Intro to OOP & Java Basics One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8smJvxjjgLEIL7555d8t3-z"
+        },
+        {
+          "unit": "Unit 2",
+          "title": "Unit 2: Classes, Constructors & Inheritance One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8smJvxjjgLEIL7555d8t3-z"
+        },
+        {
+          "unit": "Unit 3",
+          "title": "Unit 3: Interfaces & Packages One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8smJvxjjgLEIL7555d8t3-z"
+        },
+        {
+          "unit": "Unit 4",
+          "title": "Unit 4: Multithreading & Exception Handling One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8smJvxjjgLEIL7555d8t3-z"
+        },
+        {
+          "unit": "Unit 5",
+          "title": "Unit 5: Java Collections & GUI One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8smJvxjjgLEIL7555d8t3-z"
+        }
+      ]
+    },
+    {
+      "id": "ma-cd",
+      "title": "Compiler Design",
+      "code": "BCS-601",
+      "channelId": "multiatoms",
+      "channelName": "MultiAtoms",
+      "channelBadge": "MultiAtoms",
+      "icon": "⚙️",
+      "year": "3rd Year",
+      "playlistUrl": "https://youtube.com/playlist?list=PLh11ucJN276J4uv6uwawDr3mNHTdx9n43",
+      "units": [
+        {
+          "unit": "Unit 1",
+          "title": "Unit 1: Lexical Analysis & Lex Tools One Shot",
+          "type": "oneshot",
+          "url": "https://youtube.com/playlist?list=PLh11ucJN276J4uv6uwawDr3mNHTdx9n43"
+        },
+        {
+          "unit": "Unit 2",
+          "title": "Unit 2: Syntax Analysis & Parsing (LL/LR) One Shot",
+          "type": "oneshot",
+          "url": "https://youtube.com/playlist?list=PLh11ucJN276J4uv6uwawDr3mNHTdx9n43"
+        },
+        {
+          "unit": "Unit 3",
+          "title": "Unit 3: Syntax Directed Translation (SDT) One Shot",
+          "type": "oneshot",
+          "url": "https://youtube.com/playlist?list=PLh11ucJN276J4uv6uwawDr3mNHTdx9n43"
+        },
+        {
+          "unit": "Unit 4",
+          "title": "Unit 4: Symbol Tables & Intermediate Code One Shot",
+          "type": "oneshot",
+          "url": "https://youtube.com/playlist?list=PLh11ucJN276J4uv6uwawDr3mNHTdx9n43"
+        },
+        {
+          "unit": "Unit 5",
+          "title": "Unit 5: Code Optimization & Generation One Shot",
+          "type": "oneshot",
+          "url": "https://youtube.com/playlist?list=PLh11ucJN276J4uv6uwawDr3mNHTdx9n43"
+        }
+      ]
+    },
+    {
+      "id": "ma-wt",
+      "title": "Web Technology",
+      "code": "BCS-053",
+      "channelId": "multiatoms",
+      "channelName": "MultiAtoms",
+      "channelBadge": "MultiAtoms",
+      "icon": "🌐",
+      "year": "3rd Year",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8tzOlGXnZyxvtQLvYZ7Fykm",
+      "units": [
+        {
+          "unit": "Unit 1",
+          "title": "Unit 1: HTML5, CSS3 & Responsive Web Design One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8tzOlGXnZyxvtQLvYZ7Fykm"
+        },
+        {
+          "unit": "Unit 2",
+          "title": "Unit 2: JavaScript, DOM & Events One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8tzOlGXnZyxvtQLvYZ7Fykm"
+        },
+        {
+          "unit": "Unit 3",
+          "title": "Unit 3: Server Side Programming with PHP / Node One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8tzOlGXnZyxvtQLvYZ7Fykm"
+        },
+        {
+          "unit": "Unit 4",
+          "title": "Unit 4: Database Integration & Sessions One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8tzOlGXnZyxvtQLvYZ7Fykm"
+        },
+        {
+          "unit": "Unit 5",
+          "title": "Unit 5: XML, AJAX & Web Services One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PL49mRA0Y_C8tzOlGXnZyxvtQLvYZ7Fykm"
+        }
+      ]
+    },
+    {
+      "id": "ma-uhv",
+      "title": "Universal Human Values & Professional Ethics (UHV)",
+      "code": "BVE-301",
+      "channelId": "multiatoms",
+      "channelName": "MultiAtoms",
+      "channelBadge": "MultiAtoms",
+      "icon": "❤️",
+      "year": "2nd Year",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PLh11ucJN276LBBbvmFsopt4Lphrxwqlg1",
+      "units": [
+        {
+          "unit": "Unit 1",
+          "title": "Unit 1: Course Intro - Need, Basic Guidelines One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PLh11ucJN276LBBbvmFsopt4Lphrxwqlg1"
+        },
+        {
+          "unit": "Unit 2",
+          "title": "Unit 2: Understanding Harmony in the Human Being One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PLh11ucJN276LBBbvmFsopt4Lphrxwqlg1"
+        },
+        {
+          "unit": "Unit 3",
+          "title": "Unit 3: Understanding Harmony in Family and Society One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PLh11ucJN276LBBbvmFsopt4Lphrxwqlg1"
+        },
+        {
+          "unit": "Unit 4",
+          "title": "Unit 4: Understanding Harmony in Nature & Existence One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PLh11ucJN276LBBbvmFsopt4Lphrxwqlg1"
+        },
+        {
+          "unit": "Unit 5",
+          "title": "Unit 5: Implications of Holistic Understanding One Shot",
+          "type": "oneshot",
+          "url": "https://www.youtube.com/playlist?list=PLh11ucJN276LBBbvmFsopt4Lphrxwqlg1"
+        }
+      ]
+    }
+  ]
+}

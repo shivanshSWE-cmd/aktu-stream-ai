@@ -1,0 +1,261 @@
+{
+  "title": "MultiAtoms 2nd Year Notes",
+  "subjects": [
+    {
+      "id": "s1",
+      "title": "📐 Maths",
+      "notes": [
+        {
+          "url": "https://drive.google.com/file/d/1pFUngsS7bVtbuVy2LZCAeIDZIAHXZo1B/view",
+          "title": "Chapter 1 TO 5 Notes"
+        }
+      ],
+      "icon": "📐",
+      "cleanTitle": "Mathematics"
+    },
+    {
+      "id": "s2",
+      "title": "DSTL",
+      "notes": [
+        {
+          "url": "https://drive.google.com/file/d/147WU-Z8fUocTR6SYzeTGELjq5wOf6eqC/view?usp=drive_link",
+          "title": "UNIT 1 PART 1"
+        },
+        {
+          "url": "https://drive.google.com/file/d/13rZK0LulujWO37Zd2vBSBiqtqoRDCvE1/view?usp=drive_link",
+          "title": "UNIT 1 PART 2"
+        },
+        {
+          "url": "https://drive.google.com/file/d/12No5SBz8QedeLLlzEwKAB1JWUZ-DAlt3/view?usp=drive_link",
+          "title": "UNIT 2"
+        },
+        {
+          "url": "https://drive.google.com/file/d/12VZN9l0ZDPbqAxrtGoX1smIPHgvmktkR/view?usp=drive_link",
+          "title": "UNIT 3"
+        },
+        {
+          "url": "https://drive.google.com/file/d/12dNRK2zs7Cv5UpyqVzPp2ea7cOvKh6jD/view?usp=drive_link",
+          "title": "UNIT 4"
+        },
+        {
+          "url": "https://drive.google.com/file/d/12fXOMtbnhV-gK8b9URaHKSpl8FsgteO6/view?usp=drive_link",
+          "title": "UNIT 5"
+        }
+      ],
+      "icon": "🔢",
+      "cleanTitle": "DSTL (Discrete Structures)"
+    },
+    {
+      "id": "s3",
+      "title": "DSA",
+      "notes": [
+        {
+          "url": "https://drive.google.com/file/d/19eZlTQczH_dwmXtpSd_xQRLm22_SU727/view?usp=drive_link",
+          "title": "UNIT 1"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1djZXDTas-P0SLu34rL_vfkDwW_BjrMRp/view?usp=drive_link",
+          "title": "UNIT 2"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1kdoAoDEUWPBdga8aPozP-U6ljiAqALpa/view?usp=drive_link",
+          "title": "UNIT 3"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1l5WbBJewHrGzzlUep1xBONxKbLiXTFzC/view?usp=drive_link",
+          "title": "UNIT 4"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1a4rlHUnlMrdqNpGNcGH4c9GCIx1dSvIh/view?usp=drive_link",
+          "title": "UNIT 5"
+        }
+      ],
+      "icon": "🌳",
+      "cleanTitle": "DSA (Data Structures & Algorithms)"
+    },
+    {
+      "id": "s4",
+      "title": "PYTHON",
+      "notes": [
+        {
+          "url": "https://drive.google.com/file/d/1BwMz27PkAPJKmX6gxV16byZlLd2_VlQZ/view?usp=drive_link",
+          "title": "UNIT 1 TO 5"
+        }
+      ],
+      "icon": "🐍",
+      "cleanTitle": "Python Programming"
+    },
+    {
+      "id": "s5",
+      "title": "COA",
+      "notes": [
+        {
+          "url": "https://drive.google.com/file/d/1KhNwud0pkYJClthJjgin8HLHvam4XRmN/view?usp=drive_link",
+          "title": "UNIT 1 PART 1"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1e0dkJvIQ5XCkvO1ifYj0DdbppujY4QE7/view?usp=drive_link",
+          "title": "UNIT 1 PART 2"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1GWwnaXWO2pESDoKUY4Mq3_8vAIH21WwJ/view?usp=drive_link",
+          "title": "UNIT 2"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1E4nrgqPkJRpppqjkZU9W2HEE3iE9oCRS/view?usp=drive_link",
+          "title": "UNIT 3"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1ibNHPi4o_vyOgKhnJPyOrmb52sVNHrc5/view?usp=drive_link",
+          "title": "UNIT 4"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1mjwIZ3kPHi6JgX6WzOMvLcWbHbJiJfax/view?usp=drive_link",
+          "title": "UNIT 5"
+        }
+      ],
+      "icon": "💻",
+      "cleanTitle": "COA (Computer Organization)"
+    },
+    {
+      "id": "s6",
+      "title": "TC",
+      "notes": [
+        {
+          "url": "https://drive.google.com/file/d/1PDF7xo8YI0U1w5jA85FNPgisLCCx0Ro6/view?usp=drive_link",
+          "title": "UNIT 3"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1z79Yi-i-eW7Yf6_YKDCnuIYQKD-Upw1N/view?usp=drive_link",
+          "title": "UNIT 4"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1qQOpy0ogUbzoldb8Gek3LxTpCLQVR77x/view?usp=drive_link",
+          "title": "UNIT 5"
+        }
+      ],
+      "icon": "🗣️",
+      "cleanTitle": "Technical Communication (TC)"
+    },
+    {
+      "id": "s7",
+      "title": "UHV",
+      "notes": [
+        {
+          "url": "https://drive.google.com/file/d/1ruK_zSdLtC8cjigAFJ79Vv3EWzufS2RU/view?usp=drive_link",
+          "title": "UNIT 1"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1rv_U-L5AIaBfM2xKgw8nejS2ova5zsNW/view?usp=drive_link",
+          "title": "UNIT 2"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1s6pV_kg8sFO3oSKtBHHAgnQ7HXtlO1rh/view?usp=drive_link",
+          "title": "UNIT 3"
+        }
+      ],
+      "icon": "🕊️",
+      "cleanTitle": "Universal Human Values (UHV)"
+    },
+    {
+      "id": "s8",
+      "title": "OS",
+      "notes": [
+        {
+          "url": "https://drive.google.com/file/d/1TKSifS6-ZDVERFn0BULtYThsuWqVTjWY/view?usp=drive_link",
+          "title": "UNIT 1"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1TcFZjUbC7lHUjTOB4g5bX4mLjY3UmI9e/view?usp=drive_link",
+          "title": "UNIT 2"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1Ta260SlAFbjiUg1FUYBqufySR2FcuaX_/view?usp=drive_link",
+          "title": "UNIT 3"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1TYUYkwnjbSFp-o1abO7MvMlkJwyiu7dH/view?usp=drive_link",
+          "title": "UNIT 4"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1TSRCL-Ru-EkJJBBE7PQhnxCyAK7ZC-vL/view?usp=drive_link",
+          "title": "UNIT 5"
+        }
+      ],
+      "icon": "⚙️",
+      "cleanTitle": "Operating Systems (OS)"
+    },
+    {
+      "id": "s9",
+      "title": "tafl",
+      "notes": [
+        {
+          "url": "https://drive.google.com/file/d/1hqj3QcSkn5asmlDY5LOfKv6PtrkNn4JV/view?usp=drive_link",
+          "title": "UNIT 1"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1i-FNKuZbc4JTDGZMA8T9cz2eKmuE22aV/view?usp=drive_link",
+          "title": "UNIT 2"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1hYt8Ok8gE01pQrBTREEkz-Vaq-8es9cA/view?usp=drive_link",
+          "title": "UNIT 3"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1hcQvxRwq8QipGen8fogTYZXyq-IqRDVc/view?usp=drive_link",
+          "title": "UNIT 4"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1hoAXBpHKKinbyDhG5NpzeQODNLGJcgwW/view?usp=drive_link",
+          "title": "UNIT 5"
+        }
+      ],
+      "icon": "🤖",
+      "cleanTitle": "TAFL (Automata & Formal Languages)"
+    },
+    {
+      "id": "s10",
+      "title": "CYBER SECURITY",
+      "notes": [
+        {
+          "url": "https://drive.google.com/file/d/1jUcEa-Auj3kRMDWJOMsGd3CYAXebpV-U/view?usp=drive_link",
+          "title": "UNIT 1 TO 5"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1CbOQrD_L-3yE1etE4uGaCN9FDzRJVyoi/view?usp=drive_link",
+          "title": "UNIT 3"
+        }
+      ],
+      "icon": "🛡️",
+      "cleanTitle": "Cyber Security"
+    },
+    {
+      "id": "s11",
+      "title": "JAVA",
+      "notes": [
+        {
+          "url": "https://drive.google.com/file/d/1SZ8nNi6i7v5PN1JfdzjZgEdNPWrzlCCP/view?usp=drive_link",
+          "title": "UNIT 1"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1T9Igh9_6xQ51ijrsfYxgzgpmnBphjSDZ/view?usp=drive_link",
+          "title": "UNIT 2"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1SPnUUePyypcTs8bxUhqFGkSq98iLwgjk/view?usp=drive_link",
+          "title": "UNIT 3"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1TD6cPppCd3pXQ9L_ufWMc8oy-bs4XnbL/view?usp=drive_link",
+          "title": "UNIT 4"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1SjFpxW8USE__M1EQFl9D8omwpqGhnYpn/view?usp=drive_link",
+          "title": "UNIT 5"
+        }
+      ],
+      "icon": "☕",
+      "cleanTitle": "Java Programming"
+    }
+  ]
+}

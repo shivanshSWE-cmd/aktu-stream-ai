@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { useState } from "react";
-import { BookOpen, Search, ShieldCheck, Tv, UploadCloud, Brain, Menu, X } from "lucide-react";
+import { BookOpen, Search, ShieldCheck, Tv, UploadCloud, Brain, Menu, X, FileText, Layers } from "lucide-react";
 
 export function Header() {
   const pathname = usePathname();
@@ -21,6 +21,8 @@ export function Header() {
 
   const navLinks = [
     { name: "Curriculum", href: "/subjects", icon: BookOpen },
+    { name: "Notes Store", href: "/notes", icon: FileText },
+    { name: "PYQ Bank", href: "/pyqs", icon: Layers },
     { name: "AI/ML Track", href: "/ai-track", icon: Brain },
     { name: "Student Upload", href: "/upload", icon: UploadCloud },
     { name: "Ingestion & Quota", href: "/admin/ingestion", icon: ShieldCheck },

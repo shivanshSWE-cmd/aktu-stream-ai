@@ -141,6 +141,22 @@ export default function BranchSubjectPage({ params }: BranchSubjectPageProps) {
             <p className="text-xs sm:text-sm text-text-secondary leading-relaxed">
               Official Dr. A.P.J. Abdul Kalam Technical University curriculum covering 5 core syllabus units. Filter and stream unit-wise lectures verified with Two-Stage AI Gatekeeping.
             </p>
+
+            {/* Quick links to Notes and PYQ Bank for this exact subject */}
+            <div className="flex flex-wrap items-center gap-3 pt-2">
+              <Link
+                href="/notes"
+                className="inline-flex items-center gap-1.5 rounded-xl bg-background-dark border border-surface-border px-3.5 py-1.5 text-xs font-mono font-semibold text-text-primary hover:border-brand-primary/50 transition-colors"
+              >
+                <span>📚 Subject Handwritten Notes</span>
+              </Link>
+              <Link
+                href={`/pyqs?code=${encodeURIComponent(subject.code)}`}
+                className="inline-flex items-center gap-1.5 rounded-xl bg-background-dark border border-surface-border px-3.5 py-1.5 text-xs font-mono font-semibold text-brand-secondary hover:border-brand-secondary/50 transition-colors"
+              >
+                <span>📄 Solved {subject.code} PYQs</span>
+              </Link>
+            </div>
           </div>
         </div>
 

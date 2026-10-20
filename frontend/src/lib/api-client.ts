@@ -159,5 +159,32 @@ export const apiClient = {
       }),
     }),
 
+  // Notes & PYQs Store (Linked from AKTU Notes Store)
+  getNotePortals: () => fetchJson<{ portals: any[] }>("/notes/portals"),
+  getNotesByYear: (yearId: string) => fetchJson<any>(`/notes/year/${yearId}`),
+  getLectureCourses: () => fetchJson<any>("/notes/courses"),
+  getPyqs: (params?: {
+    q?: string;
+    semester?: number;
+    code?: string;
+    page?: number;
+    limit?: number;
+  }) => {
+    const qs = new URLSearchParams();
+    if (params?.q) qs.set("q", params.q);
+    if (params?.semester) qs.set("semester", params.semester.toString());
+    if (params?.code) qs.set("code", params.code);
+    if (params?.page) qs.set("page", params.page.toString());
+    if (params?.limit) qs.set("limit", params.limit.toString());
+    const query = qs.toString() ? `?${qs.toString()}` : "";
+    return fetchJson<{
+      total: number;
+      page: number;
+      limit: number;
+      totalPages: number;
+      papers: any[];
+    }>(`/notes/pyqs${query}`);
+  },
+
   getStats: () => fetchJson<any>("/stats/"),
 };

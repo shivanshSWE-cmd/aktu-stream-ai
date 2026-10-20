@@ -199,12 +199,48 @@ export function UnifiedPlayer({
     return `${mins}:${secs < 10 ? "0" : ""}${secs}`;
   };
 
-  // YouTube IFrame Player
+  // YouTube IFrame Player (supports single video, playlist series, and direct channel search)
   if (!isNative && video.youtube_video_id) {
+    const isPlaylist =
+      video.youtube_video_id.startsWith("PL") || video.youtube_video_id.startsWith("UU");
+    const isSearch = video.youtube_video_id.startsWith("SEARCH_");
     const startSec = Math.floor(seekTime || initialStartTime || 0);
-    const embedUrl = `https://www.youtube.com/embed/${video.youtube_video_id}?autoplay=1&enablejsapi=1&rel=0&modestbranding=1${
-      startSec > 0 ? `&start=${startSec}` : ""
-    }`;
+
+    if (isSearch) {
+      const searchTarget =
+        video.source_url ||
+        `https://www.youtube.com/results?search_query=${encodeURIComponent(video.title)}`;
+      return (
+        <div className="relative aspect-video w-full overflow-hidden rounded-2xl border border-surface-border bg-surface-dark shadow-ambient-glow flex flex-col items-center justify-center p-8 text-center space-y-4">
+          <div className="h-14 w-14 rounded-2xl bg-background-dark border border-surface-border flex items-center justify-center text-brand-primary">
+            <Play className="h-7 w-7 text-brand-primary fill-brand-primary" />
+          </div>
+          <div>
+            <h3 className="text-base sm:text-lg font-bold text-text-primary font-heading max-w-xl mx-auto">
+              {video.title}
+            </h3>
+            <p className="text-xs text-text-secondary max-w-md mx-auto mt-1">
+              Curated one-shot revision session by AH Tutorials for AKTU university examination.
+            </p>
+          </div>
+          <a
+            href={searchTarget}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-xl bg-brand-primary px-6 py-3 text-xs font-bold text-background-dark shadow-solar-glow hover:bg-brand-primary/90 transition-all"
+          >
+            <Play className="h-4 w-4 fill-background-dark" />
+            Watch Lecture on YouTube &rarr;
+          </a>
+        </div>
+      );
+    }
+
+    const embedUrl = isPlaylist
+      ? `https://www.youtube.com/embed/videoseries?list=${video.youtube_video_id}&autoplay=1&rel=0`
+      : `https://www.youtube.com/embed/${video.youtube_video_id}?autoplay=1&enablejsapi=1&rel=0&modestbranding=1${
+          startSec > 0 ? `&start=${startSec}` : ""
+        }`;
 
     return (
       <div className="relative aspect-video w-full overflow-hidden rounded-2xl border border-surface-border bg-black shadow-ambient-glow transition-all">

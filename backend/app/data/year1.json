@@ -1,0 +1,394 @@
+{
+  "title": "AKTU B.Tech 1st Year Notes & PYQ",
+  "subjectMeta": {
+    "Math II ": {
+      "title": "Engineering Mathematics II",
+      "icon": "📐",
+      "badge": "Maths 2"
+    },
+    "Physics": {
+      "title": "Engineering Physics",
+      "icon": "⚛️",
+      "badge": "Physics"
+    },
+    "Chemistry One Short": {
+      "title": "Engineering Chemistry (One Shot)",
+      "icon": "🧪",
+      "badge": "Chemistry"
+    },
+    "Maths I ( One Short) ": {
+      "title": "Engineering Mathematics I (One Shot)",
+      "icon": "📊",
+      "badge": "Maths 1"
+    },
+    "Maths II ( One Short)": {
+      "title": "Engineering Mathematics II (One Shot)",
+      "icon": "📈",
+      "badge": "Maths 2"
+    },
+    "Physics (One Short)": {
+      "title": "Engineering Physics (One Shot)",
+      "icon": "⚡",
+      "badge": "Physics"
+    },
+    "BasicElectricalsEngineering": {
+      "title": "Basic Electrical Engineering (BEE)",
+      "icon": "💡",
+      "badge": "BEE"
+    },
+    "ElectronicEngineering": {
+      "title": "Electronic Engineering",
+      "icon": "🔌",
+      "badge": "Electronics"
+    },
+    "2023-24 PYQ 💞": {
+      "title": "AKTU PYQ (2023-24 Session)",
+      "icon": "📑",
+      "badge": "PYQ 23-24"
+    },
+    "2022-23 PYQ 😛": {
+      "title": "AKTU PYQ (2022-23 Session)",
+      "icon": "📝",
+      "badge": "PYQ 22-23"
+    },
+    "Important Questions 😄": {
+      "title": "AKTU Important Questions & PYQ",
+      "icon": "⭐",
+      "badge": "Imp Questions"
+    },
+    "Crash Course Notes": {
+      "title": "AKTU 1st Year Crash Course Notes",
+      "icon": "🚀",
+      "badge": "Crash Course"
+    },
+    "📚 Electronics Session 2024-25 by Gulshan Sir": {
+      "title": "Electronics (2024-25) by Gulshan Sir",
+      "icon": "🎓",
+      "badge": "Gulshan Sir"
+    }
+  },
+  "subjects": {
+    "Math II ": {
+      "unit1": {
+        "lec1": "https://www.mediafire.com/file/2zs2c8ikbk7u8j4/M-2_U-1_Lec-1_Notes__42132331_2025_05_08_18_11.pdf/file",
+        "lec2": "https://www.mediafire.com/file/q4t5a6eyayj5ap3/M-2_U-1_Lec-2_Notes__42132332_2025_05_08_18_11.pdf/file",
+        "lec3": "https://www.mediafire.com/file/wi5ej8nkpevbnj7/M-2_U-1_Lec-3_Notes__42132334_2025_05_08_18_11.pdf/file",
+        "lec4": "https://www.mediafire.com/file/aq0i7l1emyylk4n/M-2_U-1_Lec-4_Notes__42132336_2025_05_08_18_11.pdf/file",
+        "lec5": "https://www.mediafire.com/file/gthj186zbh3g91q/M-2_U-1_Lec-5_Notes__42132338_2025_05_08_18_11.pdf/file",
+        "lec6": "https://www.mediafire.com/file/q01jbhwuwkin0fb/M-2_U-1_Lec-6_Notes__42132339_2025_05_08_18_11.pdf/file",
+        "lec7": "https://www.mediafire.com/file/e96bgo04xp49kvi/M-2_U-1_Lec-7_Notes__42132351_2025_05_08_18_12.pdf/file",
+        "lec8": "https://www.mediafire.com/file/mvyxt9jk5nw5s3o/M-2_U-1_Lec-8_Notes__42132349_2025_05_08_18_12.pdf/file",
+        "lec9": "https://www.mediafire.com/file/fs6z13p3dxcylmf/M-2_U-1_Lec-9_Notes__42132348_2025_05_08_18_12.pdf/file",
+        "lec10": "https://www.mediafire.com/file/fwss8ymqymp4mpw/M-2_U-1_Lec-10_Notes__42132352_2025_05_08_18_12.pdf/file",
+        "lec11": "https://www.mediafire.com/file/io1l82x32ueciv4/M-2_U-1_Lec-11_Notes__42132353_2025_05_08_18_12.pdf/file",
+        "lec12": "https://www.mediafire.com/file/zjmlpekqj9bn966/M-2_U-1_Lec-12_Notes__42132354_2025_05_08_18_12.pdf/file",
+        "lec13": "https://www.mediafire.com/file/ym9x6jgbcbb60ed/M-2_U-1_Lec-13_Notes__42132358_2025_05_08_18_12.pdf/file",
+        "lec14": "https://www.mediafire.com/file/8vsqbmfpbr338bk/M-2_U-1_Lec-14_Notes__42132355_2025_05_08_18_12.pdf/file"
+      },
+      "unit2": {
+        "lec1": "https://www.mediafire.com/file/0i504wauzsxl8ps/M-2_U-2_Lec-1_Notes__42132380_2025_05_08_18_47.pdf/file",
+        "lec2": "https://www.mediafire.com/file/j3hgiex2ccz624m/M-2_U-2_Lec-2_Notes__42132375_2025_05_08_18_47.pdf/file",
+        "lec3": "https://www.mediafire.com/file/wxudkj2ulj9gp1c/M-2_U-2_Lec-3_Notes__42132378_2025_05_08_18_47.pdf/file",
+        "lec4": "https://www.mediafire.com/file/js9yq8vdo7ynwz6/M-2_U-2_Lec-4_Notes__42132377_2025_05_08_18_47.pdf/file",
+        "lec5": "https://www.mediafire.com/file/o3pgvmcl5skhyv4/M-2_U-2_Lec-5_Notes__42132382_2025_05_08_18_47.pdf/file",
+        "lec6": "https://www.mediafire.com/file/larfo30l1lweyux/M-2_U-2_Lec-6_Notes__42132385_2025_05_08_18_48.pdf/file",
+        "lec7": "https://www.mediafire.com/file/zzvqscb5pfer3w8/M-2_U-2_Lec-7_Notes__42132383_2025_05_08_18_48.pdf/file",
+        "lec8": "https://www.mediafire.com/file/gyqprz9ldlqz1sj/M-2_U-2_Lec-8_Notes__42132390_2025_05_08_18_48.pdf/file",
+        "lec9": "https://www.mediafire.com/file/rmnjxjb1g06xkmg/M-2_U-2_Lec-9_Notes__42132384_2025_05_08_18_48.pdf/file",
+        "lec10": "https://www.mediafire.com/file/l7aqnkyyq9f30ft/M-2_U-2_Lec-10_Notes__42132392_2025_05_08_18_48.pdf/file",
+        "lec11": "https://www.mediafire.com/file/ezdzzxggcbi94f5/M-2_U-2_Lec-11_Notes__42132387_2025_05_08_18_53.pdf/file",
+        "lec12": "https://www.mediafire.com/file/gmkc8k7gz3lz7oq/M-2_U-2_Lec-12_Notes__42132394_2025_05_08_18_53.pdf/file",
+        "lec13": "https://www.mediafire.com/file/lwflp4tujfjjwdm/M-2_U-2_Lec-13_Notes__42132393_2025_05_11_11_27.pdf/file",
+        "lec14": "https://www.mediafire.com/file/fqzk0bfkgg7pthd/M-2_U-2_Lec-14_Notes__42132398_2025_05_11_11_27.pdf/file",
+        "lec15": "https://www.mediafire.com/file/709ocsrabgow6pd/M-2_U-2_Lec-15_Notes__42132395_2025_05_11_11_27.pdf/file",
+        "lec16": "https://www.mediafire.com/file/s8fej6yggns12ek/M-2_U-2_Lec-16_Notes__42132399_2025_05_11_11_27.pdf/file",
+        "lec17": "https://www.mediafire.com/file/v0sbwm05andfc46/M-2_U-2_Lec-17_Notes__42132396_2025_05_11_11_27.pdf/file"
+      },
+      "unit3_unit4_unit5_zip": {
+        "allLectures": "https://app.mediafire.com/folder/27g2on0ee1bsi/Maths+2+(+unit+3,+unit+4,+unit+5)"
+      }
+    },
+    "Physics": {
+      "unit1": {
+        "lec1": "https://www.mediafire.com/file/2r7i1kzb2chuhdw/Physics_U-1_Lec-1_Notes_42239054_2025_05_05_23_43.pdf",
+        "lec2": "https://www.mediafire.com/file/ab0gdp1li25orlt/Physics_U-1_Lec-2_Notes_42239053_2025_05_06_17_27.pdf",
+        "lec3": "https://www.mediafire.com/file/fsv9q71vtehba2t/Physics_U-1_Lec-3_Notes_42239055_2025_05_06_17_27.pdf",
+        "lec4": "https://www.mediafire.com/file/abh9qzo0fmuvg9f/Physics_U-1_Lec-4_Notes_42239056_2025_05_06_17_29.pdf",
+        "lec5": "https://www.mediafire.com/file/kecimojou4nq6f1/Physics_U-1_Lec-5_Notes_42239058_2025_05_06_17_27.pdf",
+        "lec6": "https://www.mediafire.com/file/df17gkq5hf7m4zx/Physics_U-1_Lec-6_Notes_42239057_2025_05_06_17_27.pdf",
+        "lec7": "https://www.mediafire.com/file/tfmp7itvdicw9sx/Physics_U-1_Lec-7_Notes_42239059_2025_05_06_17_27.pdf",
+        "lec8": "https://www.mediafire.com/file/j849pm4j1azotd2/Physics_U-1_Lec-8_Notes_42239061_2025_05_06_17_27.pdf"
+      },
+      "unit2": {
+        "lec1": "https://www.mediafire.com/file/odjrdg5afhgdi02/Physics_U-2_Lec-1_Notes_42454296_2025_05_06_18_03.pdf",
+        "lec2": "https://www.mediafire.com/file/i6ufgbwsuh4cn4x/Physics_U-2_Lec-2_Notes_42454297_2025_05_06_18_03.pdf",
+        "lec3": "https://www.mediafire.com/file/ya3kqfr7ik6ense/Physics_U-2_Lec-3_Notes_42454299_2025_05_06_18_03.pdf",
+        "lec4": "https://www.mediafire.com/file/7ozbj3thfz386wy/Physics_U-2_Lec-4_Notes_42454303_2025_05_06_18_03.pdf",
+        "lec5": "https://www.mediafire.com/file/nywu9w2tpru9nk1/Physics_U-2_Lec-5_Notes__UPDATED_42454298_2025_05_06_18_03.pdf",
+        "lec6": "https://www.mediafire.com/file/m4am9l0gdg8xerj/Physics_U-2_Lec-6_Notes__UPDATED_42454300_2025_05_06_18_03.pdf"
+      },
+      "unit3": {
+        "lec1": "https://www.mediafire.com/file/d6ol6du868ojxcc/Physics_U-3_Lec-1_Notes_42454305_2025_05_06_18_17.pdf",
+        "lec2": "https://www.mediafire.com/file/9pxivbm643eplk6/Physics__U-3_Lec-2_Notes_42454304_2025_05_06_18_17.pdf",
+        "lec3": "https://www.mediafire.com/file/oei9vzylkemyftx/Physics__U-3_Lec-3_Notes_42454306_2025_05_06_18_17.pdf",
+        "lec4": "https://www.mediafire.com/file/tbwauzq5byg6nph/Physics_U-3_Lec-4_Notes_42454312_2025_05_06_18_17.pdf",
+        "lec5": "https://www.mediafire.com/file/xbgk3fnfyb8hkav/Physics_U-3_Lec-5_Notes_42454307_2025_05_06_18_18.pdf",
+        "lec6": "https://www.mediafire.com/file/jn9foytqvyf7w0g/Physics_U-3_Lec-6_Notes__42454311_2025_05_06_18_18.pdf",
+        "lec7": "https://www.mediafire.com/file/dw9yxvkv3te31vn/Physics_U-3_Lec-7_Notes_42454308_2025_05_06_18_18.pdf",
+        "lec8": "https://www.mediafire.com/file/r7ufk6boz58ungc/Physics_U-3_Lec-8_Notes_42454310_2025_05_06_18_18.pdf"
+      },
+      "unit4": {
+        "lec1": "https://www.mediafire.com/file/evp9mwbx9q88ib4/Physics__U-4_Lec-1_Notes_42772456_2025_05_06_18_59.pdf",
+        "lec2": "https://www.mediafire.com/file/pqgxp4um12uogpa/Physics__U-4_Lec-2_Notes_42772455_2025_05_06_18_59.pdf"
+      },
+      "unit5": {
+        "lec1": "https://www.mediafire.com/file/37el1mkui4b8v87/Physics_U-5_Part-I_Superconductors_Notes_42772457_2025_05_06_18_59.pdf",
+        "lec2": "https://www.mediafire.com/file/s72b4dplkq7i81w/PHYSICS_U-5_PART-II_NANO_MATERIALS_Notes_53805589_2025_05_06_18_59.pdf"
+      }
+    },
+    "Chemistry One Short": {
+      "unit1": {
+        "OneShort": "https://www.mediafire.com/file/7wjfqdmzlpzfri6/CHEM_UNIT-1_Hand_Written_Notes_43522495_2025_06_02_18_03.pdf/file"
+      },
+      "unit2": {
+        "OneShort": "https://www.mediafire.com/file/vsvmo83w4lqoyvg/CHEM_U-2_Hand_Written_Notes%2528ONE_SHOT%2529_43522497_2025_06_02_18_04.pdf/file"
+      },
+      "unit3": {
+        "OneShort": "https://www.mediafire.com/file/nsuv4062m5epzgs/CHEM_U-3_Hand_Written_Notes%2528ONE_SHOT%2529_43522498_2025_06_02_18_04.pdf/file"
+      },
+      "unit4": {
+        "OneShort": "https://www.mediafire.com/file/rhp4tqa8oqna4j5/CHEM_U-4_Hand_Written_Notes%2528ONE_SHOT%2529_43522496_2025_06_02_18_11.pdf/file"
+      },
+      "unit5": {
+        "OneShort": "https://www.mediafire.com/file/ql5as72ld9jt86w/CHEM_U-5_Hand_Written_Notes_43522499_2025_06_02_18_04.pdf/file"
+      }
+    },
+    "Maths I ( One Short) ": {
+      "unit1": {
+        "OneShort": "https://www.mediafire.com/file/lontue5jo08aj4y/M-1_UNIT-1_ONE_SHOT_REVISION_NOTES_42396404_2025_06_02_18_02.pdf/file"
+      },
+      "unit2": {
+        "OneShort": "https://www.mediafire.com/file/k8iga5tqb3ore5o/M-1_UNIT-2_ONE_SHOT_REVISION_NOTES_42396402_2025_06_02_18_02.pdf/file"
+      },
+      "unit3": {
+        "OneShort": "https://www.mediafire.com/file/00v52abtm0fev6j/M-1_UNIT-3_ONE_SHOT_REVISION_NOTES_42396406_2025_06_02_18_03.pdf/file"
+      },
+      "unit4": {
+        "OneShort": "https://www.mediafire.com/file/x29zawq3b8duzh2/M-1_UNIT-4_ONE_SHOT_REVISION_NOTES_42396403_2025_06_02_18_03.pdf/file"
+      },
+      "unit5": {
+        "OneShort": "https://www.mediafire.com/file/gn3km0ydobxb6ti/M-1_UNIT-5_ONE_SHOT_REVISION_NOTES_42396405_2025_06_02_18_03.pdf/file"
+      }
+    },
+    "Maths II ( One Short)": {
+      "unit1": {
+        "OneShort": "https://www.mediafire.com/file/0yu7mzdjimuade5/M-2_UNIT-1_ONE_SHOT_NOTES_46321626_2025_06_02_17_41.pdf/file"
+      },
+      "unit2": {
+        "OneShort": "https://www.mediafire.com/file/7fvmqxdqeybfi6t/M-2_UNIT-2_ONE_SHOT_NOTES_46321627_2025_06_02_17_41.pdf/file"
+      },
+      "unit3": {
+        "Part1": "https://www.mediafire.com/file/v9herfjvu1tur5h/M-2_UNIT-3_ONE_SHOT_NOTES_%2528_P-1%2529_46321628_2025_06_02_17_42.pdf/file",
+        "Part2": "https://www.mediafire.com/file/ys69a5q6ny6yfe9/M-2_UNIT-3_ONE_SHOT_NOTES_%2528P-2%2529_46321629_2025_06_02_17_42.pdf/file"
+      },
+      "unit4": {
+        "OneShort": "https://www.mediafire.com/file/kbq0q51vpsihy56/M-2_UNIT-4_ONE_SHOT_NOTES_46321624_2025_06_02_17_42.pdf/file"
+      },
+      "unit5": {
+        "OneShort": "https://www.mediafire.com/file/dzt2a5s12cw08xj/M-2_UNIT-5_ONE_SHOT_NOTES_46321625_2025_06_02_17_42.pdf/file"
+      }
+    },
+    "Physics (One Short)": {
+      "unit1": {
+        "Part1": "https://www.mediafire.com/file/oohtx5xzp1w14ri/Physics_UNIT-1_ONE_SHOT_Revision_%2528_Part-I_%2529_Notes__43624059_2025_06_02_17_59.pdf/file",
+        "Part2": "https://www.mediafire.com/file/huvth40q2c2kpb1/Physics_UNIT-1_ONE_SHOT_Revision_%2528_Part-II_%2529_Notes__43624058_2025_06_02_17_59.pdf/file"
+      },
+      "unit2": {
+        "OneShort": "https://www.mediafire.com/file/r5xrseyx5at8ah9/Physics_UNIT-2_ONE_SHOT_Revision_Notes_43624060_2025_06_02_17_59.pdf/file"
+      },
+      "unit3": {
+        "Part1": "https://www.mediafire.com/file/vbglg8d2z0yab5w/Physics_UNIT-3__ONE_SHOT_Revision_%2528_Part-I_%2529_Notes_43624061_2025_06_02_17_59.pdf/file",
+        "Part2": "https://www.mediafire.com/file/udogtdhn15vvpms/Physics_UNIT-3__ONE_SHOT_Revision_%2528_Part-II_%2529_Notes_43624067_2025_06_02_17_59.pdf/file"
+      },
+      "unit4": {
+        "Laser": "https://www.mediafire.com/file/wqc1mk0ybacflg5/Physics__U-4__LASER_ONE_SHOT_Notes_43624066_2025_06_02_17_59.pdf/file",
+        "FiberOptics": "https://www.mediafire.com/file/6oujv7bmgdk6qd8/Physics__U-4__Fiber_Optics_ONE_SHOT_Notes_43624064_2025_06_02_17_59.pdf/file"
+      },
+      "unit5": {
+        "OneShort": "https://www.mediafire.com/file/hiuvkafxth2jqjn/PHYSICS_U-5_ONE_SHOT_Superconductors_Notes_43624065_2025_06_02_17_59.pdf/file"
+      }
+    },
+    "BasicElectricalsEngineering": {
+      "unit1": {
+        "OneShort": "https://www.mediafire.com/file/pjg2rkndvf7150q/BEE_U-1_ONE_SHOT_Revision_Notes_41157083_2025_06_02_18_06.pdf/file"
+      },
+      "unit2": {
+        "OneShort": "https://www.mediafire.com/file/an6cldoqsptg2l4/BEE_U-2_ONE_SHOT_Revision_Notes_41157084_2025_06_02_18_06.pdf/file"
+      },
+      "unit3": {
+        "OneShort": "https://www.mediafire.com/file/nl69qoe0j9e51gf/BEE_U-3_ONE_SHOT_Revision_Notes_41157086_2025_06_02_18_07.pdf/file"
+      },
+      "unit4": {
+        "OneShort": "https://www.mediafire.com/file/dywf54kkarp4mf6/BEE_U-4_ONE_SHOT_Revision_Notes_41157085_2025_06_02_18_06.pdf/file"
+      },
+      "unit5": {
+        "OneShort": "https://www.mediafire.com/file/gcz1aif8zvqr0jq/BEE_U-5_ONE_SHOT_Revision_Notes_45192633_2025_06_02_18_07.pdf/file"
+      },
+      "importantQuestions": {
+        "PDF": "https://www.mediafire.com/file/svollcgrhwxi1r8/BEE_IMPORTANT_QUESTIONS_Notes_41157087_2025_06_02_18_06.pdf/file"
+      }
+    },
+    "ElectronicEngineering": {
+      "unit1": {
+        "CombinedNotes": "https://www.mediafire.com/file/izvq8zrghrg7nt8/BEC_UNIT-1_Combined_Notes_57858602_2025_06_04_18_52.pdf/file"
+      },
+      "unit2": {
+        "CombinedNotes": "https://www.mediafire.com/file/73g8ffj3wqp392y/FEC_UNIT-2__COMBINED_NOTES_57858606_2025_06_04_18_52.pdf/file"
+      },
+      "unit3": {
+        "CombinedNotes": "https://www.mediafire.com/file/s7n7dk3zy11dt23/Electronics_UNIT-3__COMBINED_NOTES_57858615_2025_06_04_18_53.pdf/file"
+      },
+      "unit4": {
+        "CombinedNotes": "https://www.mediafire.com/file/hviwhc3v3jswpfu/Electronics_UNIT-4__COMBINED_NOTES_57858622_2025_06_04_18_53.pdf/file"
+      },
+      "unit5": {
+        "CombinedNotes": "https://www.mediafire.com/file/br65ue6o8epssr7/FEC_UNIT-5_by_Vimal_Sir_COMBINED_NOTES_57858629_2025_06_04_18_53.pdf/file",
+        "Numericals": "https://www.mediafire.com/file/8itnj8srltq8gfn/ELECTRONIS_U-5_AKTU_NUMERICALS_%2528PYQs%2529_57858601_2025_06_04_18_53.pdf/file"
+      },
+      "importantQuestions": {
+        "PDF": "https://www.mediafire.com/file/u2gkvmzvy05dt6n/ECE__PYQs_57858600_2025_06_04_18_53.pdf/file"
+      }
+    },
+    "2023-24 PYQ 💞": {
+      "OddSemester": {
+        "Chemistry": "https://cdn-wl-assets.classplus.co/production/436362/d445c666-b42f-480d-ae29-a4952f5f8639.pdf",
+        "Electrical": "https://cdn-wl-assets.classplus.co/production/436362/163db235-e1a5-4f7b-a8ae-93330b40789b.pdf",
+        "Electronics": "https://cdn-wl-assets.classplus.co/production/436362/23cbe512-cbe4-43d5-85f4-a7fd814dffd0.pdf",
+        "EVS": "https://cdn-wl-assets.classplus.co/production/436362/b1153d4b-ad5a-47f4-a64a-8e20ccb3ea05.pdf",
+        "Maths-I": "https://cdn-wl-assets.classplus.co/production/436362/7e576af0-f17c-4f2f-b49d-139e7b5835ea.pdf",
+        "Mechanical": "https://cdn-wl-assets.classplus.co/production/436362/1cf6c5a9-6c35-46f1-8a2f-45ab567afc97.pdf",
+        "Physics": "https://cdn-wl-assets.classplus.co/production/436362/e941a500-2db8-46a8-bc40-5dbcbc18971a.pdf",
+        "PPS": "https://cdn-wl-assets.classplus.co/production/436362/6f79400a-2b92-4a11-8236-0c89ed14522b.pdf",
+        "SoftSkill": "https://cdn-wl-assets.classplus.co/production/436362/44253b34-441a-4998-8561-c03f3f34cbb3.pdf"
+      },
+      "EvenSemester": {
+        "Electrical": "https://cdn-wl-assets.classplus.co/production/436362/0a92fd84-0352-4857-8777-f01ed69123b9.pdf",
+        "Electronics": "https://cdn-wl-assets.classplus.co/production/436362/51ff4804-ad50-4143-a31f-d12892a0d400.pdf",
+        "EVS": "https://cdn-wl-assets.classplus.co/production/436362/dea30060-bbb1-41d6-b834-05e3fea8d0af.pdf",
+        "Maths-II": "https://cdn-wl-assets.classplus.co/production/436362/bc437015-bd31-4109-835e-df4ee5be3b45.pdf",
+        "Mechanical": "https://cdn-wl-assets.classplus.co/production/436362/09f4e2eb-ae77-42e3-b886-81cda24bbc0e.pdf",
+        "Physics": "https://cdn-wl-assets.classplus.co/production/436362/fda25000-60f8-4408-8b76-83eb5d0527d4.pdf",
+        "PPS": "https://cdn-wl-assets.classplus.co/production/436362/f430ffe6-5ca9-40f4-87bd-b68dcce2ef25.pdf",
+        "SoftSkill": "https://cdn-wl-assets.classplus.co/production/436362/1d2101df-587f-4517-b80d-853961b6d8ce.pdf"
+      }
+    },
+    "2022-23 PYQ 😛": {
+      "OddSemester": {
+        "Chemistry": "https://cdn-wl-assets.classplus.co/production/436362/d4850cae-256a-4228-8d91-544e360d3e68.pdf",
+        "Electrical": "https://cdn-wl-assets.classplus.co/production/436362/2cddf3d6-f1ff-4c53-aebb-59454ba1f7cc.pdf",
+        "Electronics": "https://cdn-wl-assets.classplus.co/production/436362/c490f24c-96d2-4f3a-b62c-bfb7b08d62f2.pdf",
+        "EVS": "https://cdn-wl-assets.classplus.co/production/436362/2b6ff4d3-dee1-47da-ae5c-cd15b55dd46e.pdf",
+        "Maths-I": "https://cdn-wl-assets.classplus.co/production/436362/a4791fbe-e740-405f-8c1c-9eceb0dd1201.pdf",
+        "Mechanical": "https://cdn-wl-assets.classplus.co/production/436362/28e904f0-2eb7-4a91-9298-ab33f2ef3726.pdf",
+        "Physics": "https://cdn-wl-assets.classplus.co/production/436362/f475c849-f177-43d9-962e-d8f5a7597197.pdf",
+        "PPS": "https://cdn-wl-assets.classplus.co/production/436362/741e50e6-349e-414d-950d-0bd39969b310.pdf",
+        "SoftSkill": "https://cdn-wl-assets.classplus.co/production/436362/419a52a1-89a7-4dc2-9f86-49b1ee49bf84.pdf"
+      },
+      "EvenSemester": {
+        "Chemistry": "https://cdn-wl-assets.classplus.co/production/436362/d15d73cc-6d01-43c8-a336-c1f359555a85.pdf",
+        "Electrical": "https://cdn-wl-assets.classplus.co/production/436362/296cfe37-bcee-4288-9abc-65e00dd16091.pdf",
+        "Electronics": "https://cdn-wl-assets.classplus.co/production/436362/2c85e43d-b682-4095-8973-46f8489702a2.pdf",
+        "EVS": "https://cdn-wl-assets.classplus.co/production/436362/f406789e-6a26-40e1-a48f-ccc1539ca893.pdf",
+        "Maths-II": "https://cdn-wl-assets.classplus.co/production/436362/bbcc961b-e0cf-4433-a1d0-85a9c0e21b6d.pdf",
+        "Mechanical": "https://cdn-wl-assets.classplus.co/production/436362/38b16235-42f8-428c-bdd0-eea72ef44983.pdf",
+        "Physics": "https://cdn-wl-assets.classplus.co/production/436362/aa30adae-610b-4dfc-be27-c103b0d60d1b.pdf",
+        "PPS": "https://cdn-wl-assets.classplus.co/production/436362/7c60df0d-43b1-4ba6-b552-d6293debbb0a.pdf",
+        "SoftSkill": "https://cdn-wl-assets.classplus.co/production/436362/30f80b97-d485-49c7-a3b9-3b6b5174e182.pdf"
+      }
+    },
+    "Important Questions 😄": {
+      "MechFMEImportant": {
+        "PDF": "https://cdn-wl-assets.classplus.co/production/436362/3d988611-6f99-41d1-b286-1f6cdc580a8a.pdf"
+      },
+      "Maths 1 Unit waise PyQ": {
+        "10 year pyq": "https://cdn-wl-assets.classplus.co/production/436362/c514dd55-7538-4b70-8b87-31d0509be8e3.pdf"
+      },
+      "PhysicsPYQ": {
+        "Unit1": "https://cdn-wl-assets.classplus.co/production/436362/07708b3e-9db9-4f55-bfa0-d3e74a5f05dc.pdf",
+        "Unit2": "https://cdn-wl-assets.classplus.co/production/436362/726f7afd-6275-4de9-87d6-1e3d28aaf9f1.pdf",
+        "Unit3": "https://cdn-wl-assets.classplus.co/production/436362/5c790cd7-758a-493c-8435-516eda7bf89e.pdf",
+        "Unit4": "https://cdn-wl-assets.classplus.co/production/436362/67792419-64af-4fe2-a2a9-0187a522e12c.pdf",
+        "Unit5": "https://cdn-wl-assets.classplus.co/production/436362/60be6966-16c5-4645-a0d3-c3a11d4d2ec6.pdf"
+      },
+      "Maths 2 Important Questions 😛": {
+        "Chapter wise Important Questions 😀 ": "https://www.mediafire.com/file/r2cht37ms1d20mj/Maths-2_Imp_62716740_2025_06_13_19_24.pdf/file"
+      }
+    },
+    "Crash Course Notes": {
+      "PPS": {
+        "Unit1": "https://cdn-wl-assets.classplus.co/production/436362/cf0588f7-01e6-4874-bb10-1e2f12bcb86a.pdf",
+        "Unit2": "https://cdn-wl-assets.classplus.co/production/436362/2445e9c7-5efe-414e-b8ce-4f18fbb5ec86.pdf",
+        "Unit3": "https://cdn-wl-assets.classplus.co/production/436362/e677ca31-ed54-45e6-982e-913170285dd8.pdf",
+        "Unit4": "https://cdn-wl-assets.classplus.co/production/436362/24603d81-cf83-4ea9-8977-347722e9e0a7.pdf",
+        "Unit5": "https://cdn-wl-assets.classplus.co/production/436362/f5a0c0b3-e061-4dc3-ab24-930443a12854.pdf"
+      },
+      "Chemistry": {
+        "Unit1": "https://cdn-wl-assets.classplus.co/production/436362/4b5ce892-b8a3-415b-aba3-7f687f635eae.pdf",
+        "Unit2": "https://cdn-wl-assets.classplus.co/production/436362/5b1252e9-b7bd-490d-8ae6-d04448f02b5e.pdf",
+        "Unit3": "https://cdn-wl-assets.classplus.co/production/436362/2cf7419f-c27c-4987-8712-fc8e049303f0.pdf",
+        "Unit4": "https://cdn-wl-assets.classplus.co/production/436362/89af90d0-0d02-42f4-8fe0-70b501bc0523.pdf",
+        "Unit5": "https://cdn-wl-assets.classplus.co/production/436362/503afe0c-1e2c-412a-88e4-8f168d3287cc.pdf"
+      },
+      "BEE": {
+        "Unit1": "https://cdn-wl-assets.classplus.co/production/436362/e1aef3e0-2e99-4b89-bbc7-6bd2ae88997e.pdf",
+        "Unit2": "https://cdn-wl-assets.classplus.co/production/436362/151010ad-0a2f-4b67-a221-1ca5291724bf.pdf",
+        "Unit3": "https://cdn-wl-assets.classplus.co/production/436362/61c23ad9-b9f1-4592-a58b-4a614e6a55c6.pdf",
+        "Unit4": "https://cdn-wl-assets.classplus.co/production/436362/c5071b21-22fa-47f2-9e4c-ae04d040883a.pdf",
+        "Unit5": "https://cdn-wl-assets.classplus.co/production/436362/0a76989c-82a3-40ce-9c4d-cd73afaa817a.pdf"
+      },
+      "FME": {
+        "Unit1": "https://cdn-wl-assets.classplus.co/production/436362/b0f2a7e8-5c63-47b2-afea-fd092c0b38a9.pdf",
+        "Unit2": "https://cdn-wl-assets.classplus.co/production/436362/181c18a8-c4ef-4585-8e8f-93b45bf55ceb.pdf",
+        "Unit2_Handwritten": "https://cdn-wl-assets.classplus.co/production/436362/1d9685e7-844c-4fb9-9230-d7fa33566556.pdf",
+        "Unit3": "https://cdn-wl-assets.classplus.co/production/436362/cf8aaaae-33ea-4465-b1d3-36a129d41384.pdf",
+        "Unit4": "https://cdn-wl-assets.classplus.co/production/436362/e00b2f43-e2ce-452c-9ead-9f4d67d5c2ba.pdf",
+        "Unit5": "https://cdn-wl-assets.classplus.co/production/436362/2b088a17-1ada-47d6-86a8-c63143988419.pdf"
+      },
+      "EVS": {
+        "Unit1": "https://cdn-wl-assets.classplus.co/production/436362/2d677c8f-034c-45aa-9196-5d9d4a430a91.pdf",
+        "Unit2": "https://cdn-wl-assets.classplus.co/production/436362/2aa55b0c-a562-40f0-be28-4ce0f9de85bd.pdf",
+        "Unit3": "https://cdn-wl-assets.classplus.co/production/436362/7efca2da-fb41-46b9-8f32-2180827370f9.pdf",
+        "Unit4": "https://cdn-wl-assets.classplus.co/production/436362/782deb1f-a303-4792-a6c6-5639e4a372a8.pdf",
+        "Unit4_Handwritten": "https://cdn-wl-assets.classplus.co/production/436362/aec682a7-2990-4292-8619-1e93a6db3d2c.pdf",
+        "Unit5": "https://cdn-wl-assets.classplus.co/production/436362/7e735827-f576-4e9b-983d-544058ff11d9.pdf",
+        "Unit5_Handwritten": "https://cdn-wl-assets.classplus.co/production/436362/e0de3004-a2f0-4d10-8cb3-26e7710f13e9.pdf"
+      }
+    },
+    "📚 Electronics Session 2024-25 by Gulshan Sir": {
+      "🔌 Unit 1": {
+        "1️⃣ Lec1": "https://cdn-wl-assets.classplus.co/production/436362/a4a9cc56-c887-4c57-84dc-c7baa3e15804.pdf",
+        "2️⃣ Lec2": "https://cdn-wl-assets.classplus.co/production/436362/f05eb9d9-d0d2-4a34-bb58-2cf1c72e7771.pdf",
+        "3️⃣ Lec3": "https://cdn-wl-assets.classplus.co/production/436362/a0ab6ca8-baf2-41d0-b520-ee37a0fd7e8c.pdf",
+        "4️⃣ Lec4": "https://cdn-wl-assets.classplus.co/production/436362/0428d191-a71e-4c24-ac34-1578139f9895.pdf",
+        "5️⃣ Lec5": "https://cdn-wl-assets.classplus.co/production/436362/74e2bf0b-4a01-45b2-8b53-0f8c6d7617b0.pdf",
+        "6️⃣ Lec6": "https://cdn-wl-assets.classplus.co/production/436362/0cc27b4c-cf8f-4bd8-bbe1-78ae0eadae20.pdf",
+        "7️⃣ Lec7": "https://cdn-wl-assets.classplus.co/production/436362/37d0e0f7-8125-4ac5-9ea0-32fbcaa5d334.pdf",
+        "8️⃣ Lec8": "https://cdn-wl-assets.classplus.co/production/436362/9833fc4b-da55-4a29-83f6-4d108cbbd7a9.pdf",
+        "9️⃣ Lec9": "https://cdn-wl-assets.classplus.co/production/436362/0427b542-6deb-4864-8ea8-0c2428dd7d4d.pdf",
+        "🔟 Lec10": "https://cdn-wl-assets.classplus.co/production/436362/43b05a55-4a94-4f61-bce9-eedd68c9d3d9.pdf",
+        "1️⃣1️⃣ Lec11": "https://cdn-wl-assets.classplus.co/production/436362/7f909980-1b46-4c0b-a0d5-3f54daed05a2.pdf",
+        "1️⃣2️⃣ Lec12": "https://cdn-wl-assets.classplus.co/production/436362/6326765e-efd0-4501-994a-580e81fbe022.pdf"
+      },
+      "🔋 Unit 2": {
+        "1️⃣ Lec1": "https://cdn-wl-assets.classplus.co/production/436362/1c467bdb-4f73-44c1-be32-8bd7f1daf7d5.pdf",
+        "2️⃣ Lec2": "https://cdn-wl-assets.classplus.co/production/436362/77507a48-bd61-4093-b8b4-49c168ec3861.pdf"
+      },
+      "Unit 3": {
+        "One Shot": "https://cdn-wl-assets.classplus.co/production/436362/46abf957-fa9a-49e3-8c52-718758314df7.pdf"
+      },
+      "Unit 4": {
+        "One Shot": "https://cdn-wl-assets.classplus.co/production/436362/afdb25bb-e4d1-4302-a841-b113450767b7.pdf"
+      }
+    }
+  }
+}
