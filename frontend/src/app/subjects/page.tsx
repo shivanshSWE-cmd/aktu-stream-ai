@@ -83,7 +83,7 @@ export default function SubjectsDirectoryPage() {
                 onClick={() => setSelectedBranch(b)}
                 className={`rounded-xl px-3 py-1.5 text-xs font-semibold whitespace-nowrap transition-colors ${
                   selectedBranch === b
-                    ? "bg-brand-primary text-text-primary shadow-sm"
+                    ? "bg-brand-primary text-background-dark font-bold shadow-solar-glow"
                     : "bg-surface-dark border border-surface-border text-text-secondary hover:text-text-primary hover:bg-surface-border"
                 }`}
               >

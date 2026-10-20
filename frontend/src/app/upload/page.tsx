@@ -157,7 +157,7 @@ export default function NativeUploadPage() {
             <div className="pt-2">
               <Link
                 href={`/watch/${createdVideoId}`}
-                className="inline-flex items-center gap-2 rounded-xl bg-brand-primary px-6 py-3 text-xs font-bold text-text-primary hover:bg-brand-primary/90 transition-all shadow-sm"
+                className="inline-flex items-center gap-2 rounded-xl bg-brand-primary px-6 py-3 text-xs font-bold text-background-dark hover:bg-brand-primary/90 transition-all shadow-solar-glow"
               >
                 Watch Stream in Player &rarr;
               </Link>
@@ -269,7 +269,7 @@ export default function NativeUploadPage() {
             <button
               type="submit"
               disabled={uploadStep !== "IDLE" && uploadStep !== "ERROR"}
-              className="w-full flex items-center justify-center gap-2 rounded-xl bg-brand-primary p-3.5 text-xs font-semibold text-text-primary hover:bg-brand-primary/90 transition-all disabled:opacity-50"
+              className="w-full flex items-center justify-center gap-2 rounded-xl bg-brand-primary p-3.5 text-xs font-bold text-background-dark hover:bg-brand-primary/90 transition-all shadow-solar-glow disabled:opacity-50"
             >
               <UploadCloud className="h-4 w-4" />
               Start Direct S3 Upload & Transcode

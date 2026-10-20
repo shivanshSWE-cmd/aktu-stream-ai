@@ -96,7 +96,7 @@ export default function WatchPage({ params }: WatchPageProps) {
         </p>
         <Link
           href="/subjects"
-          className="inline-flex items-center gap-2 rounded-xl bg-brand-primary px-4 py-2 text-xs font-semibold text-text-primary hover:bg-brand-primary/90"
+          className="inline-flex items-center gap-2 rounded-xl bg-brand-primary px-4 py-2 text-xs font-bold text-background-dark shadow-solar-glow hover:bg-brand-primary/90 transition-all"
         >
           <ArrowLeft className="h-4 w-4" />
           Back to Curriculum

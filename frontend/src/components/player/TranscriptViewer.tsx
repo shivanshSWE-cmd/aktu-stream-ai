@@ -159,7 +159,7 @@ export function TranscriptViewer({
               <button
                 className={`font-mono text-[11px] px-2 py-0.5 rounded-md shrink-0 font-semibold transition-colors ${
                   isActive
-                    ? "bg-brand-primary text-text-primary shadow-sm shadow-brand-primary/30"
+                    ? "bg-brand-primary text-background-dark font-bold shadow-solar-glow"
                     : "bg-background-dark border border-surface-border text-brand-secondary group-hover:border-brand-secondary/40"
                 }`}
               >

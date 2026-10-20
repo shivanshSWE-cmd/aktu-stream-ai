@@ -117,7 +117,7 @@ export default function IngestionAdminPage() {
         <button
           onClick={() => handleTriggerIngest()}
           disabled={isTriggering}
-          className="inline-flex items-center gap-2 rounded-xl bg-brand-primary px-4 py-2.5 text-xs font-semibold text-text-primary hover:bg-brand-primary/90 disabled:opacity-50 transition-all shadow-sm shrink-0 font-mono"
+          className="inline-flex items-center gap-2 rounded-xl bg-brand-primary px-4 py-2.5 text-xs font-bold text-background-dark hover:bg-brand-primary/90 disabled:opacity-50 transition-all shadow-solar-glow shrink-0 font-mono"
         >
           <RefreshCw className={`h-4 w-4 ${isTriggering ? "animate-spin" : ""}`} />
           {isTriggering ? "Ingesting & Classifying..." : "Trigger Ingestion Now"}
@@ -265,7 +265,7 @@ export default function IngestionAdminPage() {
           </div>
           <button
             type="submit"
-            className="flex items-center justify-center gap-1.5 rounded-xl bg-brand-primary p-2.5 text-xs font-semibold text-text-primary hover:bg-brand-primary/90 transition-all font-mono"
+            className="flex items-center justify-center gap-1.5 rounded-xl bg-brand-primary p-2.5 text-xs font-bold text-background-dark hover:bg-brand-primary/90 transition-all shadow-solar-glow font-mono"
           >
             <Plus className="h-4 w-4" />
             Add Whitelist
@@ -300,7 +300,7 @@ export default function IngestionAdminPage() {
                   <td className="p-3 text-right">
                     <button
                       onClick={() => handleTriggerIngest(c.channel_id)}
-                      className="rounded-lg bg-surface-dark border border-surface-border px-2.5 py-1 text-[11px] font-mono font-semibold text-brand-primary hover:bg-brand-primary hover:text-text-primary transition-colors"
+                      className="rounded-lg bg-surface-dark border border-surface-border px-2.5 py-1 text-[11px] font-mono font-semibold text-brand-primary hover:bg-brand-primary hover:text-background-dark transition-colors"
                     >
                       Sync
                     </button>

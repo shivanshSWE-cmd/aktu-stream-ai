@@ -175,7 +175,7 @@ export default function AITrackPage() {
                 onClick={() => setActiveUnitNumber(u.number)}
                 className={`flex items-center gap-2.5 rounded-xl px-4 py-3 text-xs font-semibold transition-all whitespace-nowrap font-mono ${
                   isActive
-                    ? "bg-brand-primary text-text-primary shadow-sm"
+                    ? "bg-brand-primary text-background-dark font-bold shadow-solar-glow"
                     : "bg-surface-dark border border-surface-border text-text-secondary hover:text-text-primary hover:bg-surface-border"
                 }`}
               >
@@ -268,7 +268,7 @@ export default function AITrackPage() {
             <div className="pt-2 flex justify-center gap-3">
               <Link
                 href="/upload"
-                className="rounded-xl bg-brand-primary px-4 py-2 text-xs font-semibold text-text-primary hover:bg-brand-primary/90"
+                className="rounded-xl bg-brand-primary px-4 py-2 text-xs font-bold text-background-dark shadow-solar-glow hover:bg-brand-primary/90 transition-all"
               >
                 Submit Lecture for Unit {activeUnitNumber}
               </Link>

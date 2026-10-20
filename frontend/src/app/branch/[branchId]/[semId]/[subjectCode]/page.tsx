@@ -80,7 +80,7 @@ export default function BranchSubjectPage({ params }: BranchSubjectPageProps) {
         </p>
         <Link
           href="/subjects"
-          className="inline-flex items-center gap-2 rounded-xl bg-brand-primary px-4 py-2 text-xs font-semibold text-text-primary hover:bg-brand-primary/90"
+          className="inline-flex items-center gap-2 rounded-xl bg-brand-primary px-4 py-2 text-xs font-bold text-background-dark hover:bg-brand-primary/90 transition-all shadow-solar-glow"
         >
           <ArrowLeft className="h-4 w-4" />
           Back to Curriculum Directory

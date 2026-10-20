@@ -11,6 +11,7 @@ __pycache__/
 out/
 build/
 dist/
+*.tsbuildinfo
 
 # Test & Coverage
 .pytest_cache/

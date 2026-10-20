@@ -74,7 +74,7 @@ function SearchContent() {
         <button
           type="submit"
           disabled={loading}
-          className="absolute right-2 top-1/2 -translate-y-1/2 rounded-xl bg-brand-primary px-4 py-2 text-xs font-semibold text-text-primary hover:bg-brand-primary/90 disabled:opacity-50 transition-all font-mono"
+          className="absolute right-2 top-1/2 -translate-y-1/2 rounded-xl bg-brand-primary px-4 py-2 text-xs font-bold text-background-dark hover:bg-brand-primary/90 disabled:opacity-50 transition-all shadow-solar-glow font-mono"
         >
           {loading ? "Searching..." : "Search"}
         </button>

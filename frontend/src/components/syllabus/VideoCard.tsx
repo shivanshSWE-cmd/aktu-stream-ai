@@ -65,7 +65,7 @@ export function VideoCard({ video, progressPercent }: VideoCardProps) {
 
         {/* Hover Play Button */}
         <div className="absolute inset-0 flex items-center justify-center bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity">
-          <div className="flex h-11 w-11 items-center justify-center rounded-full bg-brand-primary text-text-primary shadow-lg shadow-brand-primary/40">
+          <div className="flex h-11 w-11 items-center justify-center rounded-full bg-brand-primary text-background-dark shadow-solar-glow">
             <Play className="h-4 w-4 fill-current ml-0.5" />
           </div>
         </div>
